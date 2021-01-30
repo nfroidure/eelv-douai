@@ -5,9 +5,8 @@
       "nicolas.froidure@gmail.com"
     ],
     "phone": "06 09 36 67 09",
-    "role": "Bureau",
+    "role": "Équipe d'animation",
     "responsibilities": [
-      "Secrétaire",
       "Référent numérique"
     ],
     "twitter": "nfroidure",
@@ -21,8 +20,9 @@
       "wacheux.l@orange.fr"
     ],
     "phone": "06 73 35 24 71",
-    "role": "Équipe d'animation",
+    "role": "Bureau",
     "responsibilities": [
+      "Co-Secrétaire",
       "Référente Droits des Femmes et Citoyenneté"
     ],
     "facebook": "lucile.wacheux",
@@ -65,11 +65,28 @@
       "sylvie.joos.66@gmail.com"
     ],
     "phone": "06 63 69 25 27",
-    "role": "Équipe d'animation",
+    "role": "Bureau",
     "responsibilities": [
+      "Membre du bureau",
       "Référente Roost-Warendin"
     ],
     "facebook": "sylvie.joos.9",
+    "status": "ok"
+  },
+  {
+    "name": "Philippe Bernard",
+    "emails": [
+      "f.bernardph@wanadoo.fr",
+      "phbernard61@gmail.com"
+    ],
+    "phone": "06 03 90 62 38",
+    "role": "Bureau",
+    "responsibilities": [
+      "Co-Secrétaire",
+      "Référent Somainois",
+      "Référent au lien avec le syndicalisme"
+    ],
+    "facebook": "philippe.bernard.336",
     "status": "ok"
   }
 ]

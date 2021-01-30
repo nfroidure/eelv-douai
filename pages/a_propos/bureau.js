@@ -20,11 +20,7 @@ export default () => (
         - Les Verts localement.
       </p>
       <h2>Bureau</h2>
-      <div className="sided">
-        <img
-          src={require("../../illustrations/bureau_eelv_douaisis.jpg")}
-          alt="Bureau d'EÉLV Douaisis"
-        />
+      <div>
         <p>
           À cet effet, un bureau est élu, un mois avant chaque congrès régional,
           dont la fonction est de fluidifier le fonctionnement du groupe et la

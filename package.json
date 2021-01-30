@@ -7,7 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export && touch out/.nojekyll && echo 'douaisis.eelv.fr' > out/CNAME && rm out/CNAME",
+    "export": "next export && touch out/.nojekyll && echo 'eelv-douaisis.fr' > out/CNAME",
     "deploy": "push-dir --dir=out --branch=gh-pages --cleanup"
   },
   "dependencies": {

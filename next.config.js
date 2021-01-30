@@ -2,7 +2,7 @@ const withOptimizedImages = require("next-optimized-images");
 const webpack = require("webpack");
 const SWPrecacheWebpackPlugin = require("sw-precache-webpack-plugin");
 const NODE_ENV = process.env.NODE_ENV || "production";
-const buildPrefix = NODE_ENV === "production" ? "/eelv-douai" : "";
+const buildPrefix = NODE_ENV === "production" ? "" : "";
 const baseURL =
   NODE_ENV === "production"
     ? "https://nfroidure.github.io"

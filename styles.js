@@ -130,7 +130,7 @@ export const lightTextContent = css`
     font-size: ${reduceCSSCalc(`calc(${baseFontSize} * 1.6)`)};
     line-height: ${reduceCSSCalc(`calc(${baseLineHeight} * 2)`)};
     font-weigth: bold;
-    margin: ${vRythm} 0;
+    margin: 0 0 ${vRythm} 0;
   }
   h2 {
     font-size: ${reduceCSSCalc(`calc(${baseFontSize} * 1.2)`)};
