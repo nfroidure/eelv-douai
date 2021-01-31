@@ -1,10 +1,9 @@
-import Link from "../components/link";
 import Layout from "../layouts/main";
 import MainContent from "../components/mainContent";
 import { lightTextContent } from "../styles";
 
 const ORGANISATION_NAME = "EÉLV Douaisis";
-const DOMAIN_NAME = "douai.eelv.fr";
+const DOMAIN_NAME = "eelv-douaisis.fr";
 
 export default () => (
   <Layout title="Mentions légales">
@@ -98,10 +97,6 @@ export default () => (
           de n'utiliser à l'intérieur de la balise &lt;a&gt; ainsi qu'à
           l'intérieur de la balise &lt;title&gt; que des mots en rapport direct
           avec le contenu de ce site et/ou de la page pointée en particulier.
-        </li>
-        <li>
-          que l'extension .com soit utilisée dans les URL (et non, .fr, .be,
-          .net etc. qui ne sont que des redirections).
         </li>
       </ul>
     </MainContent>

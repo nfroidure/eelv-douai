@@ -89,6 +89,18 @@ export default () => (
         également notre <a href="https://eelv.fr/">site national</a> et notre{" "}
         <a href="https://npdc.eelv.fr/">site régional</a>.
       </p>
+      <p>
+        Le{" "}
+        <a
+          href="https://github.com/nfroidure/eelv-douai"
+          title="Voir la source"
+        >
+          code source de ce site
+        </a>{" "}
+        est librement consultable, n'hésitez pas à proposer des modifications.
+        Aucun tracking n'est effectué sur ce site. Ce site est optimisé pour
+        limiter son impact environnemental (ecoindex grade A).
+      </p>
     </MainContent>
     <style jsx>{lightTextContent}</style>
   </Layout>

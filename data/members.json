@@ -15,6 +15,19 @@
     "bio": "Développeur web dans une startup, père de trois enfants, Nicolas a pris le chemin de l'écologie de façon progressive sur une quinzaine d'années. Il s'est engagé politiquement après le choc de la crise des gilets jaunes, vécue comme un révélateur des limites de la démarche individuelle. Pour lui, il faut agir au niveau législatif, européen comme français, et cela passe nécessairement par les urnes."
   },
   {
+    "name": "Katia Bittner",
+    "emails": [
+      "katiabittner@gmail.com"
+    ],
+    "phone": "06 83 57 90 75",
+    "role": "Équipe d'animation",
+    "responsibilities": [
+      "Référente Sport / Santé"
+    ],
+    "facebook": "katia.bittner",
+    "status": "ok"
+  },
+  {
     "name": "Lucile Wacheux",
     "emails": [
       "wacheux.l@orange.fr"
@@ -57,6 +70,18 @@
     "facebook": "sophie.piquot",
     "status": "ok",
     "bio": "Sophie est mobilisée depuis de nombreuses années en tant qu’enseignante en Sciences de la Vie et de la Terre sur les problématiques de perturbations climatiques, pollution de l’air, d’éducation au développement durable et protection de la biodiversité."
+  },
+  {
+    "name": "Yves Piquot",
+    "emails": [
+      "yves.piquot@univ-lille1.fr"
+    ],
+    "phone": "06 79 90 61 87",
+    "role": "Équipe d'animation",
+    "responsibilities": [
+      "Référent bio-diversité"
+    ],
+    "status": "ok"
   },
   {
     "name": "Sylvie Joos",

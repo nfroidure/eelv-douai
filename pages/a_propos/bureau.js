@@ -53,8 +53,8 @@ export default () => (
         </p>
       </div>
 
-      {ANIMATORS.map((executive) => (
-        <Member member={executive} />
+      {ANIMATORS.map((animator) => (
+        <Member member={animator} />
       ))}
 
     </MainContent>
