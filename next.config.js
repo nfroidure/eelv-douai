@@ -5,7 +5,7 @@ const NODE_ENV = process.env.NODE_ENV || "production";
 const buildPrefix = NODE_ENV === "production" ? "" : "";
 const baseURL =
   NODE_ENV === "production"
-    ? "https://nfroidure.github.io"
+    ? "https://eelv-douaisis.fr"
     : "http://localhost:3000";
 
 module.exports = withOptimizedImages({
