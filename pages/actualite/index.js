@@ -11,6 +11,7 @@ import { definition as debatSanteEnvironnement } from "./debat_sante_environneme
 import { definition as cercleDeSilence } from "./cercle_de_silence";
 import { definition as bilanFukushimaTransition } from "./bilan_fukushima_transition";
 import { definition as victoireMunicipalesDouai2020 } from "./victoire_municipales_douai_2020";
+import { definition as nouveauBureau2020 } from "./nouveau_bureau_2020";
 
 const News = ({ entries }) => (
   <Layout title="Notre actualité">
@@ -42,6 +43,7 @@ const News = ({ entries }) => (
 News.getInitialProps = async () => {
   return {
     entries: [
+      nouveauBureau2020,
       victoireMunicipalesDouai2020,
       douaiAuCoeur,
       nouveauBureau,

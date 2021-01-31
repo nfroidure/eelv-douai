@@ -12,14 +12,6 @@ export default () => (
       <h1>Groupe Local EÉLV Douaisis</h1>
 
       <p>
-        <strong>⚠️ Site Internet en construction ⚠️</strong>
-        <br />
-        Il est en ligne afin de receuillir l'avis des adhérents et sera finalisé
-        courant 2020 et mis en ligne sur le domaine douaisis.eelv.fr une fois
-        cette démarche finalisée.
-      </p>
-
-      <p>
         Le groupe local EÉLV Douaisis représente le mouvement Europe Écologie -
         Les Verts aux alentours de la ville de Douai.
       </p>

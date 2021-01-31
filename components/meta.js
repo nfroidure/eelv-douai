@@ -6,6 +6,10 @@ import { publicRuntimeConfig } from "../lib/config";
 export default ({ name, title, description, image }) => {
   const router = useRouter();
   const fullTitle = `${title ? `${title} - ` : ""}${name}`;
+  const canonicalURL =
+    publicRuntimeConfig.baseURL +
+    publicRuntimeConfig.buildPrefix +
+    router.pathname;
 
   return (
     <Head>
@@ -15,6 +19,7 @@ export default ({ name, title, description, image }) => {
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
       <meta name="theme-color" content={darkBackground} />
+      <link rel="canonical" href={canonicalURL} />
       <meta name="author" content="EÉLV Douaisis" />
       <link
         rel="icon"
@@ -58,14 +63,7 @@ export default ({ name, title, description, image }) => {
         property="og:type"
         content={router.pathname === "/" ? "website" : "article"}
       />
-      <meta
-        property="og:url"
-        content={
-          publicRuntimeConfig.baseURL +
-          publicRuntimeConfig.buildPrefix +
-          router.pathname
-        }
-      />
+      <meta property="og:url" content={canonicalURL} />
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:site_name" content={name} />
@@ -85,14 +83,7 @@ export default ({ name, title, description, image }) => {
       )}
       <meta name="twitter:site" content="@eelv_douai" />
       <meta name="twitter:creator" content="@eelv_douai" />
-      <meta
-        property="twitter:url"
-        content={
-          publicRuntimeConfig.baseURL +
-          publicRuntimeConfig.buildPrefix +
-          router.pathname
-        }
-      />
+      <meta property="twitter:url" content={canonicalURL} />
       {image ? (
         <meta
           property="twitter:image"
