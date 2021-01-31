@@ -24,7 +24,7 @@
     "sw-precache-webpack-plugin": "^1.0.0"
   },
   "devDependencies": {
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "googleapis": "^46.0.0",
     "push-dir": "^0.4.1"
   }
