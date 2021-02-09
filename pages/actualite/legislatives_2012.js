@@ -1,9 +1,6 @@
 import Layout from "../../layouts/main";
-import Link from "../../components/link";
 import MainContent from "../../components/mainContent";
-import Gallery from "../../components/gallery";
 import { lightTextContent } from "../../styles";
-import LastNews from "../../components/lastNews";
 
 export const definition = {
   title:

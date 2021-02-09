@@ -11,6 +11,8 @@ export default () => (
       🐦 <a href="https://twitter.com/eelv_douai">Twitter</a>
       <br />
       🌍 <a href="https://facebook.com/eelv.douai">Facebook</a>
+      <br />
+      📺 <a href="https://www.youtube.com/channel/UCc6DxRA5lGKrhtcvMGdll3g">YouTube</a>
     </p>
     <style jsx>{lightTextContent}</style>
     <style jsx>{lightAsideBox}</style>

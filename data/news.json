@@ -1,0 +1,166 @@
+[
+  {
+    "title": "Interviews de nos élu-es : Stéphanie Stiernon, 3ème adjointe déléguée à l'urbanisme",
+    "description": " Stéphanie Stiernon, 3ème adjointe déléguée à l'urbanisme, se prête à l'exercice et nous présente ses missions, témoignage de ses premiers mois d'activité.",
+    "href": "video_presentation_stephanie_stiernon",
+    "date": "2021-02-08T09:00:00.000Z",
+    "place": "Douai",
+    "content": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "En cette période où il est difficile de se rencontrer, nous venons à vous et vous proposons des interviews de nos élu-es douaisien-nes.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "",
+              "nodeType": "text"
+            },
+            {
+              "data": {
+                "uri": "https://www.youtube.com/watch?v=B_xxTtTNOyA&list=PLSh-t8KfNQwezH4l-B3-DogTq9PtY4xYm"
+              },
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Interview de Stéphanie Stiernon",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "hyperlink"
+            },
+            {
+              "data": {},
+              "marks": [],
+              "value": "",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Première de la série, Stéphanie Stiernon, 3ème adjointe déléguée à l'urbanisme, se prête à l'exercice et nous présente ses missions, témoignage de ces premiers mois d'activité, et nous parle  de l'origine de son engagement.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Un grand merci à Hervé Dumont qui nous a fait l'amitié de mettre ses compétences  professionnelles pour la captation des vidéos et la postproduction.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "hero": {
+      "href": "//images.ctfassets.net/egk06vn0o5zf/1g4mSRH7k6c3Dx4XAFxPEV/1d3bb19bd3689fa4a22ed287356c4dda/Interwiew_de_Stephanie_Stiernon__tres_bien_filmee_par_Herve_Dumont_en_postproduction_.jpg",
+      "alt": "Capture d'écran de l'interview de Stéphanie Stiernon"
+    },
+    "illustrations": []
+  },
+  {
+    "title": "EÉLV vous souhaite une bonne année 2021",
+    "description": "EÉLV Douaisis vous souhaite à toustes et à tous une bonne année 2021",
+    "href": "voeux_2021",
+    "date": "2021-01-02T06:00:00.000Z",
+    "place": null,
+    "content": {
+      "nodeType": "document",
+      "data": {},
+      "content": [
+        {
+          "nodeType": "paragraph",
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Les adhérent-es et les élu-es d'EÉLV Douaisis vous souhaitent a toutes et à tous une année 2021 forte en bonheur et en santé.\n\nAu delà, nous souhaitons que 2021 soit tournée vers plus d'écologie et de justice sociale.",
+              "marks": [],
+              "data": {}
+            }
+          ],
+          "data": {}
+        }
+      ]
+    },
+    "illustrations": [
+      {
+        "href": "//images.ctfassets.net/egk06vn0o5zf/5M2N4XI5U2XnU5A79FvEjb/30a59fa3d394444333a31b93400cd3a4/Screenshot_from_2021-02-03_20-19-13.png",
+        "alt": "Illustrations des voeux avec Mme Gayant"
+      },
+      {
+        "href": "//images.ctfassets.net/egk06vn0o5zf/3R0Fpt7oQR0dxs3w7EDFCz/97c2b6e40e90f382e18aa43ff7a0b56d/IMG_20210116_164859.jpg",
+        "alt": "2021"
+      }
+    ]
+  },
+  {
+    "title": "EÉLV Douaisis renouvelle son bureau",
+    "description": "EÉLV renouvelle son bureau avec cette fois du nouveau, un co-secrétariat paritaire.",
+    "href": "nouveau_bureau_2020",
+    "date": "2020-11-07T16:00:00.000Z",
+    "place": null,
+    "content": {
+      "nodeType": "document",
+      "data": {},
+      "content": [
+        {
+          "nodeType": "paragraph",
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Lucile Wacheux et Philippe Bernard élus co-secrétaires, Sophie Piquot renouvelée trésorière et Sylvie Joos en soutien.",
+              "marks": [],
+              "data": {}
+            }
+          ],
+          "data": {}
+        },
+        {
+          "nodeType": "paragraph",
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "",
+              "marks": [],
+              "data": {}
+            }
+          ],
+          "data": {}
+        }
+      ]
+    },
+    "illustrations": [
+      {
+        "href": "//images.ctfassets.net/egk06vn0o5zf/3R0Fpt7oQR0dxs3w7EDFCz/97c2b6e40e90f382e18aa43ff7a0b56d/IMG_20210116_164859.jpg",
+        "alt": "2021"
+      }
+    ]
+  }
+]

@@ -9,7 +9,13 @@ export default ({ name, title, description, image }) => {
   const canonicalURL =
     publicRuntimeConfig.baseURL +
     publicRuntimeConfig.buildPrefix +
-    router.pathname;
+    router.asPath;
+  const imageURL =
+    image && image.startsWith("//")
+      ? "https:" + image
+      : image
+      ? publicRuntimeConfig.baseURL + image
+      : "";
 
   return (
     <Head>
@@ -68,15 +74,10 @@ export default ({ name, title, description, image }) => {
       <meta property="og:description" content={description} />
       <meta property="og:site_name" content={name} />
       <meta property="fb:admins" content="eelvdouai" />
-      {image ? (
-        <meta
-          property="og:image"
-          content={publicRuntimeConfig.baseURL + image}
-        />
-      ) : null}
+      {imageURL ? <meta property="og:image" content={imageURL} /> : null}
 
       {/* Twitter */}
-      {image ? (
+      {imageURL ? (
         <meta property="twitter:card" content="summary_large_image" />
       ) : (
         <meta name="twitter:card" content="summary" />
@@ -84,12 +85,7 @@ export default ({ name, title, description, image }) => {
       <meta name="twitter:site" content="@eelv_douai" />
       <meta name="twitter:creator" content="@eelv_douai" />
       <meta property="twitter:url" content={canonicalURL} />
-      {image ? (
-        <meta
-          property="twitter:image"
-          content={publicRuntimeConfig.baseURL + image}
-        />
-      ) : null}
+      {imageURL ? <meta property="twitter:image" content={imageURL} /> : null}
     </Head>
   );
 };

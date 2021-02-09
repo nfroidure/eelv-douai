@@ -2,7 +2,6 @@ import Layout from "../../layouts/main";
 import MainContent from "../../components/mainContent";
 import Gallery from "../../components/gallery";
 import { lightTextContent } from "../../styles";
-import Link from "../../components/link";
 
 export const definition = {
   title: "Pour les municipales, EÉLV mise sur l'union avec Douai Au Coeur",

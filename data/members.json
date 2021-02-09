@@ -57,6 +57,22 @@
     "bio": "Intéressée par la pédagogie, les techniques d’apprentissage et les modalités de passage de la connaissance à la compétence et concernée par les questions liées à l’impact de l’environnement sur la santé et par les défis liés aux changements climatiques."
   },
   {
+    "name": "Philippe Bernard",
+    "emails": [
+      "f.bernardph@wanadoo.fr",
+      "phbernard61@gmail.com"
+    ],
+    "phone": "06 03 90 62 38",
+    "role": "Bureau",
+    "responsibilities": [
+      "Co-Secrétaire",
+      "Référent Somainois",
+      "Référent au lien avec le syndicalisme"
+    ],
+    "facebook": "philippe.bernard.336",
+    "status": "ok"
+  },
+  {
     "name": "Sophie Piquot",
     "emails": [
       "sophiepiquot@gmail.com"
@@ -96,22 +112,6 @@
       "Référente Roost-Warendin"
     ],
     "facebook": "sylvie.joos.9",
-    "status": "ok"
-  },
-  {
-    "name": "Philippe Bernard",
-    "emails": [
-      "f.bernardph@wanadoo.fr",
-      "phbernard61@gmail.com"
-    ],
-    "phone": "06 03 90 62 38",
-    "role": "Bureau",
-    "responsibilities": [
-      "Co-Secrétaire",
-      "Référent Somainois",
-      "Référent au lien avec le syndicalisme"
-    ],
-    "facebook": "philippe.bernard.336",
     "status": "ok"
   }
 ]

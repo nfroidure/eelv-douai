@@ -1,4 +1,3 @@
-import Link from "../../components/link";
 import Layout from "../../layouts/main";
 import MainContent from "../../components/mainContent";
 import { lightTextContent } from "../../styles";

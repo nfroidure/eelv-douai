@@ -21,7 +21,6 @@ import Hero from "../components/hero";
 import JoinUs from "../components/joinUs";
 import SocialBox from "../components/socialBox";
 import Newsletter from "../components/newsletter";
-import LastNews from "../components/lastNews";
 
 export default ({
   title,
@@ -43,7 +42,6 @@ export default ({
     <main>{children}</main>
     <aside>
       {[
-        <LastNews key="-4" />,
         <Newsletter key="-3" />,
         <JoinUs key="-2" />,
         <SocialBox key="-1" />,
