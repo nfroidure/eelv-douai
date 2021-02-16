@@ -22,7 +22,7 @@ import JoinUs from "../components/joinUs";
 import SocialBox from "../components/socialBox";
 import Newsletter from "../components/newsletter";
 
-export default ({
+const Layout = ({
   title,
   description,
   backgroundImage,
@@ -126,3 +126,5 @@ export default ({
     `}</style>
   </div>
 );
+
+export default Layout;

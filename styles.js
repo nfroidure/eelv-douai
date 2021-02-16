@@ -7,7 +7,7 @@ import reduceCSSCalc from 'reduce-css-calc';
 
 const yellow = 'ffd400';
 const green = '004319';
-const green2 = '7eb712';
+export const green2 = '7eb712';
 const light = 'fcfcfc';
 const grey = '999999';
 export const dark = '323232';
@@ -122,8 +122,16 @@ export const lightTextContent = css`
   p,
   ul,
   ol,
-  address,
+  address {
+    margin: 0 0 ${vRythm} 0;
+  }
   blockquote {
+    margin: 0 0 ${vRythm} 0;
+    padding: 0 0 0 ${gutter};
+    border-left: ${border} solid #${green2};
+  }
+  hr {
+    border-bottom: ${border} solid #${green2};
     margin: 0 0 ${vRythm} 0;
   }
   h1 {

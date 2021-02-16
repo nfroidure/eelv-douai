@@ -3,7 +3,7 @@ import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 import { vRythm, startL, baseAnimationRate } from "../styles";
 import reduceCSSCalc from "reduce-css-calc";
 
-export default ({ backgroundImage }) => {
+export default function Hero({ backgroundImage }) {
   const [visible, setVisible] = useState(!!backgroundImage);
 
   useScrollPosition(({ prevPos, currPos }) => {
@@ -36,4 +36,4 @@ export default ({ backgroundImage }) => {
       `}</style>
     </div>
   );
-};
+}

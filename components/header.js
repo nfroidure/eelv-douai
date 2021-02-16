@@ -2,22 +2,16 @@ import React, { useState } from "react";
 import { useScrollPosition } from "@n8tb1t/use-scroll-position";
 import Link from "../components/link";
 import reduceCSSCalc from "reduce-css-calc";
-import Color from "color";
+import { publicRuntimeConfig } from "../lib/config";
 import { NAME } from "../constants";
 import {
   baseFontSize,
   vRythm,
   lightBackground,
-  lightTextColor,
   gutter,
-  borderRadius,
-  darkActionColor,
-  border,
   baseAnimationRate,
-  darkActionHoverColor,
-  lighterTextColor,
   darkTextColor,
-  startL
+  startL,
 } from "../styles";
 
 const Header = () => {
@@ -35,7 +29,7 @@ const Header = () => {
       <h1 className="logo">
         <Link href="/">
           <a>
-            <img src={require("../static/images/Logo - EELV Douaisis.svg")} alt={NAME} />
+            <img src={publicRuntimeConfig.buildPrefix + "/images/Logo - EELV Douaisis.svg"} alt={NAME} />
           </a>
         </Link>
       </h1>

@@ -3,7 +3,7 @@ import Layout from "../../layouts/main";
 import MainContent from "../../components/mainContent";
 import { lightTextContent } from "../../styles";
 
-export default () => (
+const Page = () => (
   <Layout
     title="Ressources"
     backgroundImage={require("../../illustrations/ressources.jpg")}
@@ -112,6 +112,8 @@ export default () => (
     <style jsx>{lightTextContent}</style>
   </Layout>
 );
+
+export default Page;
 
 function openInNewTab(e) {
   event.stopPropagation();

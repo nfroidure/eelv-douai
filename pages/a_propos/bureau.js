@@ -1,4 +1,3 @@
-import Link from "../../components/link";
 import Layout from "../../layouts/main";
 import MainContent from "../../components/mainContent";
 import Member from "../../components/member";
@@ -10,7 +9,7 @@ const ANIMATORS = MEMBERS.filter(
   (member) => member.role === "Équipe d'animation"
 );
 
-export default () => (
+const Page = () => (
   <Layout title="Bureau">
     <MainContent>
       <h1>Le bureau EÉLV Douaisis</h1>
@@ -56,8 +55,9 @@ export default () => (
       {ANIMATORS.map((animator) => (
         <Member member={animator} />
       ))}
-
     </MainContent>
     <style jsx>{lightTextContent}</style>
   </Layout>
 );
+
+export default Page;

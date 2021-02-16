@@ -9,7 +9,6 @@ import {
   endL,
   startXL,
   baseLineHeight,
-  vRythm
 } from "../styles";
 
 const Footer = () => (

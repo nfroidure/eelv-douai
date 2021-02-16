@@ -1,7 +1,17 @@
 import Layout from "../../layouts/main";
 import MainContent from "../../components/mainContent";
 import Gallery from "../../components/gallery";
-import { lightTextContent } from "../../styles";
+import {
+  baseFontSize,
+  baseLineHeight,
+  border,
+  gutter,
+  lightTextContent,
+  linkColor,
+  linkHoverColor,
+  vRythm,
+  green2,
+} from "../../styles";
 import path from "path";
 import { promisify } from "util";
 import { readFile } from "fs";
@@ -10,38 +20,118 @@ import LastNews from "../../components/lastNews";
 const elementsMapping = {
   document: ({ content }) => content.map(mapNodesToElements),
   paragraph: ({ content }, index) => (
-    <p key={index}>{content.map(mapNodesToElements)}</p>
+    <p className="root" key={index}>
+      {content.map(mapNodesToElements)}
+      <style jsx>{`
+        .root {
+          margin: 0 0 ${vRythm} 0;
+        }
+      `}</style>
+    </p>
   ),
   "heading-1": ({ content }, index) => (
-    <h1 key={index}>{content.map(mapNodesToElements)}</h1>
+    <h1 className="root" key={index}>
+      {content.map(mapNodesToElements)}
+      <style jsx>{`
+        .root {
+          font-size: ${reduceCSSCalc(`calc(${baseFontSize} * 1.6)`)};
+          line-height: ${reduceCSSCalc(`calc(${baseLineHeight} * 2)`)};
+          font-weigth: bold;
+          margin: 0 0 ${vRythm} 0;
+        }
+      `}</style>
+    </h1>
   ),
   "heading-2": ({ content }, index) => (
-    <h2 key={index}>{content.map(mapNodesToElements)}</h2>
+    <h2 className="root" key={index}>
+      {content.map(mapNodesToElements)}
+      <style jsx>{`
+        .root {
+          font-size: ${reduceCSSCalc(`calc(${baseFontSize} * 1.2)`)};
+          line-height: ${reduceCSSCalc(`calc(${baseLineHeight} * 1)`)};
+          font-weigth: normal;
+          margin: ${vRythm} 0 0 0;
+        }
+      `}</style>
+    </h2>
   ),
   "heading-3": ({ content }, index) => (
-    <h3 key={index}>{content.map(mapNodesToElements)}</h3>
+    <h3 className="root" key={index}>
+      {content.map(mapNodesToElements)}
+      <style jsx>{`
+        .root {
+          font-size: ${baseFontSize};
+          line-height: ${baseLineHeight};
+          text-decoration: underline;
+          font-weigth: normal;
+          margin: ${vRythm} 0 0 0;
+        }
+      `}</style>
+    </h3>
   ),
   "heading-4": ({ content }, index) => (
-    <h4 key={index}>{content.map(mapNodesToElements)}</h4>
+    <h4 className="root" key={index}>
+      {content.map(mapNodesToElements)}
+      <style jsx>{`
+        .root {
+          margin: 0 0 ${vRythm} 0;
+        }
+      `}</style>
+    </h4>
   ),
   "heading-5": ({ content }, index) => (
-    <h5 key={index}>{content.map(mapNodesToElements)}</h5>
+    <h5 className="root" key={index}>
+      {content.map(mapNodesToElements)}
+      <style jsx>{`
+        .root {
+          margin: 0 0 ${vRythm} 0;
+        }
+      `}</style>
+    </h5>
   ),
   "heading-6": ({ content }, index) => (
-    <h6 key={index}>{content.map(mapNodesToElements)}</h6>
+    <h6 className="root" key={index}>
+      {content.map(mapNodesToElements)}
+      <style jsx>{`
+        .root {
+          margin: 0 0 ${vRythm} 0;
+        }
+      `}</style>
+    </h6>
   ),
   "unordered-list": ({ content }, index) => (
-    <ol key={index}>{content.map(mapNodesToElements)}</ol>
+    <ol className="root" key={index}>
+      {content.map(mapNodesToElements)}
+      <style jsx>{`
+        .root {
+          margin: 0 0 ${vRythm} 0;
+        }
+      `}</style>
+    </ol>
   ),
   "ordered-list": ({ content }, index) => (
-    <ol key={index}>{content.map(mapNodesToElements)}</ol>
+    <ol className="root" key={index}>
+      {content.map(mapNodesToElements)}
+      <style jsx>{`
+        .root {
+          margin: 0 0 ${vRythm} 0;
+        }
+      `}</style>
+    </ol>
   ),
   "list-item": ({ content }, index) => (
-    <li key={index}>{content.map(mapNodesToElements)}</li>
+    <li className="root" key={index}>
+      {content.map(mapNodesToElements)}
+      <style jsx>{`
+        .root > :global(:first-child:last-child) {
+          margin: 0;
+        }
+      `}</style>
+    </li>
   ),
   hyperlink: ({ content, data }, index) =>
     (data?.uri || "").startsWith("https://www.youtube.com/watch") ? (
-      <span key={index} className="root">
+      <span className="root" key={index}>
         <iframe
           width="560"
           height="315"
@@ -72,21 +162,70 @@ const elementsMapping = {
         `}</style>
       </span>
     ) : (
-      <a href={data?.uri} key={index}>
+      <a className="root" href={data?.uri} key={index}>
         {content.map(mapNodesToElements)}
+        <style jsx>{`
+          .root,
+          .root:visited {
+            color: ${linkColor};
+          }
+          .root:hover,
+          .root:focus {
+            color: ${linkHoverColor};
+          }
+        `}</style>
       </a>
     ),
   blockquote: ({ content }, index) => (
-    <blockquote key={index}>{content.map(mapNodesToElements)}</blockquote>
+    <blockquote className="root" key={index}>
+      {content.map(mapNodesToElements)}
+      <style jsx>{`
+        .root {
+          margin: 0 0 ${vRythm} 0;
+          padding: 0 0 0 ${gutter};
+          border-left: ${border} solid #${green2};
+        }
+      `}</style>
+    </blockquote>
   ),
-  hr: (_, index) => <hr key={index} />,
+  hr: (_, index) => (
+    <hr className="root" key={index}>
+      <style jsx>{`
+        .root {
+          border-bottom: ${border} solid #${green2};
+          margin: 0 0 ${vRythm} 0;
+        }
+      `}</style>
+    </hr>
+  ),
   text: ({ value, marks }, index) =>
     marks?.[0]?.type === "underline" ? (
-      <u key={index}>{value}</u>
+      <u className="root" key={index}>
+        {value}
+        <style jsx>{`
+          .root {
+            margin: 0 0 ${vRythm} 0;
+          }
+        `}</style>
+      </u>
     ) : marks?.[0]?.type === "italic" ? (
-      <i key={index}>{value}</i>
+      <i className="root" key={index}>
+        {value}
+        <style jsx>{`
+          .root {
+            margin: 0 0 ${vRythm} 0;
+          }
+        `}</style>
+      </i>
     ) : marks?.[0]?.type === "bold" ? (
-      <strong key={index}>{value}</strong>
+      <strong className="root" key={index}>
+        {value}
+        <style jsx>{`
+          .root {
+            margin: 0 0 ${vRythm} 0;
+          }
+        `}</style>
+      </strong>
     ) : (
       <span key={index}>{value}</span>
     ),
@@ -98,7 +237,7 @@ function mapNodesToElements({ nodeType, ...props }, index) {
     : "";
 }
 
-export default ({ definition, lastNewsDefinition }) => (
+const Page = ({ definition, lastNewsDefinition }) => (
   <Layout
     title={definition.title}
     description={definition.description}
@@ -128,6 +267,8 @@ export default ({ definition, lastNewsDefinition }) => (
     <style jsx>{lightTextContent}</style>
   </Layout>
 );
+
+export default Page;
 
 export async function getStaticPaths() {
   const contentfulEntries = JSON.parse(

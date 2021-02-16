@@ -1,8 +1,14 @@
 import React, { useState } from "react";
 import reduceCSSCalc from "reduce-css-calc";
-import { baseLineHeight, gutter, greyerBackground, vRythm, endM } from "../styles";
+import {
+  baseLineHeight,
+  gutter,
+  greyerBackground,
+  vRythm,
+  endM,
+} from "../styles";
 
-export default ({ illustrations }) => {
+export default function Gallery({ illustrations }) {
   const [selectedIndex, setSelectedIndex] = useState(0);
 
   return (
@@ -17,7 +23,7 @@ export default ({ illustrations }) => {
         {illustrations.map((illustration, index) => (
           <li key={index}>
             <a onClick={setSelectedIndex.bind(null, index)}>
-            <img src={illustration.href} alt={illustration.alt || ""} />
+              <img src={illustration.href} alt={illustration.alt || ""} />
             </a>
           </li>
         ))}
@@ -65,4 +71,4 @@ export default ({ illustrations }) => {
       `}</style>
     </div>
   );
-};
+}

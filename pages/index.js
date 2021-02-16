@@ -3,7 +3,7 @@ import Layout from "../layouts/main";
 import MainContent from "../components/mainContent";
 import { lightTextContent } from "../styles";
 
-export default () => (
+const Page = () => (
   <Layout
     title="Groupe Local"
     backgroundImage={require("../illustrations/reunion_groupe_eelv.jpg")}
@@ -105,3 +105,5 @@ export default () => (
     <style jsx>{lightTextContent}</style>
   </Layout>
 );
+
+export default Page;

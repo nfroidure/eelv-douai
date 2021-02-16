@@ -5,7 +5,7 @@ import { lightTextContent } from "../styles";
 const ORGANISATION_NAME = "EÉLV Douaisis";
 const DOMAIN_NAME = "eelv-douaisis.fr";
 
-export default () => (
+const Page =  () => (
   <Layout title="Mentions légales">
     <MainContent>
       <h1>Mentions légales</h1>
@@ -103,3 +103,5 @@ export default () => (
     <style jsx>{lightTextContent}</style>
   </Layout>
 );
+
+export default Page;

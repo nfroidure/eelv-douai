@@ -3,7 +3,7 @@ import Layout from "../../layouts/main";
 import MainContent from "../../components/mainContent";
 import { lightTextContent } from "../../styles";
 
-export default () => (
+const Page = () => (
   <Layout title="Présentation du groupe local">
     <MainContent>
       <h1>Présentation</h1>
@@ -61,3 +61,5 @@ export default () => (
     <style jsx>{lightTextContent}</style>
   </Layout>
 );
+
+export default Page;

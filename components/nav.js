@@ -72,6 +72,7 @@ const Nav = () => {
           background: ${darkBackground};
           color: ${lightTextColor};
           font-size: ${baseFontSize};
+          z-index: 999;
         }
         nav:hover {
           opacity: 1;

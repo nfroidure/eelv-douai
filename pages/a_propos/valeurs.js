@@ -1,9 +1,8 @@
-import Link from "../../components/link";
 import Layout from "../../layouts/main";
 import MainContent from "../../components/mainContent";
 import { lightTextContent } from "../../styles";
 
-export default () => (
+const Page = () => (
   <Layout title="Les valeurs écologistes">
     <MainContent>
       <h1>Les valeurs écologistes</h1>
@@ -45,3 +44,5 @@ export default () => (
     <style jsx>{lightTextContent}</style>
   </Layout>
 );
+
+export default Page;

@@ -1,9 +1,8 @@
-import Link from "../../components/link";
 import Layout from "../../layouts/main";
 import MainContent from "../../components/mainContent";
 import { lightTextContent } from "../../styles";
 
-export default () => (
+const Page = () => (
   <Layout title="Questions fréquemment posées">
     <MainContent>
       <h1>Questions fréquemment posées</h1>
@@ -85,3 +84,5 @@ export default () => (
     <style jsx>{lightTextContent}</style>
   </Layout>
 );
+
+export default Page;

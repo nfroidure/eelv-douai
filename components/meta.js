@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import { darkBackground } from "../styles";
 import { publicRuntimeConfig } from "../lib/config";
 
-export default ({ name, title, description, image }) => {
+export default function Meta({ name, title, description, image }) {
   const router = useRouter();
   const fullTitle = `${title ? `${title} - ` : ""}${name}`;
   const canonicalURL =
@@ -11,7 +11,7 @@ export default ({ name, title, description, image }) => {
     publicRuntimeConfig.buildPrefix +
     router.asPath;
   const imageURL =
-    image && image.startsWith("//")
+    typeof image === 'string' && image && image.startsWith("//")
       ? "https:" + image
       : image
       ? publicRuntimeConfig.baseURL + image
@@ -30,20 +30,20 @@ export default ({ name, title, description, image }) => {
       <link
         rel="icon"
         type="image/svg+xml"
-        href={publicRuntimeConfig.buildPrefix + "/static/images/favicon.svg"}
+        href={publicRuntimeConfig.buildPrefix + "/images/favicon.svg"}
         sizes="any"
       />
       <link
         rel="icon"
         type="image/png"
-        href={publicRuntimeConfig.buildPrefix + "/static/images/favicon-16.png"}
+        href={publicRuntimeConfig.buildPrefix + "/images/favicon-16.png"}
         sizes="16x16"
       />
       <link
         rel="icon shortcut"
         type="image/png"
         href={
-          publicRuntimeConfig.buildPrefix + "/static/images/favicon-128.png"
+          publicRuntimeConfig.buildPrefix + "/images/favicon-128.png"
         }
         sizes="128x128"
       />
@@ -60,7 +60,7 @@ export default ({ name, title, description, image }) => {
       />
       <link
         rel="stylesheet"
-        href={publicRuntimeConfig.buildPrefix + "/static/styles/normalize.css"}
+        href={publicRuntimeConfig.buildPrefix + "/styles/normalize.css"}
       />
 
       {/* Open Graph / Facebook */}
