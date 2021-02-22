@@ -16,6 +16,7 @@ import path from "path";
 import { promisify } from "util";
 import { readFile } from "fs";
 import LastNews from "../../components/lastNews";
+import reduceCSSCalc from "reduce-css-calc";
 
 const elementsMapping = {
   document: ({ content }) => content.map(mapNodesToElements),
