@@ -5,6 +5,10 @@ on:
       - master
     tags:
       - 'v*.*.*'
+  repository_dispatch:
+    types:
+      - publish-event
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
