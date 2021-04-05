@@ -137,7 +137,7 @@ const elementsMapping = {
           width="560"
           height="315"
           src={`https://www.youtube.com/embed/${data.uri.replace(
-            "^.*v=([^&$]+).*$",
+            /^.*v=([^&]+).*$/,
             "$1"
           )}`}
           frameBorder="0"
