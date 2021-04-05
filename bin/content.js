@@ -10,7 +10,7 @@ async function run() {
   try {
     const response = await axios({
       method: "get",
-      url: `https://cdn.contentful.com/spaces/${process.env.CONTENTFUL_SPACE_ID}/environments/master/entries`,
+      url: `https://cdn.contentful.com/spaces/${process.env.CONTENTFUL_SPACE_ID}/environments/master/entries?content_type=news`,
       headers: {
         referer: "Web Site Syncer",
       },

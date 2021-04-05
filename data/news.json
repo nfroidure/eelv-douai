@@ -1,5 +1,84 @@
 [
   {
+    "title": "Avec Karima Delli, dans les Hauts de France !",
+    "description": "Pour le climat, pour l'emploi dans les Hauts-de-Framce, les verts du Douaisis en campagne !",
+    "href": "campagne_regionales_2021",
+    "date": "2021-04-05T11:00:00.000Z",
+    "place": "Résidence Gayant - Douai",
+    "content": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Ce dimanche 4 avril, notre équipe a sillonné une partie de la ville de Douai et également Lambres-lez-Douai pour une séance de collage d'affiches. Quelques rues ont également été tractées.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Une large union des écologistes et de la gauche a été rendue possible pour la campagne des régionales 2021 ! Nous sommes fier·e·s de porter haut les couleurs de cette union avec Karima Delli.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "",
+              "nodeType": "text"
+            },
+            {
+              "data": {
+                "uri": "https://www.youtube.com/watch?v=OAGFabQBOC4"
+              },
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Vidéo de Karima Delli",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "hyperlink"
+            },
+            {
+              "data": {},
+              "marks": [],
+              "value": "",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "hero": {
+      "href": "//images.ctfassets.net/egk06vn0o5zf/6go137n983ygtsbhPLc0nF/7be722291468cbdbe7bbad40bc5889e4/IMG_20210404_154242.jpg",
+      "alt": "Collage résidence Gayant"
+    },
+    "illustrations": [
+      {
+        "href": "//images.ctfassets.net/egk06vn0o5zf/6go137n983ygtsbhPLc0nF/7be722291468cbdbe7bbad40bc5889e4/IMG_20210404_154242.jpg",
+        "alt": "Collage résidence Gayant"
+      }
+    ]
+  },
+  {
     "title": "Législatives 2012 : Nos candidat-es",
     "description": "Lucile Wacheux et Philippe Bernard sont nos candidat-es pour la 17ème circonscription.",
     "href": "legislatives_2012",
