@@ -1,7 +1,156 @@
 [
   {
+    "title": "Départementales 2021 : Katia Bittner candidate pour le canton de Douai",
+    "description": "Pour les élections départementales, sur le canton de Douai, notre adhérent-e Katia Bittner se présente aux côtés de Frédéric Chéreau, Auriane Ait Lasri et Jean-Luc Dellacherie.",
+    "href": "campagne_departementale_2021_canton_douai",
+    "date": "2021-04-23T15:00:00.000Z",
+    "place": "Canton de Douai",
+    "content": {
+      "nodeType": "document",
+      "data": {},
+      "content": [
+        {
+          "nodeType": "paragraph",
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Au terme d'un vote démocratique interne, les adhérent-es EÉLV ont désigné Katia Bittner candidate aux élections départementales de 2021 sur le canton de Douai.",
+              "marks": [],
+              "data": {}
+            }
+          ],
+          "data": {}
+        },
+        {
+          "nodeType": "paragraph",
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Au terme de négociations de notre instance régionale, il a été acté l'union avec le Parti Socialiste, le Parti Communiste Français et Génération-s.",
+              "marks": [],
+              "data": {}
+            }
+          ],
+          "data": {}
+        },
+        {
+          "nodeType": "paragraph",
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Notre groupe est très heureux de soutenir cette candidate et ses partenaires dans ce canton de Douai.",
+              "marks": [],
+              "data": {}
+            }
+          ],
+          "data": {}
+        },
+        {
+          "nodeType": "paragraph",
+          "content": [
+            {
+              "nodeType": "text",
+              "value": "Visiter le site de la campagne ",
+              "marks": [],
+              "data": {}
+            },
+            {
+              "nodeType": "hyperlink",
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Le Nord en Commun",
+                  "marks": [],
+                  "data": {}
+                }
+              ],
+              "data": {
+                "uri": "https://douaisis2021.fr/"
+              }
+            },
+            {
+              "nodeType": "text",
+              "value": " !",
+              "marks": [],
+              "data": {}
+            }
+          ],
+          "data": {}
+        }
+      ]
+    },
+    "hero": {
+      "href": "//images.ctfassets.net/egk06vn0o5zf/72VIDGnn3YZNEGQatcO6kH/9d378a6275e568e2f3e43453857ff221/facebook_banner_01_B.png",
+      "alt": "Le Nord en Commun"
+    },
+    "illustrations": [
+      {
+        "href": "//images.ctfassets.net/egk06vn0o5zf/715trd9PXuU5ItElslWw2s/e3f5d927e1f2d071c93ac12b04d5e326/katia-bittner.png",
+        "alt": "Profil Katia Bittner départementales"
+      }
+    ]
+  },
+  {
+    "title": "Législatives 2012 : Nos candidat⋅es",
+    "description": "Lucile Wacheux et Philippe Bernard sont nos candidat-es pour la 17ème circonscription.",
+    "href": "legislatives_2012",
+    "date": "2012-05-30T17:00:00.000Z",
+    "place": null,
+    "content": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Lucile Wacheux et son suppléant Philippe Bernard sont les candidat-es d’Europe Écologie - Les Verts dans la 17ème circonscription pour les législatives 2012.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        },
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "",
+              "nodeType": "text"
+            },
+            {
+              "data": {
+                "uri": "https://drive.google.com/open?id=1tBDxhi8qpndE3RHmwO61zCHGvuHEDIQ6"
+              },
+              "content": [
+                {
+                  "data": {},
+                  "marks": [],
+                  "value": "Voir la profession de foi",
+                  "nodeType": "text"
+                }
+              ],
+              "nodeType": "hyperlink"
+            },
+            {
+              "data": {},
+              "marks": [],
+              "value": "",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "illustrations": []
+  },
+  {
     "title": "Avec Karima Delli, dans les Hauts de France !",
-    "description": "Pour le climat, pour l'emploi dans les Hauts-de-Framce, les verts du Douaisis en campagne !",
+    "description": "Pour le climat, pour l'emploi dans les Hauts-de-France, les verts du Douaisis en campagne !",
     "href": "campagne_regionales_2021",
     "date": "2021-04-05T11:00:00.000Z",
     "place": "Résidence Gayant - Douai",
@@ -14,7 +163,7 @@
             {
               "data": {},
               "marks": [],
-              "value": "Ce dimanche 4 avril, notre équipe a sillonné une partie de la ville de Douai et également Lambres-lez-Douai pour une séance de collage d'affiches. Quelques rues ont également été tractées.",
+              "value": "Ce dimanche 4 avril, notre équipe a sillonné une partie de la ville de Douai, de Sin-le-Noble et également Lambres-lez-Douai pour une séance de collage d'affiches. Quelques rues ont également été tractées.",
               "nodeType": "text"
             }
           ],
@@ -74,62 +223,47 @@
     "illustrations": []
   },
   {
-    "title": "Législatives 2012 : Nos candidat-es",
-    "description": "Lucile Wacheux et Philippe Bernard sont nos candidat-es pour la 17ème circonscription.",
-    "href": "legislatives_2012",
-    "date": "2012-05-30T17:00:00.000Z",
+    "title": "EÉLV Douaisis renouvelle son bureau",
+    "description": "EÉLV renouvelle son bureau avec cette fois du nouveau, un co-secrétariat paritaire.",
+    "href": "nouveau_bureau_2020",
+    "date": "2020-11-07T16:00:00.000Z",
     "place": null,
     "content": {
+      "nodeType": "document",
       "data": {},
       "content": [
         {
-          "data": {},
+          "nodeType": "paragraph",
           "content": [
             {
-              "data": {},
+              "nodeType": "text",
+              "value": "Lucile Wacheux et Philippe Bernard élu·e·s co-secrétaires, Sophie Piquot renouvelée trésorière et Sylvie Joos en soutien.",
               "marks": [],
-              "value": "Lucile Wacheux et son suppléant Philippe Bernard sont les candidat-es d’Europe Écologie - Les Verts dans la 17ème circonscription pour les législatives 2012.",
-              "nodeType": "text"
+              "data": {}
             }
           ],
-          "nodeType": "paragraph"
+          "data": {}
         },
         {
-          "data": {},
+          "nodeType": "paragraph",
           "content": [
             {
-              "data": {},
-              "marks": [],
+              "nodeType": "text",
               "value": "",
-              "nodeType": "text"
-            },
-            {
-              "data": {
-                "uri": "https://drive.google.com/open?id=1tBDxhi8qpndE3RHmwO61zCHGvuHEDIQ6"
-              },
-              "content": [
-                {
-                  "data": {},
-                  "marks": [],
-                  "value": "Voir la profession de foi",
-                  "nodeType": "text"
-                }
-              ],
-              "nodeType": "hyperlink"
-            },
-            {
-              "data": {},
               "marks": [],
-              "value": "",
-              "nodeType": "text"
+              "data": {}
             }
           ],
-          "nodeType": "paragraph"
+          "data": {}
         }
-      ],
-      "nodeType": "document"
+      ]
     },
-    "illustrations": []
+    "illustrations": [
+      {
+        "href": "//images.ctfassets.net/egk06vn0o5zf/3R0Fpt7oQR0dxs3w7EDFCz/97c2b6e40e90f382e18aa43ff7a0b56d/IMG_20210116_164859.jpg",
+        "alt": "2021"
+      }
+    ]
   },
   {
     "title": "Victoire aux municipales pour Douai au Coeur",
@@ -1796,49 +1930,6 @@
         "href": "//images.ctfassets.net/egk06vn0o5zf/5M2N4XI5U2XnU5A79FvEjb/30a59fa3d394444333a31b93400cd3a4/Screenshot_from_2021-02-03_20-19-13.png",
         "alt": "Illustrations des voeux avec Mme Gayant"
       },
-      {
-        "href": "//images.ctfassets.net/egk06vn0o5zf/3R0Fpt7oQR0dxs3w7EDFCz/97c2b6e40e90f382e18aa43ff7a0b56d/IMG_20210116_164859.jpg",
-        "alt": "2021"
-      }
-    ]
-  },
-  {
-    "title": "EÉLV Douaisis renouvelle son bureau",
-    "description": "EÉLV renouvelle son bureau avec cette fois du nouveau, un co-secrétariat paritaire.",
-    "href": "nouveau_bureau_2020",
-    "date": "2020-11-07T16:00:00.000Z",
-    "place": null,
-    "content": {
-      "nodeType": "document",
-      "data": {},
-      "content": [
-        {
-          "nodeType": "paragraph",
-          "content": [
-            {
-              "nodeType": "text",
-              "value": "Lucile Wacheux et Philippe Bernard élus co-secrétaires, Sophie Piquot renouvelée trésorière et Sylvie Joos en soutien.",
-              "marks": [],
-              "data": {}
-            }
-          ],
-          "data": {}
-        },
-        {
-          "nodeType": "paragraph",
-          "content": [
-            {
-              "nodeType": "text",
-              "value": "",
-              "marks": [],
-              "data": {}
-            }
-          ],
-          "data": {}
-        }
-      ]
-    },
-    "illustrations": [
       {
         "href": "//images.ctfassets.net/egk06vn0o5zf/3R0Fpt7oQR0dxs3w7EDFCz/97c2b6e40e90f382e18aa43ff7a0b56d/IMG_20210116_164859.jpg",
         "alt": "2021"
