@@ -1,5 +1,95 @@
 [
   {
+    "title": "Manifestation du premier mai",
+    "description": "Nous étions présentes à la manifestation du premier mai à Douai",
+    "href": "1er_mai_2021",
+    "date": "2021-05-01T08:00:00.000Z",
+    "place": "Douai",
+    "content": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Un moment chaleureux et festif en compagnie de nombreux syndicats et d'une bonne partie des forces de gauche et écologistes.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "hero": {
+      "href": "//images.ctfassets.net/egk06vn0o5zf/1ixh3SKerHQWeBGGbHGmtT/2b1d7d8f0c4f464265fc623ec81aa88c/IMG_20210501_105429.jpg",
+      "alt": "Photo premier mai 2021"
+    },
+    "illustrations": [
+      {
+        "href": "//images.ctfassets.net/egk06vn0o5zf/39Jjza4T2gmiPZwQKXvtpI/8600ad47391addb90b6e824fd2ec02ea/IMG_20210501_105423.jpg",
+        "alt": "Photo premier mai"
+      },
+      {
+        "href": "//images.ctfassets.net/egk06vn0o5zf/3UY53wwH1Yh3m3ykRNj3GV/a81bb4c8b0901937f4d06057a4c81f7a/IMG_20210501_103838.jpg",
+        "alt": "Photo Katia, Yves, Guy, Stéphanie"
+      }
+    ]
+  },
+  {
+    "title": "Ascension du terril de Loos-en-Gohelle",
+    "description": "Nous avons visité le terril de Loos-en-Gohelle en compagnie des candidat-es aux régionales 2021",
+    "href": "terril_loos_en_gohelle",
+    "date": "2021-05-02T18:00:00.000Z",
+    "place": "Loos-en-Gohelle",
+    "content": {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "content": [
+            {
+              "data": {},
+              "marks": [],
+              "value": "Une visite sympathique à réitérer qui nous a rappelé notre visite de Loos-en-Gohelle avant les municipales 2020.",
+              "nodeType": "text"
+            }
+          ],
+          "nodeType": "paragraph"
+        }
+      ],
+      "nodeType": "document"
+    },
+    "hero": {
+      "href": "//images.ctfassets.net/egk06vn0o5zf/7Giurplbf8L3UU0P2SdyQD/6ba2c033bbbd43d0bf457cdb7a84cb12/signal-2021-05-02-181557.jpeg",
+      "alt": "Photo de groupe"
+    },
+    "illustrations": [
+      {
+        "href": "//images.ctfassets.net/egk06vn0o5zf/7Giurplbf8L3UU0P2SdyQD/6ba2c033bbbd43d0bf457cdb7a84cb12/signal-2021-05-02-181557.jpeg",
+        "alt": "Photo de groupe"
+      },
+      {
+        "href": "//images.ctfassets.net/egk06vn0o5zf/f4xjZTmxKL32PLIQGlXhs/d06635aa86647345743a80cdc66d9ec4/20210502_162611.jpg",
+        "alt": "Katia - Karima"
+      },
+      {
+        "href": "//images.ctfassets.net/egk06vn0o5zf/5IixlNtKDttImz9BOQiVRY/92a8d4ac9cb920983ff6a5a981f09a9c/20210502_162738.jpg",
+        "alt": "Karima - Stéphanie - Guy"
+      },
+      {
+        "href": "//images.ctfassets.net/egk06vn0o5zf/7sTx3Ls3poZAWnbig9VbH8/68095d52ac0233e9b0dd3e68de945bc4/20210502_164439.jpg",
+        "alt": "Photo terril"
+      },
+      {
+        "href": "//images.ctfassets.net/egk06vn0o5zf/42Ycp0vIrzZt3G6eOReeh6/fb71c5f34c8b2b80486b5342efaa2677/20210502_170102.jpg",
+        "alt": "Chemin Loos-en-Gohelle"
+      }
+    ]
+  },
+  {
     "title": "Départementales 2021 : Katia Bittner candidate pour le canton de Douai",
     "description": "Pour les élections départementales, sur le canton de Douai, notre adhérent-e Katia Bittner se présente aux côtés de Frédéric Chéreau, Auriane Ait Lasri et Jean-Luc Dellacherie.",
     "href": "campagne_departementale_2021_canton_douai",
