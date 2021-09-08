@@ -40,12 +40,17 @@ const Page = () => (
           <strong>Depuis 2020 :</strong> Conseillère Municipale à la Ville de
           Douai. Délégation : Prévention, santé et sport bien-être.
         </li>
+        <li>
+          <strong>2021 :</strong> Candidate aux départementales pour le canton
+          de Douai
+        </li>
       </ul>
       <h2>Yves Piquot</h2>
       <ul>
         <li>
           <strong>Depuis 2020 :</strong> Conseiller Municipal à la Ville de
-          Douai. Délégation : Biodiversité et adaptation au changement climatique.
+          Douai. Délégation : Biodiversité et adaptation au changement
+          climatique.
         </li>
       </ul>
       <h2>Lucile Wacheux</h2>
@@ -55,8 +60,8 @@ const Page = () => (
           Douai. Délégation : Citoyenneté - Jumelage
         </li>
         <li>
-          <strong>2015 :</strong> Candidate aux départementales pour le canton de
-          Douai
+          <strong>2015 :</strong> Candidate aux départementales pour le canton
+          de Douai
         </li>
         <li>
           <strong>2012 :</strong> Candidate aux législatives pour la 17ème
