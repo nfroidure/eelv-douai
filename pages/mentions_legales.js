@@ -5,7 +5,7 @@ import { lightTextContent } from "../styles";
 const ORGANISATION_NAME = "EÉLV Douaisis";
 const DOMAIN_NAME = "eelv-douaisis.fr";
 
-const Page =  () => (
+const Page = () => (
   <Layout title="Mentions légales">
     <MainContent>
       <h1>Mentions légales</h1>
@@ -97,6 +97,18 @@ const Page =  () => (
           de n'utiliser à l'intérieur de la balise &lt;a&gt; ainsi qu'à
           l'intérieur de la balise &lt;title&gt; que des mots en rapport direct
           avec le contenu de ce site et/ou de la page pointée en particulier.
+        </li>
+      </ul>
+      <h2>Crédits</h2>
+      <ul>
+        <li>
+          Design / code :{" "}
+          <a
+            href="https://nicolasfroidure.fr"
+            title="Visiter le site de Nicolas Froidure"
+          >
+            Nicolas Froidure
+          </a>
         </li>
       </ul>
     </MainContent>
