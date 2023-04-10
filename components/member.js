@@ -41,6 +41,12 @@ export default function Member({ member }) {
                 Facebook
               </a>
             ) : null}
+            {(member.twitter || member.facebook) && member.blog ? " - " : null}
+            {member.blog ? (
+              <a href={`${member.blog}`}>
+                Blog
+              </a>
+            ) : null}
           </span>
         ) : null}
       </p>

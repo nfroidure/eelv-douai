@@ -3,9 +3,9 @@ import MainContent from "../../components/mainContent";
 import { lightTextContent } from "../../styles";
 
 const Page = () => (
-  <Layout title="Nos élu-es et candidat-es">
+  <Layout title="Nos élu⋅es et candidat⋅es">
     <MainContent>
-      <h1>Nos élu-es et candidat-es</h1>
+      <h1>Nos élu⋅es et candidat⋅es</h1>
       <h2>Stéphanie Stiernon</h2>
       <ul>
         <li>

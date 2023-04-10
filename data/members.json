@@ -5,12 +5,14 @@
       "nicolas.froidure@gmail.com"
     ],
     "phone": "06 09 36 67 09",
-    "role": "Équipe d'animation",
+    "role": "Bureau",
     "responsibilities": [
+      "Co-Secrétaire",
       "Référent numérique"
     ],
     "twitter": "nfroidure",
     "facebook": "nfroidure",
+    "blog": "https://nicolasfroidure.fr",
     "status": "ok",
     "bio": "Développeur web dans une startup, père de trois enfants, Nicolas a pris le chemin de l'écologie de façon progressive sur une quinzaine d'années. Il s'est engagé politiquement après le choc de la crise des gilets jaunes, vécue comme un révélateur des limites de la démarche individuelle. Pour lui, il faut agir au niveau législatif, européen comme français, et cela passe nécessairement par les urnes."
   },
@@ -65,7 +67,6 @@
     "phone": "06 03 90 62 38",
     "role": "Bureau",
     "responsibilities": [
-      "Co-Secrétaire",
       "Référent Somainois",
       "Référent au lien avec le syndicalisme"
     ],
