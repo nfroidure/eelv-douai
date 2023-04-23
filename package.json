@@ -7,21 +7,29 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "export": "next export && touch out/.nojekyll && echo 'eelv-douaisis.fr' > out/CNAME",
-    "deploy": "push-dir --dir=out --branch=gh-pages --cleanup"
+    "export": "next export && touch out/.nojekyll && echo 'eelv-douaisis.fr' > out/CNAME"
   },
   "dependencies": {
-    "@n8tb1t/use-scroll-position": "^2.0.3",
+    "@types/inline-style-prefixer": "^5.0.0",
     "color": "^3.1.3",
-    "next": "^10.0.6",
-    "next-optimized-images": "3.0.0-canary.10",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "reduce-css-calc": "^2.1.8"
+    "front-matter": "^4.0.2",
+    "glob": "^10.2.1",
+    "inline-style-prefixer": "^7.0.0",
+    "next": "^13.3.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "remark-parse": "^10.0.1",
+    "unified": "^10.1.2",
+    "yerror": "^6.2.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/node": "^7.20.7",
+    "@types/node": "^18.15.12",
+    "@types/react": "^18.0.37",
+    "@types/react-dom": "^18.0.11",
     "axios": "^0.21.1",
     "googleapis": "^67.0.0",
-    "push-dir": "^0.4.1"
+    "typescript": "^5.0.4"
   }
 }

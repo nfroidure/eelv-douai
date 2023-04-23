@@ -1,0 +1,85 @@
+/* Google Fonts: Here to be included in both Storybook and the app */
+@import url("https://fonts.googleapis.com/css2?family=Roboto");
+
+:root {
+  /* Colors */
+  /* See https://coolors.co/ffd400-004319-7eb712-ececec-999999 */
+  --dark: #323232;
+  --grey: #999999;
+  --light: #fcfcfc;
+  --lightGrey: #efefef;
+
+  --primary: #004319;
+  --secondary: #7eb712;
+  --secondary-darker: #c8d6a3;
+  --tertiary: #ffd400;
+  --quaternary: #6f7f4a;
+  --quinary: #838d69;
+  --senary: #6b5b2b;
+
+  --success: #63c132;
+  --warning: #ff521b;
+  --danger: #ea2b1f;
+  
+  --darkBorderColor: #71a510;
+  --darkActionSelectedColor: #78AE11;
+  --darkActionHoverColor: #78AE11;
+  --lighterTextColor: #ffffff;
+
+  /* Atomic values */
+  --hGrid: 0.55rem;
+  --gutter: calc(var(--hGrid) * 3);
+  --column: calc(var(--hGrid) * 8);
+  --block: calc(var(--column) * 3 + var(--gutter) * 2);
+  --vGrid: 0.1875rem;
+  --vRythm: calc(8 * var(--vGrid));
+  --border: calc(var(--vGrid) / 2);
+  --borderRadius: calc(var(--hGrid) / 2);
+  --shadowX: calc(var(--vGrid) * 2);
+  --shadowY: calc(var(--hGrid) * 1);
+  --shadowBlur: calc(var(--vGrid) * 8);
+
+  /* Animations */
+  --baseAnimationRate: 0.3s;
+
+  /* Fonts */
+  --writingFont: "Roboto", sans-serif;
+  --contentFont: "Roboto", sans-serif;
+  --headingFont: "Roboto", sans-serif;
+
+  /* Font sizes */
+  --smallFontSize: calc(5 * var(--vGrid));
+  --smallLineHeight: calc(8 * var(--vGrid));
+  --smallFontWeight: 300;
+
+  --mediumFontSize: calc(6 * var(--vGrid));
+  --mediumLineHeight: calc(8 * var(--vGrid));
+  --mediumFontWeight: 400;
+
+  --bigFontSize: calc(8 * var(--vGrid));
+  --bigLineHeight: calc(12 * var(--vGrid));
+  --bigFontWeight: 700;
+
+  --greatFontSize: calc(10 * var(--vGrid));
+  --greatLineHeight: calc(16 * var(--vGrid));
+  --greatFontWeight: 800;
+
+  --giantFontSize: calc(12 * var(--vGrid));
+  --giantLineHeight: calc(16 * var(--vGrid));
+  --giantFontWeight: 800;
+}
+
+html,
+body,
+#__next {
+  height: 100%;
+  font-size: var(--mediumFontSize);
+  line-height: var(--mediumLineHeight);
+  font-family: var(--contentFont);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
