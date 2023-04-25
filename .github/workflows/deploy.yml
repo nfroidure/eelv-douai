@@ -32,7 +32,6 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - run: npm install
-      - run: NODE_ENV=production node 'bin/content.js'
         env:
           CI: true
           NODE_ENV: production
