@@ -9,7 +9,7 @@ categories:
 tags:
   - Nord
 illustration:
-  url: "illustrations/lancement-campagne-regionales-2021.jpg"
+  url: "illustrations/lancement-campagne-departementales.jpg"
   alt: "Photographie du lancement de la campagne dans le douaisis"
 ---
 

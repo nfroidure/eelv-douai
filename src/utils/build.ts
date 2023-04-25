@@ -20,7 +20,7 @@ export async function buildAssets(props: BaseProps) {
       const feedItems = entries.map((entry) => ({
         title: entry.title,
         description: entry.description,
-        url: baseURL + "/blog/" + entry.id,
+        url: baseURL + "/actualite/" + entry.id,
         updatedAt: entry.date,
         publishedAt: entry.date,
         author: {
@@ -29,7 +29,7 @@ export async function buildAssets(props: BaseProps) {
       }));
       const commonDescription: Omit<FeedDescription, "url"> = {
         title: `${title} - ${ORGANISATION_NAME}`,
-        sourceURL: baseURL + "/blog",
+        sourceURL: baseURL + "/actualite",
         description,
         updatedAt: new Date(
           entries.reduce(
@@ -56,12 +56,12 @@ async function buildAtomFeed(
   const content = await generateAtomFeed(
     {
       ...commonDescription,
-      url: baseURL + "/blog.atom",
+      url: baseURL + "/actualite.atom",
     },
     feedItems
   );
 
-  await doWriteFile(joinPath(PROJECT_DIR, "public", "blog.atom"), content);
+  await doWriteFile(joinPath(PROJECT_DIR, "public", "actualite.atom"), content);
 }
 
 async function buildRSSFeed(
@@ -71,10 +71,10 @@ async function buildRSSFeed(
   const content = await generateRSSFeed(
     {
       ...commonDescription,
-      url: baseURL + "/blog.rss",
+      url: baseURL + "/actualite.rss",
     },
     feedItems
   );
 
-  await doWriteFile(joinPath(PROJECT_DIR, "public", "blog.rss"), content);
+  await doWriteFile(joinPath(PROJECT_DIR, "public", "actualite.rss"), content);
 }

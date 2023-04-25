@@ -28,3 +28,8 @@ yarn-error.log*
 quickstart-*.json
 token.json
 credentials.json
+
+# Feeds
+
+public/actualite.atom
+public/actualite.rss
