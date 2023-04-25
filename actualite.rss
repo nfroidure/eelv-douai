@@ -4,10 +4,10 @@
   <channel>
     <title>Notre actualité - EÉLV Douaisis</title>
     <description>Découvrez les dernières actions des écologistes de Douai et du Douaisis.</description>
-    <link>https://eelv-douaisis.fr/blog</link>
-    <atom:link href="https://eelv-douaisis.fr/blog.rss" rel="self" type="application/rss+xml" />
+    <link>https://eelv-douaisis.fr/actualite</link>
+    <atom:link href="https://eelv-douaisis.fr/actualite.rss" rel="self" type="application/rss+xml" />
     <lastBuildDate>Thu, 01 Jan 1970 00:00:00 GMT</lastBuildDate>
-    <pubDate>Sun, 23 Apr 2023 06:22:46 GMT</pubDate>
+    <pubDate>Tue, 25 Apr 2023 12:30:37 GMT</pubDate>
     <ttl>1800</ttl>
   </channel>
 </rss>
