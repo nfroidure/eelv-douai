@@ -1,10 +1,15 @@
+/** @type {import('next').NextConfig} */
 const buildPrefix = process.env.NODE_ENV === "production" ? "" : "";
 const baseURL =
   process.env.NODE_ENV === "production"
     ? "https://eelv-douaisis.fr"
-    : "http://nfroidure.localhost:3000";
+    : "http://eelv-douaisis.localhost:3000";
 
 export default {
+  output: 'export',
+  trailingSlash: false,
+  distDir: 'out',
+  reactStrictMode: true,
   publicRuntimeConfig: {
     environment: process.env.NODE_ENV,
     buildPrefix,

@@ -1,29 +1,30 @@
-import { join as pathJoin } from "path";
+import { pathJoin } from "../../utils/files";
+import { readEntries } from "../../utils/frontmatter";
+import { toASCIIString } from "../../utils/ascii";
+import { parseMarkdown, renderMarkdown } from "../../utils/markdown";
+import { fixText } from "../../utils/text";
+import { datedPagesSorter } from "../../utils/contents";
 import Layout from "../../layouts/main";
 import ContentBlock from "../../components/contentBlock";
 import Heading1 from "../../components/h1";
 import Heading2 from "../../components/h2";
 import Paragraph from "../../components/p";
-import { readEntries } from "../../utils/frontmatter";
-import { toASCIIString } from "../../utils/ascii";
-import { parseMarkdown, renderMarkdown } from "../../utils/markdown";
 import Anchored from "../../components/anchored";
-import { fixText } from "../../utils/text";
 import type { MarkdownRootNode } from "../../utils/markdown";
 import type { GetStaticProps } from "next";
 
-export type Metadata = {
+export type FAQItemFrontmatterMetadata = {
   title: string;
   date: string;
   draft: boolean;
 };
-export type Entry = {
+export type FAQItem = {
   id: string;
   content: MarkdownRootNode;
-} & Metadata;
+} & FAQItemFrontmatterMetadata;
 
 type Props = {
-  entries: Entry[];
+  entries: FAQItem[];
 };
 
 const Page = ({ entries }: Props) => (
@@ -56,19 +57,17 @@ const Page = ({ entries }: Props) => (
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
   const entries = (
-    await readEntries<Metadata>(pathJoin(".", "contents", "faq"))
+    await readEntries<FAQItemFrontmatterMetadata>(pathJoin(".", "contents", "faq"))
   )
-    .map<Entry>((entry) => ({
+    .map((entry) => ({
       ...entry.attributes,
       id: toASCIIString(entry.attributes.title),
       content: parseMarkdown(entry.body) as MarkdownRootNode,
     }))
     .filter((entry) => !entry.draft || process.env.NODE_ENV === "development")
-    .sort(({ date: dateA }: any, { date: dateB }: any) =>
-      new Date(dateA).getTime() > new Date(dateB).getTime() ? -1 : 1
-    );
+    .sort(datedPagesSorter);
 
-  return { props: { entries } as Props };
+  return { props: { entries } };
 };
 
 export default Page;

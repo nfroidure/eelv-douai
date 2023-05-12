@@ -1,6 +1,6 @@
+import { readJSON } from "../../utils/files";
 import Layout from "../../layouts/main";
 import Member from "../../components/member";
-import fs from "fs";
 import Heading1 from "../../components/h1";
 import Heading2 from "../../components/h2";
 import Paragraph from "../../components/p";
@@ -66,15 +66,13 @@ const Page = ({ animators, executives }: Props) => (
 );
 
 export const getStaticProps: GetStaticProps<Props> = async () => {
-  const members = JSON.parse(
-    (await fs.promises.readFile("./data/members.json")).toString()
-  ) as AMember[];
+  const members = await readJSON<AMember[]>("./data/members.json");
   const executives = members.filter((member) => member.role === "Bureau");
   const animators = members.filter(
     (member) => member.role === "Équipe d'animation"
   );
 
-  return { props: { executives, animators } as Props };
+  return { props: { executives, animators } };
 };
 
 export default Page;

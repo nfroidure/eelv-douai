@@ -1,21 +1,19 @@
-import { join as pathJoin } from "path";
-import { entriesToBaseProps } from "./index";
+import { entriesToBaseListingMetadata } from "./index";
 import { readEntries } from "../../utils/frontmatter";
+import { fixText } from "../../utils/text";
+import { pathJoin } from "../../utils/files";
+import { datedPagesSorter } from "../../utils/contents";
+import { renderMarkdown } from "../../utils/markdown";
 import Layout from "../../layouts/main";
 import ContentBlock from "../../components/contentBlock";
 import Paragraph from "../../components/p";
-import { fixText } from "../../utils/text";
-import { renderMarkdown } from "../../utils/markdown";
-import { datedItemsSorter, toItem } from "../../utils/items";
-import type { Metadata } from "./index";
-import type { Entry } from "./index";
-import type { Item } from "../../utils/items";
+import type { News, NewsFrontmatterMetadata } from "../../utils/news";
 import type { GetStaticProps, GetStaticPaths } from "next";
 
 type Params = { id: string };
 type Props = {
-  entry: Entry;
-  linkedEntries: Item[];
+  entry: News;
+  linkedEntries: News[];
 };
 
 const BlogPost = ({ entry }: Props) => {
@@ -45,8 +43,8 @@ const BlogPost = ({ entry }: Props) => {
 export default BlogPost;
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const baseProps = entriesToBaseProps(
-    await readEntries<Metadata>(pathJoin(".", "contents", "actualite"))
+  const baseProps = entriesToBaseListingMetadata(
+    await readEntries<NewsFrontmatterMetadata>(pathJoin(".", "contents", "actualite"))
   );
 
   const paths = baseProps.entries.map((entry) => ({
@@ -59,12 +57,12 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps<Props, Params> = async ({
   params,
 }) => {
-  const baseProps = entriesToBaseProps(
-    await readEntries<Metadata>(pathJoin(".", "contents", "actualite"))
+  const baseProps = entriesToBaseListingMetadata(
+    await readEntries<NewsFrontmatterMetadata>(pathJoin(".", "contents", "actualite"))
   );
   const entry = baseProps.entries.find(
     ({ id }) => id === (params || {}).id
-  ) as Entry;
+  );
   const linkedEntries = baseProps.entries
     .filter(
       (anEntry) =>
@@ -76,8 +74,7 @@ export const getStaticProps: GetStaticProps<Props, Params> = async ({
           )
         )
     )
-    .map(toItem)
-    .sort(datedItemsSorter);
+    .sort(datedPagesSorter);
   const pastEntries = linkedEntries.filter(
     (anEntry) => Date.parse(anEntry.date) < Date.parse(entry.date)
   );

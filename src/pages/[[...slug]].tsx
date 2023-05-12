@@ -1,14 +1,14 @@
-import { join as pathJoin } from "path";
-import Layout from "../layouts/main";
-import ContentBlock from "../components/contentBlock";
 import { fixText } from "../utils/text";
 import { parseMarkdown, renderMarkdown } from "../utils/markdown";
-import { readEntry, readPaths } from "../utils/frontmatter";
+import { readEntry } from "../utils/frontmatter";
+import { pathJoin, readDirDeep } from "../utils/files";
 import { toASCIIString } from "../utils/ascii";
+import Layout from "../layouts/main";
+import ContentBlock from "../components/contentBlock";
 import type { GetStaticProps, GetStaticPaths } from "next";
 import type { MarkdownRootNode } from "../utils/markdown";
 
-type Metadata = {
+type PageFrontmatterMetadata = {
   date: string;
   title: string;
   description: string;
@@ -21,7 +21,7 @@ type Metadata = {
 type Entry = {
   id: string;
   content: MarkdownRootNode;
-} & Metadata;
+} & PageFrontmatterMetadata;
 
 type Params = { slug: string[] };
 type Props = { entry: Entry };
@@ -38,15 +38,6 @@ const Page = ({ entry }: Props) => {
         <div className="clear"></div>
       </ContentBlock>
       <style jsx>{`
-        :global(p.illustration) {
-          float: left;
-          width: var(--block);
-          margin: 0 var(--gutter) 0 0;
-        }
-        img {
-          width: 100%;
-          margin: 0;
-        }
         .clear {
           clear: both;
         }
@@ -58,19 +49,21 @@ const Page = ({ entry }: Props) => {
 export default Page;
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const paths = (await readPaths(pathJoin(".", "contents", "pages"))).map(
-    (path) => {
-      const slug = path.replace(".md", "").split("/");
+  const base = pathJoin(".", "contents", "pages");
+  const paths = (await readDirDeep(`${base}/**/*.md`)).map((path) => {
+    const slug = path
+      .replace(base + "/", "")
+      .replace(".md", "")
+      .split("/");
 
-      if (slug[slug.length - 1] === "index") {
-        slug.pop();
-      }
-
-      return {
-        params: { slug },
-      };
+    if (slug[slug.length - 1] === "index") {
+      slug.pop();
     }
-  );
+
+    return {
+      params: { slug },
+    };
+  });
 
   return { paths, fallback: false };
 };
@@ -78,13 +71,14 @@ export const getStaticPaths: GetStaticPaths = async () => {
 export const getStaticProps: GetStaticProps<Props, Params> = async ({
   params,
 }) => {
-  const result = await readEntry<Metadata>(
-    pathJoin(
-      "contents",
-      "pages",
-      (params?.slug?.length ? params?.slug.join("/") : "index") + ".md"
-    )
-  );
+  const path = pathJoin("contents", "pages", ...(params.slug || []));
+  let result;
+
+  try {
+    result = await readEntry<PageFrontmatterMetadata>(path + ".md");
+  } catch (err) {
+    result = await readEntry<PageFrontmatterMetadata>(path + "/index.md");
+  }
 
   return {
     props: {

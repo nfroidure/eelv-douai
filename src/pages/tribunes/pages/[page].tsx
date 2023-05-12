@@ -1,6 +1,6 @@
-import { join as pathJoin } from "path";
-import BlogEntries, { entriesToBaseProps, getStaticProps } from "../index";
+import { pathJoin } from "../../../utils/files";
 import { readEntries } from "../../../utils/frontmatter";
+import BlogEntries, { entriesToBaseProps, getStaticProps } from "../index";
 import type { GetStaticPaths } from "next";
 import type { Metadata } from "../../../components/tribunes";
 

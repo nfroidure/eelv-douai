@@ -1,30 +1,31 @@
-import { join as pathJoin } from "path";
+import { pathJoin } from "../../utils/files";
+import { readEntries } from "../../utils/frontmatter";
+import { toASCIIString } from "../../utils/ascii";
+import { readParams } from "../../utils/params";
+import { collectMarkdownText, parseMarkdown } from "../../utils/markdown";
+import { summarize } from "../../utils/summarize";
+import { datedPagesSorter } from "../../utils/contents";
 import Layout from "../../layouts/main";
 import ContentBlock from "../../components/contentBlock";
 import Heading1 from "../../components/h1";
 import Paragraph from "../../components/p";
 import Anchor from "../../components/a";
-import { readEntries } from "../../utils/frontmatter";
-import { toASCIIString } from "../../utils/ascii";
-import { readParams } from "../../utils/params";
-import { parseMarkdown } from "../../utils/markdown";
-import { datedItemsSorter } from "../../utils/items";
 import Tribunes from "../../components/tribunes";
-import type { Entry, Metadata } from "../../components/tribunes";
+import type {
+  BasePagingPageMetadata,
+  BaseListingPageMetadata,
+} from "../../utils/contents";
 import type { FrontMatterResult } from "front-matter";
 import type { MarkdownRootNode } from "../../utils/markdown";
+import type { Tribune, TribuneFrontmatterMetadata } from "../../utils/tribunes";
 import type { GetStaticProps } from "next";
 import type { BuildQueryParamsType } from "../../utils/params";
 
-export type BaseProps = {
-  title: string;
-  description: string;
-  entries: Entry[];
-  pagesCount: number;
+export const PUBLICATIONS = {
+  "douai-notre-ville": "Douai Notre Ville",
 };
-export type Props = BaseProps & {
-  page: number;
-};
+
+export type Props = BasePagingPageMetadata<Tribune>;
 
 const PARAMS_DEFINITIONS = {
   page: {
@@ -94,21 +95,37 @@ const BlogEntries = ({
 );
 
 export const entriesToBaseProps = (
-  baseEntries: FrontMatterResult<Metadata>[]
-): BaseProps => {
+  baseEntries: FrontMatterResult<TribuneFrontmatterMetadata>[]
+): BaseListingPageMetadata<Tribune> => {
   const title = `Tribunes des élu⋅es`;
   const description = "Découvrez les tribunes des élu⋅es EÉLV du Douaisis.";
   const entries = baseEntries
-    .map<Entry>((entry) => ({
-      ...entry.attributes,
-      id: toASCIIString(
-        `${entry.attributes.publication}-${new Date(
-          entry.attributes.date
-        ).getFullYear()}-${new Date(entry.attributes.date).getMonth() + 1}`
-      ),
-      content: parseMarkdown(entry.body) as MarkdownRootNode,
-    }))
-    .sort(datedItemsSorter);
+    .map<Tribune>((entry) => {
+      const content = parseMarkdown(entry.body) as MarkdownRootNode;
+      return {
+        ...entry.attributes,
+        id: toASCIIString(
+          `${entry.attributes.publication}-${new Date(
+            entry.attributes.date
+          ).getFullYear()}-${new Date(entry.attributes.date).getMonth() + 1}`
+        ),
+        title: `${entry.attributes.author} - ${new Intl.DateTimeFormat(
+          "fr-FR",
+          {
+            year: "numeric",
+            month: "long",
+          }
+        ).format(new Date(entry.attributes.date))}`,
+        description: `Tribune de ${entry.attributes.author} dans le ${
+          PUBLICATIONS[entry.attributes.publication]
+        } du ${new Intl.DateTimeFormat("fr-FR", {
+          dateStyle: "full",
+        }).format(new Date(entry.attributes.date))}`,
+        summary: summarize(collectMarkdownText(content), 155),
+        content,
+      };
+    })
+    .sort(datedPagesSorter);
 
   return {
     title,
@@ -124,7 +141,9 @@ export const getStaticProps: GetStaticProps<Props, { page: string }> = async ({
   const castedParams = readParams(PARAMS_DEFINITIONS, params || {}) as Params;
   const page = castedParams?.page || 1;
   const baseProps = entriesToBaseProps(
-    await readEntries<Metadata>(pathJoin(".", "contents", "tribunes"))
+    await readEntries<TribuneFrontmatterMetadata>(
+      pathJoin(".", "contents", "tribunes")
+    )
   );
   const title = `${baseProps.title}${
     page && page !== 1 ? ` - page ${page}` : ""
@@ -140,7 +159,7 @@ export const getStaticProps: GetStaticProps<Props, { page: string }> = async ({
       title,
       entries,
       page,
-    } as Props,
+    },
   };
 };
 

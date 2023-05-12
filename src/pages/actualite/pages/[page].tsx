@@ -1,22 +1,25 @@
-import { join as pathJoin } from "path";
-import BlogEntries, { entriesToBaseProps, getStaticProps } from "../index";
+import { pathJoin } from "../../../utils/files";
 import { readEntries } from "../../../utils/frontmatter";
 import { buildAssets } from "../../../utils/build";
+import BlogEntries, {
+  entriesToBaseListingMetadata,
+  getStaticProps,
+} from "../index";
 import type { GetStaticPaths } from "next";
-import type { Metadata } from "../index";
+import type { NewsFrontmatterMetadata } from "../../../utils/news";
 
 export { getStaticProps };
 export default BlogEntries;
 
 export const getStaticPaths: GetStaticPaths = async () => {
-  const baseProps = entriesToBaseProps(
-    await readEntries<Metadata>(pathJoin(".", "contents", "blog"))
+  const baseProps = entriesToBaseListingMetadata(
+    await readEntries<NewsFrontmatterMetadata>(pathJoin(".", "contents", "actualite"))
   );
 
   // WARNING: This is not a nice way to generate the news feeds
   // but having scripts run in the NextJS build context is a real
   // pain
-  await buildAssets(baseProps);
+  await buildAssets(baseProps, "/actualite");
 
   const paths = new Array(baseProps.pagesCount)
     .fill("")
