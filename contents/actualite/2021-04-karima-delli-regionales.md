@@ -23,6 +23,6 @@ illustration:
 
 Ce dimanche 4 avril, notre équipe a sillonné une partie de la ville de Douai, de Sin-le-Noble et également Lambres-lez-Douai pour une séance de collage d'affiches. Quelques rues ont également été tractées.
 
-Une large union des écologistes et de la gauche a été rendue possible pour la campagne des régionales 2021 ! Nous sommes fier-e-s de porter haut les couleurs de cette union avec Karima Delli.
+Une large union des écologistes et de la gauche a été rendue possible pour la campagne des régionales 2021 ! Nous sommes fier·es de porter haut les couleurs de cette union avec Karima Delli.
 
 [Vidéo de Karima Delli](https://www.youtube.com/watch?v=OAGFabQBOC4 "📺")

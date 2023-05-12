@@ -18,7 +18,7 @@ illustration:
 
 **Stéphanie Stiernon, 3ème adjointe déléguée à l'urbanisme, se prête à l'exercice et nous présente ses missions, témoignage de ses premiers mois d'activité.**
 
-En cette période où il est difficile de se rencontrer, nous venons à vous et vous proposons des interviews de nos élu⋅es douaisien-nes.
+En cette période où il est difficile de se rencontrer, nous venons à vous et vous proposons des interviews de nos élu⋅es douaisien·nes.
 
 [Interview de Stéphanie Stiernon](https://www.youtube.com/watch?v=B_xxTtTNOyA "📺")
 

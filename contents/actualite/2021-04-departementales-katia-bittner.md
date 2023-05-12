@@ -1,6 +1,6 @@
 ---
 title: "Départementales 2021 : Katia Bittner candidate pour le canton de Douai"
-description: "Pour les élections départementales, sur le canton de Douai, notre adhérent-e Katia Bittner se présente aux côtés de Frédéric Chéreau, Auriane Ait Lasri et Jean-Luc Dellacherie."
+description: "Pour les élections départementales, sur le canton de Douai, notre adhérent·e Katia Bittner se présente aux côtés de Frédéric Chéreau, Auriane Ait Lasri et Jean-Luc Dellacherie."
 leafname: campagne_departementale_2021_canton_douai
 date: "2021-04-23T16:00:00Z"
 draft: false
@@ -15,17 +15,17 @@ illustration:
 
 # Départementales 2021 : Katia Bittner candidate pour le canton de Douai
 
-**Pour les élections départementales, sur le canton de Douai, notre adhérent-e Katia Bittner se présente aux côtés de Frédéric Chéreau, Auriane Ait Lasri et Jean-Luc Dellacherie.**
+**Pour les élections départementales, sur le canton de Douai, notre adhérent·e Katia Bittner se présente aux côtés de Frédéric Chéreau, Auriane Ait Lasri et Jean-Luc Dellacherie.**
 
 ![Photographie du lancement de la campagne dans le douaisis](illustrations/lancement-campagne-departementales.jpg)
 ![Photographie de Nicolas Froidure qui colle une affiche](illustrations/collage-departementales-2021.jpg)
-![Photographie de militant-es tractant](illustrations/tractage-departementales.jpg)
-![Photographie de militant-es tractant](illustrations/tractage-departementales-2.jpg)
-![Photographie de militant-es tractant](illustrations/tractage-departementales-3.jpg)
+![Photographie de militant·es tractant](illustrations/tractage-departementales.jpg)
+![Photographie de militant·es tractant](illustrations/tractage-departementales-2.jpg)
+![Photographie de militant·es tractant](illustrations/tractage-departementales-3.jpg)
 
-Au terme d'un vote démocratique interne, les adhérent-es EÉLV ont désigné Katia Bittner candidate aux élections départementales de 2021 sur le canton de Douai.
+Au terme d'un vote démocratique interne, les adhérent·es EÉLV ont désigné Katia Bittner candidate aux élections départementales de 2021 sur le canton de Douai.
 
-Au terme de négociations de notre instance régionale, il a été acté l'union avec le Parti Socialiste, le Parti Communiste Français et Génération-s.
+Au terme de négociations de notre instance régionale, il a été acté l'union avec le Parti Socialiste, le Parti Communiste Français et Génération·s.
 
 Notre groupe est très heureux de soutenir cette candidate et ses partenaires dans ce canton de Douai.
 

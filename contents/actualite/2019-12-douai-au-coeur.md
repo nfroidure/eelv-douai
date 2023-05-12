@@ -33,8 +33,8 @@ Forts de ces échanges, les militants d'EÉLV Douai se sont regroupés en Assemb
 
 Lors de la création de cette liste commune, il a été convenu qu'une ouverture vers LREM ou tout parti plus à droite n'est pas envisageable. EÉLV Douai croit toujours fermement à une alliance plus large qui permette à toutes les sensibilités de gauche de s'exprimer dans un conseil municipal divers et solidaire.
 
-### Une charte des candidat-es EÉLV
+### Une charte des candidat·es EÉLV
 
-Tou-tes nos candidat-es ont signé une charte d'engagement visant à assurer une organisation exemplaire de notre groupe au sein du futur conseil municipal.
+Tou·tes nos candidat·es ont signé une charte d'engagement visant à assurer une organisation exemplaire de notre groupe au sein du futur conseil municipal.
 
 [📢 Voir le dossier de presse complet](https://drive.google.com/drive/u/1/folders/1ZPaBUUPLG1iJFXEj8FIBhkJAz4-tm5Kt)

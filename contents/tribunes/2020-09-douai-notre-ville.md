@@ -9,4 +9,4 @@ Les mobilités actives, le cadre de vie, la biodiversité, l’adaptation aux ch
 
 Durant ce mandat, nous ferons tout ce qui est en notre pouvoir pour accélérer la transition écologique. Une transition indispensable pour notre ville, notre santé et les générations à venir. Une transition axée sur la nature en ville, l’anticipation des vagues de chaleur, la mobilité active, les circuits courts, la condition animale…  Il y a encore tant de choses à faire et à imaginer ensemble !
 
-Les élu-e-s EELV vous remercient de votre confiance. Ensemble, rendons notre ville plus belle encore.
+Les élu·es EELV vous remercient de votre confiance. Ensemble, rendons notre ville plus belle encore.

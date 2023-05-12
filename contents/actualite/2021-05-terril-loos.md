@@ -1,6 +1,6 @@
 ---
 title: "Ascension du terril de Loos-en-Gohelle"
-description: "Nous avons visité le terril de Loos-en-Gohelle en compagnie des candidat-es aux régionales 2021"
+description: "Nous avons visité le terril de Loos-en-Gohelle en compagnie des candidat·es aux régionales 2021"
 leafname: terril_loos_en_gohelle
 date: "2021-05-02T08:00:00Z"
 draft: false

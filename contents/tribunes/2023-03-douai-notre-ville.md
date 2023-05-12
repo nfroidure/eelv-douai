@@ -5,7 +5,7 @@ role: "Adjoint au maire"
 publication: "Douai Notre Ville"
 ---
 
-Lutter contre les îlots de chaleur, planter des arbres, végétaliser, agir pour la biodiversité et rendre notre ville plus belle et respirable, le service des jardins et du cadre de vie agit. En février, à Dorignies, une micro-forêt pédagogique a été plantée avec les habitants.es et les enfants des écoles, le projet idéal pour échanger et expliquer l'importance de développer la présence de l’arbre et de la nature dans la ville.
+Lutter contre les îlots de chaleur, planter des arbres, végétaliser, agir pour la biodiversité et rendre notre ville plus belle et respirable, le service des jardins et du cadre de vie agit. En février, à Dorignies, une micro-forêt pédagogique a été plantée avec les habitants·es et les enfants des écoles, le projet idéal pour échanger et expliquer l'importance de développer la présence de l’arbre et de la nature dans la ville.
 
 Nos actions sont justement récompensées : Douai accueillera les assises Nationales des Villes et villages fleuris en 2024, une bonne nouvelle pour notre territoire.
 

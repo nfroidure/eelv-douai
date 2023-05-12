@@ -1,6 +1,6 @@
 ---
 title: Les écologistes aux boucles de Gayant
-description: Afin de soutenir nos candidat-es aux européennes, nous avons effectué les boucles de Gayant.
+description: Afin de soutenir nos candidat·es aux européennes, nous avons effectué les boucles de Gayant.
 leafname: boucles_gayant
 date: "2019-05-31T08:00:00Z"
 draft: false
@@ -10,12 +10,12 @@ tags:
   - "Sport"
 illustration:
   url: "illustrations/eelv_boucles_gayant.jpg"
-  alt: "Photographie de nos participant-es"
+  alt: "Photographie de nos participant·es"
 ---
 
 # Les écologistes aux boucles de Gayant
 
-Afin de soutenir nos candidat-es aux européennes, nous avons effectué les boucles de Gayant.
+Afin de soutenir nos candidat·es aux européennes, nous avons effectué les boucles de Gayant.
 
 Quelques propositions à la Ville de Douai pour l'année prochaine :
 
