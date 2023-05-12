@@ -1,0 +1,12 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "foxundermoon.next-js",
+    "viktorzetterstrom.non-breaking-space-highlighter",
+    "esbenp.prettier-vscode",
+    "ban.spellright",
+    "Divlo.vscode-styled-jsx-syntax",
+    "Divlo.vscode-styled-jsx-languageserver",
+    "yzane.markdown-pdf"
+  ]
+}
