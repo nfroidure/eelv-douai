@@ -23,6 +23,7 @@ Les liens suivants peuvent également vous intéresser :
 - [GreenPeace](https://www.greenpeace.fr/),
 - [Groupe ornithologique et naturaliste](https://gon.fr/gon/section-la-gorgebleue/),
 - [LPO](https://www.lpo.fr/),
+- [Le Planning Familial (droit à l'IVG)](https://www.planning-familial.org/fr),
 - [Atmo HDF](https://www.atmo-hdf.fr/),
 - [Zéro Waste France](https://zerowastefrance.org),
 - [Réseau environnement santé](http://www.reseau-environnement-sante.fr/),
