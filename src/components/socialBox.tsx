@@ -9,6 +9,8 @@ export default function Newsletter() {
       <Heading2>📢 Gardez le contact</Heading2>
       <Paragraph>Suivez notre actualité sur les réseaux sociaux</Paragraph>
       <Paragraph>
+        🐘 <Anchor href="https://mastoot.fr/@eelv_douaisis">Mastodon</Anchor>
+        <br />
         🐦 <Anchor href="https://twitter.com/eelv_douai">Twitter</Anchor>
         <br />
         🌍 <Anchor href="https://facebook.com/eelv.douai">Facebook</Anchor>

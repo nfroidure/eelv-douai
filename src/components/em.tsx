@@ -1,19 +1,15 @@
+import styles from "./em.module.scss";
 import type { HTMLAttributes } from "react";
 
 const Emphasis = ({
   children,
+  className,
   ...props
 }: {
   children: React.ReactNode;
 } & HTMLAttributes<HTMLElement>) => (
-  <em className="root" {...props}>
+  <em className={styles.root + (className ? " " + className : "")} {...props}>
     {children}
-    <style jsx>{`
-      .root {
-        text-decoration: none;
-        font-style: italic;
-      }
-    `}</style>
   </em>
 );
 

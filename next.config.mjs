@@ -1,5 +1,5 @@
 /** @type {import('next').NextConfig} */
-const buildPrefix = process.env.NODE_ENV === "production" ? "" : "";
+const basePath = process.env.NODE_ENV === "production" ? "" : "";
 const baseURL =
   process.env.NODE_ENV === "production"
     ? "https://eelv-douaisis.fr"
@@ -12,7 +12,7 @@ export default {
   reactStrictMode: true,
   publicRuntimeConfig: {
     environment: process.env.NODE_ENV,
-    buildPrefix,
+    basePath,
     baseURL,
   },
   assetPrefix: process.env.NODE_ENV === "production" ? "" : "",

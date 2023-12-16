@@ -1,3 +1,4 @@
+import styles from ".";
 import { entriesToBaseListingMetadata } from "./index";
 import { readEntries } from "../../utils/frontmatter";
 import { fixText } from "../../utils/text";
@@ -29,13 +30,6 @@ const BlogPost = ({ entry }: Props) => {
           Publié le {new Date(entry.date).toLocaleString()}.
         </Paragraph>
       </ContentBlock>
-      <style>{`
-      @media print {
-        aside {
-          display: none;
-        }
-      }
-      `}</style>
     </Layout>
   );
 };
@@ -44,7 +38,9 @@ export default BlogPost;
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const baseProps = entriesToBaseListingMetadata(
-    await readEntries<NewsFrontmatterMetadata>(pathJoin(".", "contents", "actualite"))
+    await readEntries<NewsFrontmatterMetadata>(
+      pathJoin(".", "contents", "actualite")
+    )
   );
 
   const paths = baseProps.entries.map((entry) => ({
@@ -58,11 +54,11 @@ export const getStaticProps: GetStaticProps<Props, Params> = async ({
   params,
 }) => {
   const baseProps = entriesToBaseListingMetadata(
-    await readEntries<NewsFrontmatterMetadata>(pathJoin(".", "contents", "actualite"))
+    await readEntries<NewsFrontmatterMetadata>(
+      pathJoin(".", "contents", "actualite")
+    )
   );
-  const entry = baseProps.entries.find(
-    ({ id }) => id === (params || {}).id
-  );
+  const entry = baseProps.entries.find(({ id }) => id === (params || {}).id);
   const linkedEntries = baseProps.entries
     .filter(
       (anEntry) =>

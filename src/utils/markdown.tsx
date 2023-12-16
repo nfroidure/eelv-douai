@@ -301,7 +301,7 @@ const hyperlinkMap: NodeToElementMapper<MarkdownLinkNode> = (context, node) => {
       controls
       src={
         publicRuntimeConfig.baseURL +
-        publicRuntimeConfig.buildPrefix +
+        publicRuntimeConfig.basePath +
         "/" +
         node.url
       }
@@ -503,7 +503,7 @@ function parseImageProps(node: MarkdownImageNode): {
   const src = node.url.startsWith("http")
     ? node.url
     : publicRuntimeConfig.baseURL +
-      publicRuntimeConfig.buildPrefix +
+      publicRuntimeConfig.basePath +
       "/" +
       node.url.replace(/^(\.\/)?(\.\.\/)*public\//, "");
 

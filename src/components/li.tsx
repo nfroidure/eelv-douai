@@ -1,10 +1,13 @@
+import styles from "./li.module.scss";
+
 const ListItem = ({
-    children,
-    ...props
+  children,
+  className,
+  ...props
 }: {
   children: React.ReactNode;
 } & React.LiHTMLAttributes<HTMLLIElement>) => (
-  <li className="root" {...props}>
+  <li className={styles.root + (className ? " " + className : "")} {...props}>
     {children}
     <style jsx>{`
       .root > :global(:first-child:last-child) {

@@ -8,7 +8,7 @@ export default function LastNews({ definition }) {
     <Aside>
       <Heading2>🗞️ Dernière actualité</Heading2>
       <Paragraph>
-        <Anchor legacyBehavior href={`/actualite/${definition.href}`}>
+        <Anchor href={`/actualite/${definition.href}`}>
           {definition.title}
         </Anchor>
         <br />

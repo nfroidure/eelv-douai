@@ -1,9 +1,9 @@
+import styles from "./tribunes.module.scss";
 import Heading2 from "./h2";
 import Paragraph from "./p";
 import Anchor from "./a";
 import Img from "./img";
 import { MarkdownRootNode, renderMarkdown } from "../utils/markdown";
-import { CSS_BREAKPOINT_START_L } from "../utils/constants";
 import { toASCIIString } from "../utils/ascii";
 import Strong from "./strong";
 
@@ -26,10 +26,10 @@ const Items = <T extends Entry>({
   base: string;
 }) => {
   return (
-    <div className="entries">
+    <div className={styles.entries}>
       {entries.map((entry) => (
-        <div className="entry_item" key={entry.id}>
-          <p className="entry_illustration">
+        <div className={styles.entry_item} key={entry.id}>
+          <p className={styles.entry_illustration}>
             <Anchor href={`${base}${entry.id}`}>
               <Img
                 float="left"
@@ -41,51 +41,22 @@ const Items = <T extends Entry>({
               />
             </Anchor>
           </p>
-          <Heading2 className="entry_title">
-            <Anchor href={`${base}${entry.id}`} className="no_underline">
+          <Heading2 className={styles.entry_title}>
+            <Anchor href={`${base}${entry.id}`} className={styles.no_underline}>
               {entry.author}
             </Anchor>
           </Heading2>
-          <Paragraph><Strong>{entry.role}</Strong></Paragraph>
+          <Paragraph>
+            <Strong>{entry.role}</Strong>
+          </Paragraph>
           {renderMarkdown({ index: 0 }, entry.content)}
           <Paragraph>
             Publié dans {entry.publication} le{" "}
             {new Date(entry.date).toLocaleString()}.
           </Paragraph>
-          <div className="clear"></div>
+          <div className={styles.clear}></div>
         </div>
       ))}
-
-      <style jsx>
-        {`
-          :global(.entry_title) {
-            margin-top: 0 !important;
-          }
-          :global(.entry_title a) {
-            text-decoration: none !important;
-          }
-          :global(.entry_illustration) {
-            margin: 0 !important;
-          }
-          .entry_item {
-            padding: var(--vRythm) 0;
-            border-bottom: var(--border) solid var(--secondary);
-          }
-          .entry_item:first-child {
-            padding: 0 0 var(--vRythm) 0;
-          }
-          .entry_item:last-child {
-            border: none;
-            padding: var(--vRythm) 0 0 0;
-          }
-
-          @media screen and (min-width: ${CSS_BREAKPOINT_START_L}) {
-            .clear {
-              clear: left;
-            }
-          }
-        `}
-      </style>
     </div>
   );
 };

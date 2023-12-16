@@ -1,3 +1,4 @@
+import styles from "./index.module.scss";
 import { pathJoin } from "../../utils/files";
 import { readEntries } from "../../utils/frontmatter";
 import { toASCIIString } from "../../utils/ascii";
@@ -55,7 +56,7 @@ const BlogEntries = ({
 
       <Tribunes entries={entries} base={"/tribunes/"} />
 
-      <nav className="pagination">
+      <nav className={styles.pagination}>
         {page > 1 ? (
           <Anchor
             icon="arrow-left"
@@ -77,20 +78,6 @@ const BlogEntries = ({
         ) : null}
       </nav>
     </ContentBlock>
-    <style jsx>{`
-      .pagination {
-        display: flex;
-        gap: var(--gutter);
-        align-items: center;
-        justify-content: center;
-        padding: var(--vRythm) 0 0 0;
-      }
-      @media print {
-        .pagination {
-          display: none;
-        }
-      }
-    `}</style>
   </Layout>
 );
 

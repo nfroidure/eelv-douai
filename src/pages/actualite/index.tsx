@@ -1,3 +1,4 @@
+import styles from "./index.module.scss";
 import { readEntries } from "../../utils/frontmatter";
 import { toASCIIString } from "../../utils/ascii";
 import { readParams } from "../../utils/params";
@@ -64,7 +65,7 @@ const BlogEntries = ({
 
       <Items entries={entries} base={"/actualite/"} />
 
-      <nav className="pagination">
+      <nav className={styles.pagination}>
         {page > 1 ? (
           <Anchor
             icon="arrow-left"
@@ -86,20 +87,6 @@ const BlogEntries = ({
         ) : null}
       </nav>
     </ContentBlock>
-    <style jsx>{`
-      .pagination {
-        display: flex;
-        gap: var(--gutter);
-        align-items: center;
-        justify-content: center;
-        padding: var(--vRythm) 0 0 0;
-      }
-      @media print {
-        .pagination {
-          display: none;
-        }
-      }
-    `}</style>
   </Layout>
 );
 
@@ -132,7 +119,9 @@ export const getStaticProps: GetStaticProps<Props, { page: string }> = async ({
   const castedParams = readParams(PARAMS_DEFINITIONS, params || {}) as Params;
   const page = castedParams?.page || 1;
   const baseProps = entriesToBaseListingMetadata(
-    await readEntries<NewsFrontmatterMetadata>(pathJoin(".", "contents", "actualite"))
+    await readEntries<NewsFrontmatterMetadata>(
+      pathJoin(".", "contents", "actualite")
+    )
   );
   const title = `${baseProps.title}${
     page && page !== 1 ? ` - page ${page}` : ""

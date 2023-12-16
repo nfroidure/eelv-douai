@@ -1,16 +1,13 @@
+import styles from "./ul.module.scss";
 import type { HTMLAttributes } from "react";
 
 const UnorderedList = ({
   children,
+  className,
   ...props
 }: { children: React.ReactNode } & HTMLAttributes<HTMLUListElement>) => (
-  <ul className="root" {...props}>
+  <ul className={styles.ul + (className ? " " + className : "")} {...props}>
     {children}
-    <style jsx>{`
-      .root {
-        margin: 0 0 var(--vRythm) 0;
-      }
-    `}</style>
   </ul>
 );
 

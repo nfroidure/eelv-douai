@@ -1,18 +1,15 @@
+import styles from "./p.module.scss";
 import type { HTMLAttributes } from "react";
 
 const Paragraph = ({
   children,
+  className,
   ...props
 }: {
   children: React.ReactNode;
 } & HTMLAttributes<HTMLParagraphElement>) => (
-  <p className="root" {...props}>
+  <p className={styles.root + (className ? " " + className : "")} {...props}>
     {children}
-    <style jsx>{`
-      .root {
-        margin: 0 0 var(--vRythm) 0;
-      }
-    `}</style>
   </p>
 );
 

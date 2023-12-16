@@ -1,0 +1,43 @@
+@import "../../styles/variables.scss";
+
+.footer {
+  background: var(--secondary);
+  color: var(--light);
+  padding: 0 var(--gutter);
+}
+.footer nav ul {
+  display: inline;
+  margin: 0;
+  padding: 0;
+}
+.footer nav ul li {
+  display: inline;
+  list-style-type: none;
+  line-height: calc(var(--mediumLineHeight) * 2);
+}
+.footer nav ul li a {
+  text-decoration: none;
+  color: var(--light);
+}
+.footer nav ul li a:hover,
+.footer nav ul li a:focus {
+  color: var(--light);
+  outline: none;
+}
+.footer nav ul li:not(:last-child) a:after {
+  content: " - ";
+}
+@media screen and (min-width: $CSS_BREAKPOINT_START_L) and (max-width: $CSS_BREAKPOINT_END_L) {
+  .footer nav {
+    width: calc($CSS_BREAKPOINT_START_L - (var(--gutter) * 2));
+    margin: 0 auto;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: $CSS_BREAKPOINT_START_XL) {
+  .footer nav {
+    width: calc($CSS_BREAKPOINT_START_XL - (var(--gutter) * 2));
+    margin: 0 auto;
+    justify-content: center;
+  }
+}

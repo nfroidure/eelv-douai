@@ -5,7 +5,7 @@ export default function CustomLink({ children, href, ...props }) {
   return (
     <Link
       href={href || "/"}
-      as={publicRuntimeConfig.buildPrefix + href}
+      as={publicRuntimeConfig.basePath + href}
       {...props}
     >
       {children}
