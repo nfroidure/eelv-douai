@@ -2,7 +2,7 @@
 
 <feed xmlns="http://www.w3.org/2005/Atom">    
   <id>https://eelv-douaisis.fr/actualite</id>
-  <title>Notre actualité - EÉLV Douaisis</title>
+  <title>Notre actualité - EÉLV Douaisis - EÉLV Douaisis</title>
   <subtitle>Découvrez les dernières actions des écologistes de Douai et du Douaisis.</subtitle>
   <link href="https://eelv-douaisis.fr/actualite.atom" rel="self" type="application/atom+xml" />
   <link href="https://eelv-douaisis.fr/actualite" rel="alternate" type="text/html" />

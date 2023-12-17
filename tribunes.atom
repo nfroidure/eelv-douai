@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<feed xmlns="http://www.w3.org/2005/Atom">    
+  <id>https://eelv-douaisis.fr/tribunes</id>
+  <title>Tribunes des élu⋅es - EÉLV Douaisis - EÉLV Douaisis</title>
+  <subtitle>Découvrez les tribunes des élu⋅es EÉLV du Douaisis.</subtitle>
+  <link href="https://eelv-douaisis.fr/tribunes.atom" rel="self" type="application/atom+xml" />
+  <link href="https://eelv-douaisis.fr/tribunes" rel="alternate" type="text/html" />
+  <updated>2023-12-01T12:00:00.000Z</updated>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-12</id>
+    <title>Guy CARUYER - décembre 2023</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-12" rel="alternate" type="text/html" />
+    <updated>2023-12-01T12:00:00Z</updated>
+    <published>2023-12-01T12:00:00Z</published>
+    <summary>Tribune de Guy CARUYER dans le Douai Notre Ville du vendredi 1 décembre 2023</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-11</id>
+    <title>Marie Delattre - novembre 2023</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-11" rel="alternate" type="text/html" />
+    <updated>2023-11-01T12:00:00Z</updated>
+    <published>2023-11-01T12:00:00Z</published>
+    <summary>Tribune de Marie Delattre dans le Douai Notre Ville du mercredi 1 novembre 2023</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-10</id>
+    <title>Katia BITTNER - octobre 2023</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-10" rel="alternate" type="text/html" />
+    <updated>2023-10-01T12:00:00Z</updated>
+    <published>2023-10-01T12:00:00Z</published>
+    <summary>Tribune de Katia BITTNER dans le Douai Notre Ville du dimanche 1 octobre 2023</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-9</id>
+    <title>Stéphanie STIERNON - septembre 2023</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-9" rel="alternate" type="text/html" />
+    <updated>2023-09-01T12:00:00Z</updated>
+    <published>2023-09-01T12:00:00Z</published>
+    <summary>Tribune de Stéphanie STIERNON dans le Douai Notre Ville du vendredi 1 septembre 2023</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-7</id>
+    <title>Yves PIQUOT - juillet 2023</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-7" rel="alternate" type="text/html" />
+    <updated>2023-07-01T12:00:00Z</updated>
+    <published>2023-07-01T12:00:00Z</published>
+    <summary>Tribune de Yves PIQUOT dans le Douai Notre Ville du samedi 1 juillet 2023</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-6</id>
+    <title>Katia BITTNER - juin 2023</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-6" rel="alternate" type="text/html" />
+    <updated>2023-06-01T12:00:00Z</updated>
+    <published>2023-06-01T12:00:00Z</published>
+    <summary>Tribune de Katia BITTNER dans le Douai Notre Ville du jeudi 1 juin 2023</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-5</id>
+    <title>Stéphanie STIERNON - mai 2023</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-5" rel="alternate" type="text/html" />
+    <updated>2023-05-01T12:00:00Z</updated>
+    <published>2023-05-01T12:00:00Z</published>
+    <summary>Tribune de Stéphanie STIERNON dans le Douai Notre Ville du lundi 1 mai 2023</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-4</id>
+    <title>Marie Delattre - avril 2023</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-4" rel="alternate" type="text/html" />
+    <updated>2023-04-01T12:00:00Z</updated>
+    <published>2023-04-01T12:00:00Z</published>
+    <summary>Tribune de Marie Delattre dans le Douai Notre Ville du samedi 1 avril 2023</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-3</id>
+    <title>Jean-Christophe LECLERCQ - mars 2023</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-3" rel="alternate" type="text/html" />
+    <updated>2023-03-01T12:00:00Z</updated>
+    <published>2023-03-01T12:00:00Z</published>
+    <summary>Tribune de Jean-Christophe LECLERCQ dans le Douai Notre Ville du mercredi 1 mars 2023</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-2</id>
+    <title>Stéphanie STIERNON - février 2023</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-2" rel="alternate" type="text/html" />
+    <updated>2023-02-01T12:00:00Z</updated>
+    <published>2023-02-01T12:00:00Z</published>
+    <summary>Tribune de Stéphanie STIERNON dans le Douai Notre Ville du mercredi 1 février 2023</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-1</id>
+    <title>Katia BITTNER - janvier 2023</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-1" rel="alternate" type="text/html" />
+    <updated>2023-01-01T12:00:00Z</updated>
+    <published>2023-01-01T12:00:00Z</published>
+    <summary>Tribune de Katia BITTNER dans le Douai Notre Ville du dimanche 1 janvier 2023</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2022-12</id>
+    <title>Guy CARUYER - décembre 2022</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2022-12" rel="alternate" type="text/html" />
+    <updated>2022-12-01T12:00:00Z</updated>
+    <published>2022-12-01T12:00:00Z</published>
+    <summary>Tribune de Guy CARUYER dans le Douai Notre Ville du jeudi 1 décembre 2022</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2022-11</id>
+    <title>Marie Delattre - novembre 2022</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2022-11" rel="alternate" type="text/html" />
+    <updated>2022-11-01T12:00:00Z</updated>
+    <published>2022-11-01T12:00:00Z</published>
+    <summary>Tribune de Marie Delattre dans le Douai Notre Ville du mardi 1 novembre 2022</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2022-10</id>
+    <title>Yves PIQUOT - octobre 2022</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2022-10" rel="alternate" type="text/html" />
+    <updated>2022-10-01T12:00:00Z</updated>
+    <published>2022-10-01T12:00:00Z</published>
+    <summary>Tribune de Yves PIQUOT dans le Douai Notre Ville du samedi 1 octobre 2022</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2022-9</id>
+    <title>Stéphanie STIERNON - septembre 2022</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2022-9" rel="alternate" type="text/html" />
+    <updated>2022-09-01T12:00:00Z</updated>
+    <published>2022-09-01T12:00:00Z</published>
+    <summary>Tribune de Stéphanie STIERNON dans le Douai Notre Ville du jeudi 1 septembre 2022</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2022-7</id>
+    <title>Katia BITTNER - juillet 2022</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2022-7" rel="alternate" type="text/html" />
+    <updated>2022-07-01T12:00:00Z</updated>
+    <published>2022-07-01T12:00:00Z</published>
+    <summary>Tribune de Katia BITTNER dans le Douai Notre Ville du vendredi 1 juillet 2022</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2022-6</id>
+    <title>Marie Delattre - juin 2022</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2022-6" rel="alternate" type="text/html" />
+    <updated>2022-06-01T12:00:00Z</updated>
+    <published>2022-06-01T12:00:00Z</published>
+    <summary>Tribune de Marie Delattre dans le Douai Notre Ville du mercredi 1 juin 2022</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2022-5</id>
+    <title>Stéphanie STIERNON - mai 2022</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2022-5" rel="alternate" type="text/html" />
+    <updated>2022-05-01T12:00:00Z</updated>
+    <published>2022-05-01T12:00:00Z</published>
+    <summary>Tribune de Stéphanie STIERNON dans le Douai Notre Ville du dimanche 1 mai 2022</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2022-4</id>
+    <title>Guy CARUYER - avril 2022</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2022-4" rel="alternate" type="text/html" />
+    <updated>2022-04-01T12:00:00Z</updated>
+    <published>2022-04-01T12:00:00Z</published>
+    <summary>Tribune de Guy CARUYER dans le Douai Notre Ville du vendredi 1 avril 2022</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2022-3</id>
+    <title>Stéphanie STIERNON - mars 2022</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2022-3" rel="alternate" type="text/html" />
+    <updated>2022-03-01T12:00:00Z</updated>
+    <published>2022-03-01T12:00:00Z</published>
+    <summary>Tribune de Stéphanie STIERNON dans le Douai Notre Ville du mardi 1 mars 2022</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2022-2</id>
+    <title>Yves PIQUOT - février 2022</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2022-2" rel="alternate" type="text/html" />
+    <updated>2022-02-01T12:00:00Z</updated>
+    <published>2022-02-01T12:00:00Z</published>
+    <summary>Tribune de Yves PIQUOT dans le Douai Notre Ville du mardi 1 février 2022</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2022-1</id>
+    <title>Katia BITTNER - janvier 2022</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2022-1" rel="alternate" type="text/html" />
+    <updated>2022-01-01T12:00:00Z</updated>
+    <published>2022-01-01T12:00:00Z</published>
+    <summary>Tribune de Katia BITTNER dans le Douai Notre Ville du samedi 1 janvier 2022</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2021-12</id>
+    <title>Jean-Christophe LECLERCQ - décembre 2021</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2021-12" rel="alternate" type="text/html" />
+    <updated>2021-12-01T12:00:00Z</updated>
+    <published>2021-12-01T12:00:00Z</published>
+    <summary>Tribune de Jean-Christophe LECLERCQ dans le Douai Notre Ville du mercredi 1 décembre 2021</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2021-11</id>
+    <title>Marie Delattre - novembre 2021</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2021-11" rel="alternate" type="text/html" />
+    <updated>2021-11-01T12:00:00Z</updated>
+    <published>2021-11-01T12:00:00Z</published>
+    <summary>Tribune de Marie Delattre dans le Douai Notre Ville du lundi 1 novembre 2021</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2021-10</id>
+    <title>Jean-Christophe LECLERCQ - octobre 2021</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2021-10" rel="alternate" type="text/html" />
+    <updated>2021-10-01T12:00:00Z</updated>
+    <published>2021-10-01T12:00:00Z</published>
+    <summary>Tribune de Jean-Christophe LECLERCQ dans le Douai Notre Ville du vendredi 1 octobre 2021</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2021-9</id>
+    <title>Stéphanie STIERNON - septembre 2021</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2021-9" rel="alternate" type="text/html" />
+    <updated>2021-09-01T12:00:00Z</updated>
+    <published>2021-09-01T12:00:00Z</published>
+    <summary>Tribune de Stéphanie STIERNON dans le Douai Notre Ville du mercredi 1 septembre 2021</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2021-7</id>
+    <title>Yves PIQUOT - juillet 2021</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2021-7" rel="alternate" type="text/html" />
+    <updated>2021-07-01T12:00:00Z</updated>
+    <published>2021-07-01T12:00:00Z</published>
+    <summary>Tribune de Yves PIQUOT dans le Douai Notre Ville du jeudi 1 juillet 2021</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2021-6</id>
+    <title>Stéphanie STIERNON - juin 2021</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2021-6" rel="alternate" type="text/html" />
+    <updated>2021-06-01T12:00:00Z</updated>
+    <published>2021-06-01T12:00:00Z</published>
+    <summary>Tribune de Stéphanie STIERNON dans le Douai Notre Ville du mardi 1 juin 2021</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2021-5</id>
+    <title>Katia BITTNER - mai 2021</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2021-5" rel="alternate" type="text/html" />
+    <updated>2021-05-01T12:00:00Z</updated>
+    <published>2021-05-01T12:00:00Z</published>
+    <summary>Tribune de Katia BITTNER dans le Douai Notre Ville du samedi 1 mai 2021</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2021-4</id>
+    <title>Marie Delattre - avril 2021</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2021-4" rel="alternate" type="text/html" />
+    <updated>2021-04-01T12:00:00Z</updated>
+    <published>2021-04-01T12:00:00Z</published>
+    <summary>Tribune de Marie Delattre dans le Douai Notre Ville du jeudi 1 avril 2021</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2021-3</id>
+    <title>Stéphanie STIERNON - mars 2021</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2021-3" rel="alternate" type="text/html" />
+    <updated>2021-03-01T12:00:00Z</updated>
+    <published>2021-03-01T12:00:00Z</published>
+    <summary>Tribune de Stéphanie STIERNON dans le Douai Notre Ville du lundi 1 mars 2021</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2021-2</id>
+    <title>Guy CARUYER - février 2021</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2021-2" rel="alternate" type="text/html" />
+    <updated>2021-02-01T12:00:00Z</updated>
+    <published>2021-02-01T12:00:00Z</published>
+    <summary>Tribune de Guy CARUYER dans le Douai Notre Ville du lundi 1 février 2021</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2021-1</id>
+    <title>Jean-Christophe LECLERCQ - janvier 2021</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2021-1" rel="alternate" type="text/html" />
+    <updated>2021-01-01T12:00:00Z</updated>
+    <published>2021-01-01T12:00:00Z</published>
+    <summary>Tribune de Jean-Christophe LECLERCQ dans le Douai Notre Ville du vendredi 1 janvier 2021</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2020-12</id>
+    <title>Yves PIQUOT - décembre 2020</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2020-12" rel="alternate" type="text/html" />
+    <updated>2020-12-01T12:00:00Z</updated>
+    <published>2020-12-01T12:00:00Z</published>
+    <summary>Tribune de Yves PIQUOT dans le Douai Notre Ville du mardi 1 décembre 2020</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2020-11</id>
+    <title>Marie Delattre - novembre 2020</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2020-11" rel="alternate" type="text/html" />
+    <updated>2020-11-01T12:00:00Z</updated>
+    <published>2020-11-01T12:00:00Z</published>
+    <summary>Tribune de Marie Delattre dans le Douai Notre Ville du dimanche 1 novembre 2020</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2020-10</id>
+    <title>Katia BITTNER - octobre 2020</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2020-10" rel="alternate" type="text/html" />
+    <updated>2020-10-01T12:00:00Z</updated>
+    <published>2020-10-01T12:00:00Z</published>
+    <summary>Tribune de Katia BITTNER dans le Douai Notre Ville du jeudi 1 octobre 2020</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2020-9</id>
+    <title>Stéphanie STIERNON - septembre 2020</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2020-9" rel="alternate" type="text/html" />
+    <updated>2020-09-01T12:00:00Z</updated>
+    <published>2020-09-01T12:00:00Z</published>
+    <summary>Tribune de Stéphanie STIERNON dans le Douai Notre Ville du mardi 1 septembre 2020</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+</feed>
