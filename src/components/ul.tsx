@@ -1,14 +1,14 @@
 import styles from "./ul.module.scss";
-import type { HTMLAttributes } from "react";
+import type { HTMLAttributes, ReactNode } from "react";
 
-const UnorderedList = ({
+export default function UnorderedList({
   children,
   className,
   ...props
-}: { children: React.ReactNode } & HTMLAttributes<HTMLUListElement>) => (
-  <ul className={styles.ul + (className ? " " + className : "")} {...props}>
-    {children}
-  </ul>
-);
-
-export default UnorderedList;
+}: { children: ReactNode } & HTMLAttributes<HTMLUListElement>) {
+  return (
+    <ul className={styles.ul + (className ? " " + className : "")} {...props}>
+      {children}
+    </ul>
+  );
+}

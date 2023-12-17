@@ -17,10 +17,10 @@ illustration:
 
 **Nous avons visité le terril de Loos-en-Gohelle en compagnie des candidat-es aux régionales 2021**
 
-![Photographie du groupe à Loos-en-Gohelle](illustrations/groupe-terril-loos.jpeg)
-![Photographie de Katia et Karima](illustrations/katia-karima-terril-loos.jpg)
-![Photographie de Stéphanie, Guy et Karima](illustrations/steph-guy-karima-terril-loos.jpg)
-![Photographie du terril](illustrations/photo-terril-loos.jpg)
-![Photographie du chemin qui mène au terril](illustrations/chemin-terril-loos.jpg)
+![Photographie du groupe à Loos-en-Gohelle](/public/illustrations/groupe-terril-loos.jpeg)
+![Photographie de Katia et Karima](/public/illustrations/katia-karima-terril-loos.jpg)
+![Photographie de Stéphanie, Guy et Karima](/public/illustrations/steph-guy-karima-terril-loos.jpg)
+![Photographie du terril](/public/illustrations/photo-terril-loos.jpg)
+![Photographie du chemin qui mène au terril](/public/illustrations/chemin-terril-loos.jpg)
 
 Une visite sympathique à réitérer qui nous a rappelé notre visite de Loos-en-Gohelle avant les municipales 2020.

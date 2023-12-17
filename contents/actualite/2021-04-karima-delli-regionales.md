@@ -17,9 +17,9 @@ illustration:
 
 **Pour le climat, pour l'emploi dans les Hauts-de-France, les verts du Douaisis en campagne !**
 
-![Photographie du lancement de la campagne dans le douaisis](illustrations/lancement-campagne-regionales-2021.jpg)
-![Photographie de Nicolas Froidure qui colle une affiche](illustrations/nicolas-qui-colle.jpg)
-![Photographie de Katia Bittner et Éric Piolle tractant](illustrations/tractage-regionales-karima-delli.jpg)
+![Photographie du lancement de la campagne dans le douaisis](/public/illustrations/lancement-campagne-regionales-2021.jpg)
+![Photographie de Nicolas Froidure qui colle une affiche](/public/illustrations/nicolas-qui-colle.jpg)
+![Photographie de Katia Bittner et Éric Piolle tractant](/public/illustrations/tractage-regionales-karima-delli.jpg)
 
 Ce dimanche 4 avril, notre équipe a sillonné une partie de la ville de Douai, de Sin-le-Noble et également Lambres-lez-Douai pour une séance de collage d'affiches. Quelques rues ont également été tractées.
 

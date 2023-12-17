@@ -1,13 +1,14 @@
 import styles from "./anchored.module.scss";
 import Link from "next/link";
+import type { ReactNode } from "react";
 
-const Anchored = ({
+export default function Anchored({
   children,
   id = "",
 }: {
-  children: React.ReactNode;
+  children: ReactNode;
   id?: string;
-}) => {
+}) {
   return (
     <span className={styles.root}>
       {children}{" "}
@@ -23,6 +24,4 @@ const Anchored = ({
       </small>
     </span>
   );
-};
-
-export default Anchored;
+}

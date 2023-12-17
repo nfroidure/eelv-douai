@@ -1,16 +1,19 @@
 import styles from "./cite.module.scss";
-import type { HTMLAttributes } from "react";
+import type { ReactNode, HTMLAttributes } from "react";
 
-const Cite = ({
+export default function Cite({
   children,
   className,
   ...props
 }: {
-  children: React.ReactNode;
-} & HTMLAttributes<HTMLElement>) => (
-  <cite className={styles.root + (className ? " " + className : "")} {...props}>
-    {children}
-  </cite>
-);
-
-export default Cite;
+  children: ReactNode;
+} & HTMLAttributes<HTMLElement>) {
+  return (
+    <cite
+      className={styles.root + (className ? " " + className : "")}
+      {...props}
+    >
+      {children}
+    </cite>
+  );
+}

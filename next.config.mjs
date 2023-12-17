@@ -12,8 +12,9 @@ export default {
   reactStrictMode: true,
   publicRuntimeConfig: {
     environment: process.env.NODE_ENV,
-    basePath,
     baseURL,
+    basePath,
+    staticPrefix: '',
   },
   assetPrefix: process.env.NODE_ENV === "production" ? "" : "",
   basePath: process.env.NODE_ENV === "production" ? "" : "",

@@ -21,12 +21,12 @@ En septembre 2019, avec l'opération "Mon idée écologique pour Douai, EÉLV Do
 
 En parallèle, nous proposions aux partis ouverts aux idées que nous défendons, de discuter pour une large union dès le premier tour. Faute d'aboutir, nous engagions des réunions bilatérales avec la majorité sortante dont nous faisions parti et les initiateurs d'"Ensemble Faisons Douai". Il nous apparut alors clair que faire entrer Douai dans la transition écologique serait possible en reconduisant l'union de 2014 mais avec une meilleure représentativité des écologistes dans cette majorité renouvelée ainsi que sur la base d'accord programmatiques sans équivoque, portés par écrit et d'une ambition sans précédent à Douai.
 
-![Photographie de groupe de Douai au Cœur](illustrations/victoire_municipales_douai_2020.jpg)
-![Photographie de l'affiche de Douai au Cœur](illustrations/affiches_douai_au_coeur.jpg)
-![Photographie d'une réunion publique de Douai au Cœur](illustrations/reunion_publique_douai_au_coeur.jpg)
-![Photographie d'une autre réunion publique de Douai au Cœur](illustrations/reunion_publique_douai_au_coeur_2.jpg)
-![Photographie d'un tractage pour Douai au Cœur](illustrations/lucile_herve.jpg)
-![Photographie d'un autre tractage pour Douai au Cœur](illustrations/tractage_douai_au_coeur.jpg)
+![Photographie de groupe de Douai au Cœur](/public/illustrations/victoire_municipales_douai_2020.jpg)
+![Photographie de l'affiche de Douai au Cœur](/public/illustrations/affiches_douai_au_coeur.jpg)
+![Photographie d'une réunion publique de Douai au Cœur](/public/illustrations/reunion_publique_douai_au_coeur.jpg)
+![Photographie d'une autre réunion publique de Douai au Cœur](/public/illustrations/reunion_publique_douai_au_coeur_2.jpg)
+![Photographie d'un tractage pour Douai au Cœur](/public/illustrations/lucile_herve.jpg)
+![Photographie d'un autre tractage pour Douai au Cœur](/public/illustrations/tractage_douai_au_coeur.jpg)
 
 Après de longs mois d'attente, nous sommes heureux/uses que les douaisien·nes aient confirmé ces choix et impatient·es de mettre en oeuvre le programme qui, suite à la crise dramatique du COVID-19 prend un sens encore plus prégnant.
 

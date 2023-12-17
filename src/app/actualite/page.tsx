@@ -12,10 +12,10 @@ import {
   type News,
   type NewsFrontmatterMetadata,
 } from "../../utils/news";
+import { slicePage } from "../../utils/pagination";
 import type { BasePagingPageMetadata } from "../../utils/contents";
 import type { BuildQueryParamsType } from "../../utils/params";
-import { Metadata } from "next";
-import { slicePage } from "../../utils/pagination";
+import { type Metadata } from "next";
 
 export type Props = BasePagingPageMetadata<News>;
 

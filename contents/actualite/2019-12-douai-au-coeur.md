@@ -25,9 +25,9 @@ En juin, le groupe EÉLV a organisé une conférence de presse et a émis le sou
 
 Forts de ces échanges, les militants d'EÉLV Douai se sont regroupés en Assemblée Générale et ont voté à la majorité l'union PS, PC et collectif Vivre Douai. En effet, il y a bien peu de divergences au regard de ce qui nous unit. Ce rassemblement est apparu comme la meilleure chance pour Douai de développer une politique d'ouverture et de transition écologique.
 
-![Photographie de groupe des membres écologistes de Douai au Cœur](illustrations/groupe_eelv_douai_au_coeur.jpg)
-![Photographie de Stéphanie Stiernon signant la charte](illustrations/signature_stephanie_stiernon.jpg)
-![Photographie de Jean-Christophe Leclercq signant la charte](illustrations/signature_jean_christophe_leclercq.jpg)
+![Photographie de groupe des membres écologistes de Douai au Cœur](/public/illustrations/groupe_eelv_douai_au_coeur.jpg)
+![Photographie de Stéphanie Stiernon signant la charte](/public/illustrations/signature_stephanie_stiernon.jpg)
+![Photographie de Jean-Christophe Leclercq signant la charte](/public/illustrations/signature_jean_christophe_leclercq.jpg)
 
 ### Nos coeurs restent ouverts à la gauche qui s'écologise
 

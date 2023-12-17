@@ -1,4 +1,4 @@
-import { Fragment } from "react";
+import styles from "./markdown.module.css";
 import { unified } from "unified";
 import remarkParse from "remark-parse";
 import Anchor from "../components/a";
@@ -22,12 +22,12 @@ import Cite from "../components/cite";
 import Img from "../components/img";
 import Gallery from "../components/gallery";
 import { fixText } from "./text";
-import YError from "yerror";
+import { YError } from "yerror";
 import { publicRuntimeConfig } from "./config";
 import { toASCIIString } from "./ascii";
 import { parseYouTubeURL } from "./youtube";
+import { Fragment, type ReactNode } from "react";
 import type { ImageFloating, ImageOrientation } from "../components/img";
-import type { ReactNode } from "react";
 
 export type MarkdownRootNode = {
   type: "root";
@@ -84,6 +84,9 @@ export type MarkdownImageNode = {
   alt: string;
   title: string;
 };
+export type MarkdownBreakNode = {
+  type: "break";
+};
 export type MarkdownLinkNode = {
   type: "link";
   url: string;
@@ -107,6 +110,7 @@ export type MarkdownNode =
   | MarkdownListItemNode
   | MarkdownHRNode
   | MarkdownImageNode
+  | MarkdownBreakNode
   | MarkdownLinkNode
   | MarkdownHTMLNode
   | MarkdownBlockquoteNode;
@@ -115,7 +119,7 @@ export type MappingContext = { index: number };
 export type NodeToElementMapper<T extends MarkdownNode> = (
   context: MappingContext,
   node: T
-) => React.ReactNode;
+) => ReactNode;
 
 const rootMap: NodeToElementMapper<MarkdownRootNode> = (
   context: MappingContext,
@@ -266,6 +270,9 @@ const listItemMap: NodeToElementMapper<MarkdownListItemNode> = (
 const hrMap: NodeToElementMapper<MarkdownHRNode> = (context) => (
   <HorizontalRule key={context.index} />
 );
+const breakMap: NodeToElementMapper<MarkdownBreakNode> = (context) => (
+  <br key={context.index} />
+);
 const htmlMap: NodeToElementMapper<MarkdownHTMLNode> = (
   context: MappingContext,
   node
@@ -297,18 +304,14 @@ const hyperlinkMap: NodeToElementMapper<MarkdownLinkNode> = (context, node) => {
   const youtubeURL = parseYouTubeURL(node.url);
 
   return node?.title?.startsWith("🎧") ? (
-    <audio  key={context.index}
+    <audio
+      key={context.index}
       controls
-      src={
-        publicRuntimeConfig.baseURL +
-        publicRuntimeConfig.basePath +
-        "/" +
-        node.url
-      }
+      src={qualifyPath(node.url)}
       title={node.title.replace(/^🎧\s*/u, "").trim()}
     />
   ) : youtubeURL && node?.title?.startsWith("📺") ? (
-    <span className="root" key={context.index}>
+    <span className={styles.root} key={context.index}>
       <iframe
         width="560"
         height="315"
@@ -316,7 +319,6 @@ const hyperlinkMap: NodeToElementMapper<MarkdownLinkNode> = (context, node) => {
           youtubeURL.startTime ? "?start=" + youtubeURL.startTime : ""
         }`}
         title={node.title.replace(/^📺\s*/u, "").trim()}
-        frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></iframe>
@@ -340,6 +342,7 @@ const elementsMapping: Record<MarkdownNodeType, NodeToElementMapper<any>> = {
   link: hyperlinkMap,
   blockquote: blockquoteMap,
   thematicBreak: hrMap,
+  break: breakMap,
   text: textMap,
   emphasis: emphasisMap,
   inlineCode: codeMap,
@@ -483,12 +486,7 @@ function parseImageProps(node: MarkdownImageNode): {
     : node.title?.includes("▮")
     ? "portrait"
     : "landscape";
-  const src = node.url.startsWith("http")
-    ? node.url
-    : publicRuntimeConfig.baseURL +
-      publicRuntimeConfig.basePath +
-      "/" +
-      node.url.replace(/^(\.\/)?(\.\.\/)*public\//, "");
+  const src = qualifyPath(node.url);
 
   return {
     title,
@@ -496,4 +494,17 @@ function parseImageProps(node: MarkdownImageNode): {
     orientation,
     src,
   };
+}
+
+// Change VSCode autocompleted paths to URLs
+export function qualifyPath(path: string): string {
+  if (/^https?:\/\//.test(path)) {
+    return path;
+  }
+  if (path.startsWith("/public/")) {
+    return (
+      (publicRuntimeConfig?.staticPrefix || "") + path.replace("/public/", "/")
+    );
+  }
+  return path;
 }

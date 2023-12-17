@@ -4,7 +4,7 @@ import type { ImgHTMLAttributes } from "react";
 export type ImageOrientation = "portrait" | "landscape" | "square";
 export type ImageFloating = "left" | "right";
 
-const Img = ({
+export default function Img({
   orientation = "landscape",
   float,
   className,
@@ -12,7 +12,7 @@ const Img = ({
 }: {
   orientation: ImageOrientation;
   float?: ImageFloating;
-} & ImgHTMLAttributes<HTMLImageElement>) => {
+} & ImgHTMLAttributes<HTMLImageElement>) {
   return (
     <span
       className={[
@@ -25,6 +25,4 @@ const Img = ({
       <img {...props} />
     </span>
   );
-};
-
-export default Img;
+}

@@ -1,19 +1,19 @@
 import styles from "./strong.module.scss";
-import type { HTMLAttributes } from "react";
+import type { ReactNode, HTMLAttributes } from "react";
 
-const Strong = ({
+export default function Strong({
   children,
   className,
   ...props
 }: {
-  children: React.ReactNode;
-} & HTMLAttributes<HTMLElement>) => (
-  <strong
-    className={styles.root + (className ? " " + className : "")}
-    {...props}
-  >
-    {children}
-  </strong>
-);
-
-export default Strong;
+  children: ReactNode;
+} & HTMLAttributes<HTMLElement>) {
+  return (
+    <strong
+      className={styles.root + (className ? " " + className : "")}
+      {...props}
+    >
+      {children}
+    </strong>
+  );
+}

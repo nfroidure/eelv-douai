@@ -1,18 +1,19 @@
 import styles from "./blockquote.module.scss";
+import type { ReactNode, BlockquoteHTMLAttributes } from "react";
 
-const Blockquote = ({
+export default function Blockquote({
   children,
   className,
   ...props
 }: {
-  children: React.ReactNode;
-} & React.BlockquoteHTMLAttributes<HTMLElement>) => (
-  <blockquote
-    className={styles.root + (className ? " " + className : "")}
-    {...props}
-  >
-    {children}
-  </blockquote>
-);
-
-export default Blockquote;
+  children: ReactNode;
+} & BlockquoteHTMLAttributes<HTMLElement>) {
+  return (
+    <blockquote
+      className={styles.root + (className ? " " + className : "")}
+      {...props}
+    >
+      {children}
+    </blockquote>
+  );
+}

@@ -5,6 +5,7 @@ export type GlobalConfig = {
     environment: string;
     baseURL: string;
     basePath: string;
+    staticPrefix: string;
   };
 };
 

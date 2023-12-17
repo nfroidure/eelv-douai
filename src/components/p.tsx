@@ -1,16 +1,16 @@
 import styles from "./p.module.scss";
-import type { HTMLAttributes } from "react";
+import type { ReactNode, HTMLAttributes } from "react";
 
-const Paragraph = ({
+export default function Paragraph({
   children,
   className,
   ...props
 }: {
-  children: React.ReactNode;
-} & HTMLAttributes<HTMLParagraphElement>) => (
-  <p className={styles.root + (className ? " " + className : "")} {...props}>
-    {children}
-  </p>
-);
-
-export default Paragraph;
+  children: ReactNode;
+} & HTMLAttributes<HTMLParagraphElement>) {
+  return (
+    <p className={styles.root + (className ? " " + className : "")} {...props}>
+      {children}
+    </p>
+  );
+}

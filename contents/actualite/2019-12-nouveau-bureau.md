@@ -15,7 +15,7 @@ illustration:
 
 # EÉLV Douaisis se dote d'un nouveau bureau
 
-![Photographie de Nicolas Froidure et Sophie Piquot](illustrations/bureau_eelv_douaisis.jpg "🖼➡️")
+![Photographie de Nicolas Froidure et Sophie Piquot](/public/illustrations/bureau_eelv_douaisis.jpg "🖼➡️")
 
 Au terme d'une assemblée générale ayant eu lieu le samedi 14 décembre, une nouvelle équipe d'animation a été élue par le groupe local EÉLV Douaisis.
 
@@ -29,6 +29,6 @@ Pour les assister dans cette tâche, une équipe d'animation paritaire composée
 
 Pour pour plus d'informations sur sa composition, [rendez-vous sur la page dédiée au bureau](/a_propos/bureau)
 
-![Photographie du groupe local](illustrations/groupe_eelv_douaisis.jpg)
+![Photographie du groupe local](/public/illustrations/groupe_eelv_douaisis.jpg)
 
 [📢 Voir le dossier de presse complet](https://drive.google.com/drive/u/1/folders/1w6pfL2PtY3uxQBDeru1GabMRiwmWVHJG)

@@ -34,7 +34,7 @@ export async function generateMetadata({
   const entry = await parsePage(params.slug);
 
   return buildMetadata({
-    pathname: "/a_propos/bureau",
+    pathname: "/" + pathJoin(...(params.slug || [])),
     title: fixText(entry.title),
     description: fixText(entry.description),
   });
