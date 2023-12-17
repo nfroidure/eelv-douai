@@ -10,12 +10,6 @@ const Cite = ({
 } & HTMLAttributes<HTMLElement>) => (
   <cite className={styles.root + (className ? " " + className : "")} {...props}>
     {children}
-    <style jsx>{`
-      .root {
-        color: var(--primary);
-        text-decoration: underline;
-      }
-    `}</style>
   </cite>
 );
 

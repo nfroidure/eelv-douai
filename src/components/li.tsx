@@ -9,11 +9,6 @@ const ListItem = ({
 } & React.LiHTMLAttributes<HTMLLIElement>) => (
   <li className={styles.root + (className ? " " + className : "")} {...props}>
     {children}
-    <style jsx>{`
-      .root > :global(:first-child:last-child) {
-        margin: 0;
-      }
-    `}</style>
   </li>
 );
 

@@ -1,6 +1,7 @@
+"use client";
+
 import styles from "./gallery.module.scss";
 import { useState } from "react";
-import { publicRuntimeConfig } from "../utils/config";
 import type { MarkdownImageNode } from "../utils/markdown";
 
 const Gallery = ({ imagesNodes }: { imagesNodes: MarkdownImageNode[] }) => {
@@ -13,10 +14,7 @@ const Gallery = ({ imagesNodes }: { imagesNodes: MarkdownImageNode[] }) => {
           src={
             imagesNodes[selectedIndex].url.startsWith("http")
               ? imagesNodes[selectedIndex].url
-              : publicRuntimeConfig.baseURL +
-                publicRuntimeConfig.basePath +
-                "/" +
-                imagesNodes[selectedIndex].url
+              : "/" + imagesNodes[selectedIndex].url
           }
           alt={imagesNodes[selectedIndex].alt || ""}
         />
@@ -29,10 +27,7 @@ const Gallery = ({ imagesNodes }: { imagesNodes: MarkdownImageNode[] }) => {
                 src={
                   imageNode.url.startsWith("http")
                     ? imageNode.url
-                    : publicRuntimeConfig.baseURL +
-                      publicRuntimeConfig.basePath +
-                      "/" +
-                      imageNode.url
+                    : "/" + imageNode.url
                 }
                 alt={imageNode.alt || ""}
               />

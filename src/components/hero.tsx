@@ -1,7 +1,13 @@
+"use client";
+
 import styles from "./hero.module.scss";
 import { useScrollPosition } from "../hooks/useScrollPosition";
 
-export default function Hero({ backgroundImage }) {
+export default function Hero({
+  backgroundImage = "",
+}: {
+  backgroundImage?: string;
+}) {
   const scrollPosition = useScrollPosition([backgroundImage]);
   const visible =
     backgroundImage && (!scrollPosition || scrollPosition.y === 0);

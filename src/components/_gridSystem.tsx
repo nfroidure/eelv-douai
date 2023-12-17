@@ -1,15 +1,6 @@
 import styles from "./_gridSystem.module.scss";
-import { createContext } from "react";
 
-export const DEFAULT_GRID_H = 0.55 * 16;
-export const DEFAULT_GRID_V = 0.1875 * 16;
-
-export const GridContext = createContext({
-  h: DEFAULT_GRID_H,
-  v: DEFAULT_GRID_V,
-});
-
-export function GridSystem(): JSX.Element {
+export default function GridSystem(): JSX.Element {
   return (
     <div className={styles.grid} id="gridSystem">
       <div className={styles.vGrid} id="vGridSystem">

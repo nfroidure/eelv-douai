@@ -40,6 +40,7 @@ export default async function buildMetadata({
   return {
     title: fullTitle,
     description,
+    metadataBase: new URL(`https://${DOMAIN_NAME}`),
     alternates: {
       canonical: canonicalURL,
     },

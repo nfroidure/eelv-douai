@@ -1,5 +1,6 @@
 /* Google Fonts: Here to be included in both Storybook and the app */
 @import url("https://fonts.googleapis.com/css2?family=Roboto");
+@import "./variables.scss";
 
 :root {
   /* Colors */
@@ -20,18 +21,17 @@
   --success: #63c132;
   --warning: #ff521b;
   --danger: #ea2b1f;
-  
-  --darkBorderColor: #71a510;
-  --darkActionSelectedColor: #78AE11;
-  --darkActionHoverColor: #78AE11;
-  --lighterTextColor: #ffffff;
 
+  --darkBorderColor: #71a510;
+  --darkActionSelectedColor: #78ae11;
+  --darkActionHoverColor: #78ae11;
+  --lighterTextColor: #ffffff;
   /* Atomic values */
-  --hGrid: 0.55rem;
+  --hGrid: #{$CSS_GRID_H};
   --gutter: calc(var(--hGrid) * 3);
   --column: calc(var(--hGrid) * 8);
   --block: calc(var(--column) * 3 + var(--gutter) * 2);
-  --vGrid: 0.1875rem;
+  --vGrid: #{$CSS_GRID_V};
   --vRythm: calc(8 * var(--vGrid));
   --border: calc(var(--vGrid) / 2);
   --borderRadius: calc(var(--hGrid) / 2);

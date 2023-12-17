@@ -1,13 +1,15 @@
+"use client";
+
 import styles from "./nav.module.scss";
-import React, { useState } from "react";
-import { useRouter } from "next/router";
+import { useState } from "react";
+import { usePathname } from "next/navigation";
 import { useScrollPosition } from "../hooks/useScrollPosition";
 import Link from "./link";
 
-const Nav = () => {
+export default function Nav() {
   const scrollPosition = useScrollPosition();
   const [collapsed, setCollapsed] = useState(true);
-  const router = useRouter();
+  const pathname = usePathname();
   const fixed = scrollPosition && scrollPosition.y !== 0;
 
   return (
@@ -23,17 +25,14 @@ const Nav = () => {
       </button>
       <ul>
         <li>
-          <Link
-            href="/"
-            className={router.pathname === "/" ? styles.selected : ""}
-          >
+          <Link href="/" className={pathname === "/" ? styles.selected : ""}>
             Accueil
           </Link>
         </li>
         <li>
           <Link
             href="/a_propos"
-            className={router.pathname === "/a_propos" ? styles.selected : ""}
+            className={pathname === "/a_propos" ? styles.selected : ""}
           >
             Présentation
           </Link>
@@ -41,7 +40,7 @@ const Nav = () => {
         <li>
           <Link
             href="/actualite"
-            className={router.pathname === "/actualite" ? styles.selected : ""}
+            className={pathname === "/actualite" ? styles.selected : ""}
           >
             Actualités
           </Link>
@@ -49,7 +48,7 @@ const Nav = () => {
         <li>
           <Link
             href="/ressources"
-            className={router.pathname === "/ressources" ? styles.selected : ""}
+            className={pathname === "/ressources" ? styles.selected : ""}
           >
             Ressources
           </Link>
@@ -57,7 +56,7 @@ const Nav = () => {
         <li>
           <Link
             href="/contact"
-            className={router.pathname === "/contact" ? styles.selected : ""}
+            className={pathname === "/contact" ? styles.selected : ""}
           >
             Contact
           </Link>
@@ -65,6 +64,4 @@ const Nav = () => {
       </ul>
     </nav>
   );
-};
-
-export default Nav;
+}

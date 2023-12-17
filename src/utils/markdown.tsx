@@ -1,4 +1,4 @@
-import React from "react";
+import { Fragment } from "react";
 import { unified } from "unified";
 import remarkParse from "remark-parse";
 import Anchor from "../components/a";
@@ -209,10 +209,10 @@ const textMap: NodeToElementMapper<MarkdownTextNode> = (context, node) => (
     {fixText(node.value)
       .split(/\r?\n/gm)
       .map((text, i) => (
-        <React.Fragment key={1}>
+        <Fragment key={1}>
           {i > 0 ? <br /> : null}
           {text}
-        </React.Fragment>
+        </Fragment>
       ))}
   </span>
 );
@@ -320,23 +320,6 @@ const hyperlinkMap: NodeToElementMapper<MarkdownLinkNode> = (context, node) => {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></iframe>
-      <style jsx>{`
-        .root {
-          display: block;
-          overflow: hidden;
-          padding-bottom: 56.25%;
-          position: relative;
-          height: 0;
-        }
-
-        .root iframe {
-          left: 0;
-          top: 0;
-          height: 100%;
-          width: 100%;
-          position: absolute;
-        }
-      `}</style>
     </span>
   ) : (
     <Anchor href={node.url} title={node.title} key={context.index}>

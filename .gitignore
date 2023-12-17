@@ -33,3 +33,5 @@ credentials.json
 
 public/actualite.atom
 public/actualite.rss
+public/tribunes.atom
+public/tribunes.rss
