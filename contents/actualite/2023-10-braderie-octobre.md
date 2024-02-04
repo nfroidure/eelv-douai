@@ -9,7 +9,7 @@ tags:
   - "braderie"
 illustration:
   url: "illustrations/braderie-octobre-2023.jpg"
-  alt: ’Photographie de notre stand à la braderie d’octobre’
+  alt: "Photographie de notre stand à la braderie d’octobre"
 ---
 
 # Braderie d’octobre 2023 à Douai

@@ -9,8 +9,8 @@ categories:
 tags:
   - "bureau"
 illustration:
-  url: "illustrations/reunion_groupe_eelv.jpg"
-  alt: 'Photographie du groupe EÉLV Douaisis'
+  url: "illustrations/assemblee-generale-mars-2023.jpg"
+  alt: "Photographie du groupe EÉLV Douaisis"
 ---
 
 # Un nouveau bureau pour 2023/2024
