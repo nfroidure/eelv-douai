@@ -4,6 +4,7 @@ import Paragraph from "./p";
 import Anchor from "./a";
 import Img from "./img";
 import type { BaseContentPageMetadata } from "../utils/contents";
+import { qualifyPath } from "../utils/markdown";
 
 const Items = <T extends BaseContentPageMetadata>({
   entries,
@@ -22,7 +23,7 @@ const Items = <T extends BaseContentPageMetadata>({
                 <Img
                   float="left"
                   orientation="landscape"
-                  src={"/" + entry.illustration.url}
+                  src={qualifyPath(entry.illustration.url)}
                   alt={entry.illustration.alt}
                 />
               </Anchor>
