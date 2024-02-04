@@ -4,7 +4,7 @@ description: Quelques ressources que notre groupe local vous propose.
 date: "2023-04-20T14:15:47.659Z"
 draft: false
 illustration:
-  href: "/illustrations/ressources.jpg"
+  url: "/public/illustrations/ressources.jpg"
   alt: "Ressources"
 ---
 

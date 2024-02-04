@@ -19,6 +19,10 @@ export type NewsFrontmatterMetadata = {
     url: string;
     alt: string;
   };
+  audio?: {
+    url: string;
+    type: string;
+  };
 };
 
 export type News = {

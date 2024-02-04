@@ -28,6 +28,7 @@ import { toASCIIString } from "./ascii";
 import { parseYouTubeURL } from "./youtube";
 import { Fragment, type ReactNode } from "react";
 import type { ImageFloating, ImageOrientation } from "../components/img";
+import { ASSET_PREFIX } from "./constants";
 
 export type MarkdownRootNode = {
   type: "root";
@@ -502,9 +503,7 @@ export function qualifyPath(path: string): string {
     return path;
   }
   if (path.startsWith("/public/")) {
-    return (
-      (publicRuntimeConfig?.staticPrefix || "") + path.replace("/public/", "/")
-    );
+    return ASSET_PREFIX + path.replace("/public/", "/");
   }
   return path;
 }

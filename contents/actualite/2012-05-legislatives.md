@@ -9,7 +9,7 @@ categories:
 tags:
   - Douaisis
 illustration:
-  url: "illustrations/legislatives-2012.jpg"
+  url: "/public/illustrations/legislatives-2012.jpg"
   alt: "Photographie des candidat·es"
 ---
 

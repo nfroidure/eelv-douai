@@ -9,7 +9,7 @@ categories:
 tags:
   - "bureau"
 illustration:
-  url: "illustrations/bureau_eelv_douaisis.jpg"
+  url: "/public/illustrations/bureau_eelv_douaisis.jpg"
   alt: "Photographie de Nicolas Froidure et Sophie Piquot"
 ---
 

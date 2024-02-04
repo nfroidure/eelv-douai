@@ -9,7 +9,7 @@ categories:
 tags:
   - Hauts-de-France
 illustration:
-  url: "illustrations/groupe-terril-loos.jpeg"
+  url: "/public/illustrations/groupe-terril-loos.jpeg"
   alt: "Photographie du groupe à Loos-en-Gohelle"
 ---
 

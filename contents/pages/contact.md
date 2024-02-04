@@ -4,7 +4,7 @@ description: N’hésitez à nous contacter.
 date: "2023-04-20T14:15:47.659Z"
 draft: false
 illustration:
-  href: "/illustrations/marie-cagenon-scarpe.jpg"
+  url: "/public/illustrations/marie-cagenon-scarpe.jpg"
   alt: "Dessin de Marie Cagenon (Madame Gayant)"
 ---
 

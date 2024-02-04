@@ -10,7 +10,7 @@ categories:
 tags:
   - "débat"
 illustration:
-  url: "illustrations/reunion_groupe_eelv.jpg"
+  url: "/public/illustrations/reunion_groupe_eelv.jpg"
   alt: 'Photographie du groupe EÉLV Douaisis'
 ---
 

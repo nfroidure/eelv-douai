@@ -9,7 +9,7 @@ categories:
 tags:
   - Douai
 illustration:
-  url: "illustrations/victoire_municipales_douai_2020.jpg"
+  url: "/public/illustrations/victoire_municipales_douai_2020.jpg"
   alt: "Photographie de groupe de Douai au Cœur"
 ---
 

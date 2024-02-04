@@ -1,41 +1,58 @@
 import { OpenGraphType } from "next/dist/lib/metadata/types/opengraph-types";
-import { publicRuntimeConfig } from "../utils/config";
 import {
   ORGANISATION_NAME,
   DOMAIN_NAME,
   TWITTER_ACCOUNT,
+  ASSET_PREFIX,
 } from "../utils/constants";
-import type { Metadata } from "next";
+import type { Metadata, ResolvedMetadata } from "next";
+
+// Copied from NextJS types, replace per imports whenever possible
+type OGImageDescriptor = {
+  url: string;
+  alt?: string;
+  type?: string;
+  width?: number;
+  height?: number;
+};
+type OGAudioDescriptor = {
+  url: string;
+  type?: string;
+};
+export type OGAudio = NonNullable<
+  NonNullable<ResolvedMetadata["openGraph"]>["audio"]
+>[number];
 
 export default async function buildMetadata({
   pathname,
   title,
   description,
-  image,
   type = "website",
+  image,
+  audio,
 }: {
   pathname: string;
   title: string;
   description: string;
-  image?: string;
   type?: OpenGraphType;
+  image?: OGImageDescriptor;
+  audio?: OGAudioDescriptor;
 }): Promise<Metadata> {
   const fullTitle = `${title ? `${title} - ` : ""}${ORGANISATION_NAME}`;
-  const canonicalURL =
-    publicRuntimeConfig.baseURL +
-    publicRuntimeConfig.basePath +
-    (pathname || "/");
-  const imageURL =
-    typeof image === "string" && image && /^https?:\/\//.test(image)
-      ? image
-      : image
-      ? publicRuntimeConfig.baseURL +
-        publicRuntimeConfig.basePath +
-        (image.startsWith("/") ? "" : "/") +
-        image
-      : publicRuntimeConfig.baseURL +
-        publicRuntimeConfig.basePath +
-        "/images/banner.png";
+  const canonicalURL = ASSET_PREFIX + (pathname || "/");
+  const finalImage: OGImageDescriptor =
+    typeof image !== "undefined"
+      ? /^https?:\/\//.test(image.url)
+        ? image
+        : {
+            ...image,
+            url:
+              ASSET_PREFIX + (image.url.startsWith("/") ? "" : "/") + image.url,
+          }
+      : {
+          alt: "Bannière du site",
+          url: ASSET_PREFIX + "/illustrations/photo-ag-eelv-douaisis-2023.jpg",
+        };
 
   return {
     title: fullTitle,
@@ -53,17 +70,17 @@ export default async function buildMetadata({
     icons: {
       icon: [
         {
-          url: publicRuntimeConfig.basePath + "/images/favicon.svg",
+          url: ASSET_PREFIX + "/images/favicon.svg",
           type: "image/svg+xml",
           sizes: "any",
         },
         {
-          url: publicRuntimeConfig.basePath + "/images/favicon-16.png",
+          url: ASSET_PREFIX + "/images/favicon-16.png",
           type: "image/png",
           sizes: "16x16",
         },
         {
-          url: publicRuntimeConfig.basePath + "/images/favicon-128.png",
+          url: ASSET_PREFIX + "/images/favicon-128.png",
           type: "image/png",
           sizes: "128x128",
         },
@@ -77,10 +94,15 @@ export default async function buildMetadata({
       url: canonicalURL,
       title: fullTitle,
       description,
-      images: [imageURL],
+      images: [finalImage],
       siteName: ORGANISATION_NAME,
       locale: "fr_FR",
       type,
+      ...(typeof audio !== "undefined"
+        ? {
+            audio: [audio],
+          }
+        : {}),
     },
     twitter: {
       site: `@${TWITTER_ACCOUNT}`,

@@ -2,6 +2,7 @@
 
 import styles from "./hero.module.scss";
 import { useScrollPosition } from "../hooks/useScrollPosition";
+import { qualifyPath } from "../utils/markdown";
 
 export default function Hero({
   backgroundImage = "",
@@ -15,7 +16,7 @@ export default function Hero({
   return (
     <div
       className={[styles.hero, ...(visible ? [styles.visible] : [])].join(" ")}
-      style={{ backgroundImage: `url("${backgroundImage}")` }}
+      style={{ backgroundImage: `url("${qualifyPath(backgroundImage)}")` }}
     ></div>
   );
 }

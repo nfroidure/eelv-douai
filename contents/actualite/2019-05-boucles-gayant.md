@@ -9,7 +9,7 @@ categories:
 tags:
   - "Sport"
 illustration:
-  url: "illustrations/eelv_boucles_gayant.jpg"
+  url: "/public/illustrations/eelv_boucles_gayant.jpg"
   alt: "Photographie de nos participant·es"
 ---
 

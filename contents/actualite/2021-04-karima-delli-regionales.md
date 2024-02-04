@@ -9,7 +9,7 @@ categories:
 tags:
   - Hauts-de-France
 illustration:
-  url: "illustrations/lancement-campagne-regionales-2021.jpg"
+  url: "/public/illustrations/lancement-campagne-regionales-2021.jpg"
   alt: "Photographie du lancement de la campagne dans le douaisis"
 ---
 

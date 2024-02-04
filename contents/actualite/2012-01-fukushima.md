@@ -10,7 +10,7 @@ categories:
 tags:
   - "Nucléaire"
 illustration:
-  url: "illustrations/centrale-nucleaire.jpg"
+  url: "/public/illustrations/centrale-nucleaire.jpg"
   alt: 'Photographie de la centrale nucléaire de Grenoble'
 ---
 

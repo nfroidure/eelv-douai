@@ -3,7 +3,7 @@ import { readEntries } from "../../../utils/frontmatter";
 import { fixText } from "../../../utils/text";
 import { pathJoin } from "../../../utils/files";
 import { datedPagesSorter } from "../../../utils/contents";
-import { renderMarkdown } from "../../../utils/markdown";
+import { qualifyPath, renderMarkdown } from "../../../utils/markdown";
 import ContentBlock from "../../../components/contentBlock";
 import Paragraph from "../../../components/p";
 import { Fragment } from "react";
@@ -33,6 +33,23 @@ export async function generateMetadata({
     pathname: `/actualite/${entry.id}`,
     title: fixText(entry.title),
     description: fixText(entry.description),
+    type: "article",
+    ...(typeof entry.illustration !== "undefined"
+      ? {
+          image: {
+            url: qualifyPath(entry.illustration.url),
+            alt: entry.illustration.alt,
+          },
+        }
+      : {}),
+    ...(typeof entry.audio !== "undefined"
+      ? {
+          audio: {
+            url: qualifyPath(entry.audio.url),
+            type: entry.audio.type,
+          },
+        }
+      : {}),
   });
 }
 
@@ -67,7 +84,7 @@ export default async function Page({ params }: { params: { id: string } }) {
 
   return (
     <Fragment>
-      <Hero backgroundImage={"/" + entry.illustration?.url} />
+      <Hero backgroundImage={entry.illustration?.url} />
       <MainContent>
         <ContentBlock>
           {renderMarkdown({ index: 0 }, entry.content)}

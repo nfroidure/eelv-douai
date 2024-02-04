@@ -4,7 +4,7 @@ description: Site Internet de notre groupe local.
 date: "2023-04-20T14:15:47.659Z"
 draft: false
 illustration:
-  href: "/illustrations/reunion_groupe_eelv.jpg"
+  url: "/public/illustrations/photo-ag-eelv-douaisis-2023.jpg"
   alt: "Photographie d'une réunion EÉLV Douai"
 ---
 

@@ -9,7 +9,7 @@ categories:
 tags:
   - Douai
 illustration:
-  url: "illustrations/groupe_eelv_douai_au_coeur.jpg"
+  url: "/public/illustrations/groupe_eelv_douai_au_coeur.jpg"
   alt: "Photographie de groupe des membres écologistes de Douai au Cœur"
 ---
 

@@ -9,7 +9,7 @@ categories:
 tags:
   - "bureau"
 illustration:
-  url: "illustrations/assemblee-generale-mars-2023.jpg"
+  url: "/public/illustrations/assemblee-generale-mars-2023.jpg"
   alt: "Photographie du groupe EÉLV Douaisis"
 ---
 

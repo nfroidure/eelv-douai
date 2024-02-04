@@ -10,7 +10,7 @@ tags:
   - élu⋅es
   - Douai
 illustration:
-  url: "illustrations/capture-interview-stephanie-stiernon.jpg"
+  url: "/public/illustrations/capture-interview-stephanie-stiernon.jpg"
   alt: "Capture d'écran de l'interview de Stéphanie Stiernon"
 ---
 

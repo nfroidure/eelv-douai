@@ -8,7 +8,7 @@ categories:
 tags:
   - "braderie"
 illustration:
-  url: "illustrations/braderie-octobre-2023.jpg"
+  url: "/public/illustrations/braderie-octobre-2023.jpg"
   alt: "Photographie de notre stand à la braderie d’octobre"
 ---
 

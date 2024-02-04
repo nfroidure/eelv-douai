@@ -4,7 +4,7 @@ description: Découvrez l’historique de nos élu⋅es et candidat⋅es aux div
 date: "2023-04-20T14:15:47.659Z"
 draft: false
 illustration:
-  href: "/illustrations/elus_eelv_douai.jpg"
+  url: "/public/illustrations/elus_eelv_douai.jpg"
   alt: "Élu⋅es EÉLV Douai"
 ---
 

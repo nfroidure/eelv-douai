@@ -10,7 +10,7 @@ tags:
   - élu⋅es
   - Douai
 illustration:
-  url: "illustrations/capture-interview-jean-christophe-leclercq.jpg"
+  url: "/public/illustrations/capture-interview-jean-christophe-leclercq.jpg"
   alt: "Capture d'écran de l'interview de Jean-Christophe Leclercq"
 ---
 

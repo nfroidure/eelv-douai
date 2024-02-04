@@ -1,6 +1,6 @@
 import styles from "./page.module.scss";
 import { fixText } from "../../utils/text";
-import { parseMarkdown, renderMarkdown } from "../../utils/markdown";
+import { parseMarkdown, qualifyPath, renderMarkdown } from "../../utils/markdown";
 import { readEntry } from "../../utils/frontmatter";
 import { pathJoin, readDirDeep } from "../../utils/files";
 import { toASCIIString } from "../../utils/ascii";
@@ -17,7 +17,7 @@ type PageFrontmatterMetadata = {
   description: string;
   author: string;
   illustration?: {
-    href: string;
+    url: string;
     alt: string;
   };
 };
@@ -37,6 +37,14 @@ export async function generateMetadata({
     pathname: "/" + pathJoin(...(params.slug || [])),
     title: fixText(entry.title),
     description: fixText(entry.description),
+    ...(typeof entry.illustration !== "undefined"
+      ? {
+          image: {
+            url: qualifyPath(entry.illustration.url),
+            alt: entry.illustration.alt,
+          },
+        }
+      : {}),
   });
 }
 
@@ -45,7 +53,7 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
 
   return (
     <Fragment>
-      <Hero backgroundImage={entry.illustration?.href} />
+      <Hero backgroundImage={entry.illustration?.url} />
       <MainContent>
         <ContentBlock>
           {renderMarkdown({ index: 0 }, entry.content)}

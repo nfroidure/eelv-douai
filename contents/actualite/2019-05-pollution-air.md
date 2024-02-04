@@ -9,7 +9,7 @@ categories:
 tags:
   - "Pollution"
 illustration:
-  url: "illustrations/action_pollution_air_5.jpg"
+  url: "/public/illustrations/action_pollution_air_5.jpg"
   alt: "Photographie de la Marie et Jésus masqués"
 ---
 
