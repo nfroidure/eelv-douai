@@ -6,9 +6,16 @@
     <description>Découvrez les dernières actions des écologistes de Douai et du Douaisis.</description>
     <link>https://eelv-douaisis.fr/actualite</link>
     <atom:link href="https://eelv-douaisis.fr/actualite.rss" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sun, 01 Oct 2023 18:00:00 GMT</lastBuildDate>
-    <pubDate>Sun, 04 Feb 2024 14:40:12 GMT</pubDate>
+    <lastBuildDate>Sun, 04 Feb 2024 18:00:00 GMT</lastBuildDate>
+    <pubDate>Sun, 04 Feb 2024 15:51:36 GMT</pubDate>
     <ttl>1800</ttl>
+      <item>
+        <guid isPermaLink="true">https://eelv-douaisis.fr/actualite/voeux-2024-des-luttes-et-des-victoires</guid>
+        <title>Vœux 2024 : des luttes et des victoires</title>
+        <description>Le groupe EÉLV Douaisis présentait pour la première fois ses voeux à l’occasion d’un moment de convivialité.</description>
+        <link>https://eelv-douaisis.fr/actualite/voeux-2024-des-luttes-et-des-victoires</link>
+        <pubDate>Sun, 04 Feb 2024 18:00:00 GMT</pubDate>
+      </item>
       <item>
         <guid isPermaLink="true">https://eelv-douaisis.fr/actualite/braderie-d-octobre-2023-a-douai</guid>
         <title>Braderie d’octobre 2023 à Douai</title>
