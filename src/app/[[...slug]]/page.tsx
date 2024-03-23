@@ -1,6 +1,10 @@
 import styles from "./page.module.scss";
 import { fixText } from "../../utils/text";
-import { parseMarkdown, qualifyPath, renderMarkdown } from "../../utils/markdown";
+import {
+  parseMarkdown,
+  qualifyPath,
+  renderMarkdown,
+} from "../../utils/markdown";
 import { readEntry } from "../../utils/frontmatter";
 import { pathJoin, readDirDeep } from "../../utils/files";
 import { toASCIIString } from "../../utils/ascii";
@@ -19,6 +23,10 @@ type PageFrontmatterMetadata = {
   illustration?: {
     url: string;
     alt: string;
+    position?: {
+      x: "left" | "center" | "right" | string;
+      y: "top" | "center" | "bottom" | string;
+    };
   };
 };
 type Entry = {
@@ -53,7 +61,11 @@ export default async function Page({ params }: { params: { slug: string[] } }) {
 
   return (
     <Fragment>
-      <Hero backgroundImage={entry.illustration?.url} />
+      <Hero
+        backgroundImage={entry.illustration?.url}
+        backgroundPositionX={entry.illustration?.position?.x}
+        backgroundPositionY={entry.illustration?.position?.y}
+      />
       <MainContent>
         <ContentBlock>
           {renderMarkdown({ index: 0 }, entry.content)}

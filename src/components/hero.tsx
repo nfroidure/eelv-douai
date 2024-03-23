@@ -6,8 +6,12 @@ import { qualifyPath } from "../utils/markdown";
 
 export default function Hero({
   backgroundImage = "",
+  backgroundPositionX = "center",
+  backgroundPositionY = "center",
 }: {
   backgroundImage?: string;
+  backgroundPositionX?: "left" | "center" | "right" | string;
+  backgroundPositionY?: "top" | "center" | "bottom" | string;
 }) {
   const scrollPosition = useScrollPosition([backgroundImage]);
   const visible =
@@ -16,7 +20,11 @@ export default function Hero({
   return (
     <div
       className={[styles.hero, ...(visible ? [styles.visible] : [])].join(" ")}
-      style={{ backgroundImage: `url("${qualifyPath(backgroundImage)}")` }}
+      style={{
+        backgroundImage: `url("${qualifyPath(backgroundImage)}")`,
+        backgroundPositionX: backgroundPositionX,
+        backgroundPositionY: backgroundPositionY,
+      }}
     ></div>
   );
 }

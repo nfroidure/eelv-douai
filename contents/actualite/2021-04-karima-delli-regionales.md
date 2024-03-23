@@ -11,6 +11,9 @@ tags:
 illustration:
   url: "/public/illustrations/lancement-campagne-regionales-2021.jpg"
   alt: "Photographie du lancement de la campagne dans le douaisis"
+  position:
+    x: center
+    y: 20%
 ---
 
 # Avec Karima Delli, dans les Hauts de France !

@@ -18,6 +18,10 @@ export type NewsFrontmatterMetadata = {
   illustration?: {
     url: string;
     alt: string;
+    position?: {
+      x: "left" | "center" | "right" | string;
+      y: "top" | "center" | "bottom" | string;
+    };
   };
   audio?: {
     url: string;

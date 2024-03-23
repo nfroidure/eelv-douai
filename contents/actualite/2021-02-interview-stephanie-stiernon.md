@@ -12,6 +12,9 @@ tags:
 illustration:
   url: "/public/illustrations/capture-interview-stephanie-stiernon.jpg"
   alt: "Capture d'écran de l'interview de Stéphanie Stiernon"
+  position:
+    x: center
+    y: 20%
 ---
 
 # Interviews de nos élu⋅es : Stéphanie Stiernon, 3ème adjointe déléguée à l'urbanisme

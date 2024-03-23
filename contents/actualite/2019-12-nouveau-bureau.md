@@ -11,6 +11,9 @@ tags:
 illustration:
   url: "/public/illustrations/bureau_eelv_douaisis.jpg"
   alt: "Photographie de Nicolas Froidure et Sophie Piquot"
+  position:
+    x: center
+    y: 25%
 ---
 
 # EÉLV Douaisis se dote d'un nouveau bureau

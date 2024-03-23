@@ -84,7 +84,11 @@ export default async function Page({ params }: { params: { id: string } }) {
 
   return (
     <Fragment>
-      <Hero backgroundImage={entry.illustration?.url} />
+      <Hero
+        backgroundImage={entry.illustration?.url}
+        backgroundPositionX={entry.illustration?.position?.x}
+        backgroundPositionY={entry.illustration?.position?.y}
+      />
       <MainContent>
         <ContentBlock>
           {renderMarkdown({ index: 0 }, entry.content)}

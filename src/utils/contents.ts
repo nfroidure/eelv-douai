@@ -9,6 +9,10 @@ export type BaseContentPageMetadata = {
   illustration?: {
     url: string;
     alt: string;
+    position?: {
+      x: "left" | "center" | "right" | string;
+      y: "top" | "center" | "bottom" | string;
+    };
   };
 };
 

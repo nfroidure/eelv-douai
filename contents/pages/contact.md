@@ -6,6 +6,9 @@ draft: false
 illustration:
   url: "/public/illustrations/marie-cagenon-scarpe.jpg"
   alt: "Dessin de Marie Cagenon (Madame Gayant)"
+  position:
+    x: center
+    y: 35%
 ---
 
 # Contacter EÉLV Douaisis

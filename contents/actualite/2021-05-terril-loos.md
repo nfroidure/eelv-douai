@@ -11,6 +11,9 @@ tags:
 illustration:
   url: "/public/illustrations/groupe-terril-loos.jpeg"
   alt: "Photographie du groupe à Loos-en-Gohelle"
+  position:
+    x: center
+    y: 25%
 ---
 
 # Ascension du terril de Loos-en-Gohelle
