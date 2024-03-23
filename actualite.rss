@@ -6,9 +6,16 @@
     <description>Découvrez les dernières actions des écologistes de Douai et du Douaisis.</description>
     <link>https://eelv-douaisis.fr/actualite</link>
     <atom:link href="https://eelv-douaisis.fr/actualite.rss" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sun, 04 Feb 2024 18:00:00 GMT</lastBuildDate>
-    <pubDate>Sun, 04 Feb 2024 20:23:59 GMT</pubDate>
+    <lastBuildDate>Sat, 23 Mar 2024 15:00:00 GMT</lastBuildDate>
+    <pubDate>Sat, 23 Mar 2024 18:55:46 GMT</pubDate>
     <ttl>1800</ttl>
+      <item>
+        <guid isPermaLink="true">https://eelv-douaisis.fr/actualite/europeennes-2024-le-douaisis-avec-marie-toussaint</guid>
+        <title>Européennes 2024 : le Douaisis avec Marie Toussaint</title>
+        <description>Les Écologistes du Douaisis ont reçu Marie Toussaint, Amine Kessaci et Majdouline Sbai dans le cadre des élections européennes 2024.</description>
+        <link>https://eelv-douaisis.fr/actualite/europeennes-2024-le-douaisis-avec-marie-toussaint</link>
+        <pubDate>Sat, 23 Mar 2024 15:00:00 GMT</pubDate>
+      </item>
       <item>
         <guid isPermaLink="true">https://eelv-douaisis.fr/actualite/voeux-2024-des-luttes-et-des-victoires</guid>
         <title>Vœux 2024 : des luttes et des victoires</title>
