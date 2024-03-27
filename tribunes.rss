@@ -6,9 +6,37 @@
     <description>Découvrez les tribunes des élu⋅es EÉLV du Douaisis.</description>
     <link>https://eelv-douaisis.fr/tribunes</link>
     <atom:link href="https://eelv-douaisis.fr/tribunes.rss" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Fri, 01 Dec 2023 12:00:00 GMT</lastBuildDate>
-    <pubDate>Sat, 23 Mar 2024 18:55:46 GMT</pubDate>
+    <lastBuildDate>Mon, 01 Apr 2024 12:00:00 GMT</lastBuildDate>
+    <pubDate>Wed, 27 Mar 2024 22:10:43 GMT</pubDate>
     <ttl>1800</ttl>
+      <item>
+        <guid isPermaLink="true">https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-4</guid>
+        <title>Stéphanie STIERNON - avril 2024</title>
+        <description>Tribune de Stéphanie STIERNON dans le Douai Notre Ville du lundi 1 avril 2024</description>
+        <link>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-4</link>
+        <pubDate>Mon, 01 Apr 2024 12:00:00 GMT</pubDate>
+      </item>
+      <item>
+        <guid isPermaLink="true">https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-3</guid>
+        <title>Katia BITTNER - mars 2024</title>
+        <description>Tribune de Katia BITTNER dans le Douai Notre Ville du vendredi 1 mars 2024</description>
+        <link>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-3</link>
+        <pubDate>Fri, 01 Mar 2024 12:00:00 GMT</pubDate>
+      </item>
+      <item>
+        <guid isPermaLink="true">https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-2</guid>
+        <title>Yves PIQUOT - février 2024</title>
+        <description>Tribune de Yves PIQUOT dans le Douai Notre Ville du jeudi 1 février 2024</description>
+        <link>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-2</link>
+        <pubDate>Thu, 01 Feb 2024 12:00:00 GMT</pubDate>
+      </item>
+      <item>
+        <guid isPermaLink="true">https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-1</guid>
+        <title>Stéphanie STIERNON - janvier 2024</title>
+        <description>Tribune de Stéphanie STIERNON dans le Douai Notre Ville du lundi 1 janvier 2024</description>
+        <link>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-1</link>
+        <pubDate>Mon, 01 Jan 2024 12:00:00 GMT</pubDate>
+      </item>
       <item>
         <guid isPermaLink="true">https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-12</guid>
         <title>Guy CARUYER - décembre 2023</title>

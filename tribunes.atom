@@ -6,7 +6,51 @@
   <subtitle>Découvrez les tribunes des élu⋅es EÉLV du Douaisis.</subtitle>
   <link href="https://eelv-douaisis.fr/tribunes.atom" rel="self" type="application/atom+xml" />
   <link href="https://eelv-douaisis.fr/tribunes" rel="alternate" type="text/html" />
-  <updated>2023-12-01T12:00:00.000Z</updated>
+  <updated>2024-04-01T12:00:00.000Z</updated>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-4</id>
+    <title>Stéphanie STIERNON - avril 2024</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-4" rel="alternate" type="text/html" />
+    <updated>2024-04-01T12:00:00Z</updated>
+    <published>2024-04-01T12:00:00Z</published>
+    <summary>Tribune de Stéphanie STIERNON dans le Douai Notre Ville du lundi 1 avril 2024</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-3</id>
+    <title>Katia BITTNER - mars 2024</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-3" rel="alternate" type="text/html" />
+    <updated>2024-03-01T12:00:00Z</updated>
+    <published>2024-03-01T12:00:00Z</published>
+    <summary>Tribune de Katia BITTNER dans le Douai Notre Ville du vendredi 1 mars 2024</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-2</id>
+    <title>Yves PIQUOT - février 2024</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-2" rel="alternate" type="text/html" />
+    <updated>2024-02-01T12:00:00Z</updated>
+    <published>2024-02-01T12:00:00Z</published>
+    <summary>Tribune de Yves PIQUOT dans le Douai Notre Ville du jeudi 1 février 2024</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
+  <entry>
+    <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-1</id>
+    <title>Stéphanie STIERNON - janvier 2024</title>
+    <link href="https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-1" rel="alternate" type="text/html" />
+    <updated>2024-01-01T12:00:00Z</updated>
+    <published>2024-01-01T12:00:00Z</published>
+    <summary>Tribune de Stéphanie STIERNON dans le Douai Notre Ville du lundi 1 janvier 2024</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
   <entry>
     <id>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2023-12</id>
     <title>Guy CARUYER - décembre 2023</title>
