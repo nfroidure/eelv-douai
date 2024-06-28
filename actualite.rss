@@ -6,9 +6,16 @@
     <description>Découvrez les dernières actions des écologistes de Douai et du Douaisis.</description>
     <link>https://eelv-douaisis.fr/actualite</link>
     <atom:link href="https://eelv-douaisis.fr/actualite.rss" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 23 Mar 2024 15:00:00 GMT</lastBuildDate>
-    <pubDate>Wed, 27 Mar 2024 22:10:43 GMT</pubDate>
+    <lastBuildDate>Fri, 28 Jun 2024 10:00:00 GMT</lastBuildDate>
+    <pubDate>Fri, 28 Jun 2024 09:52:55 GMT</pubDate>
     <ttl>1800</ttl>
+      <item>
+        <guid isPermaLink="true">https://eelv-douaisis.fr/actualite/legislatives-2024-un-nouveau-front-populaire-pour-le-douaisis</guid>
+        <title>Législatives 2024 : un Nouveau Front Populaire pour le Douaisis</title>
+        <description>Les Écologistes du Douaisis apportent leur soutien aux candidatures du Nouveau Front Populaire dans les 16ème et 17ème circonscriptions du Nord.</description>
+        <link>https://eelv-douaisis.fr/actualite/legislatives-2024-un-nouveau-front-populaire-pour-le-douaisis</link>
+        <pubDate>Fri, 28 Jun 2024 10:00:00 GMT</pubDate>
+      </item>
       <item>
         <guid isPermaLink="true">https://eelv-douaisis.fr/actualite/europeennes-2024-le-douaisis-avec-marie-toussaint</guid>
         <title>Européennes 2024 : le Douaisis avec Marie Toussaint</title>
