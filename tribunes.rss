@@ -6,9 +6,37 @@
     <description>Découvrez les tribunes des élu⋅es EÉLV du Douaisis.</description>
     <link>https://eelv-douaisis.fr/tribunes</link>
     <atom:link href="https://eelv-douaisis.fr/tribunes.rss" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 01 Apr 2024 12:00:00 GMT</lastBuildDate>
-    <pubDate>Fri, 28 Jun 2024 09:52:56 GMT</pubDate>
+    <lastBuildDate>Sun, 01 Sep 2024 12:00:00 GMT</lastBuildDate>
+    <pubDate>Fri, 13 Sep 2024 12:42:47 GMT</pubDate>
     <ttl>1800</ttl>
+      <item>
+        <guid isPermaLink="true">https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-9</guid>
+        <title>Stéphanie STIERNON - septembre 2024</title>
+        <description>Tribune de Stéphanie STIERNON dans le Douai Notre Ville du dimanche 1 septembre 2024</description>
+        <link>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-9</link>
+        <pubDate>Sun, 01 Sep 2024 12:00:00 GMT</pubDate>
+      </item>
+      <item>
+        <guid isPermaLink="true">https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-7</guid>
+        <title>Les Élu·es Écologistes de Douai - juillet 2024</title>
+        <description>Tribune de Les Élu·es Écologistes de Douai dans le Douai Notre Ville du lundi 1 juillet 2024</description>
+        <link>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-7</link>
+        <pubDate>Mon, 01 Jul 2024 12:00:00 GMT</pubDate>
+      </item>
+      <item>
+        <guid isPermaLink="true">https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-6</guid>
+        <title>Marie DELATTRE - juin 2024</title>
+        <description>Tribune de Marie DELATTRE dans le Douai Notre Ville du samedi 1 juin 2024</description>
+        <link>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-6</link>
+        <pubDate>Sat, 01 Jun 2024 12:00:00 GMT</pubDate>
+      </item>
+      <item>
+        <guid isPermaLink="true">https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-5</guid>
+        <title>Guy CARUYER - mai 2024</title>
+        <description>Tribune de Guy CARUYER dans le Douai Notre Ville du mercredi 1 mai 2024</description>
+        <link>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-5</link>
+        <pubDate>Wed, 01 May 2024 12:00:00 GMT</pubDate>
+      </item>
       <item>
         <guid isPermaLink="true">https://eelv-douaisis.fr/tribunes/douai-notre-ville-2024-4</guid>
         <title>Stéphanie STIERNON - avril 2024</title>
