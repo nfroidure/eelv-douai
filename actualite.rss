@@ -6,9 +6,16 @@
     <description>Découvrez les dernières actions des écologistes de Douai et du Douaisis.</description>
     <link>https://eelv-douaisis.fr/actualite</link>
     <atom:link href="https://eelv-douaisis.fr/actualite.rss" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Sat, 14 Sep 2024 09:00:00 GMT</lastBuildDate>
-    <pubDate>Sun, 03 Nov 2024 18:26:20 GMT</pubDate>
+    <lastBuildDate>Sun, 03 Nov 2024 07:00:00 GMT</lastBuildDate>
+    <pubDate>Mon, 04 Nov 2024 07:55:09 GMT</pubDate>
     <ttl>1800</ttl>
+      <item>
+        <guid isPermaLink="true">https://eelv-douaisis.fr/actualite/rencontre-avec-les-elu-es-ecologistes-du-nord</guid>
+        <title>Rencontre avec les élu·es écologistes du Nord</title>
+        <description>Rendez-vous le 20 novembre, à 19h salle Robert de Douai des salles d’Anchin pour une rencontre avec nos élu·es au conseil départemental du Nord.</description>
+        <link>https://eelv-douaisis.fr/actualite/rencontre-avec-les-elu-es-ecologistes-du-nord</link>
+        <pubDate>Sun, 03 Nov 2024 07:00:00 GMT</pubDate>
+      </item>
       <item>
         <guid isPermaLink="true">https://eelv-douaisis.fr/actualite/rentree-2024-rejoignez-nous</guid>
         <title>Rentrée 2024 : rejoignez-nous !</title>
