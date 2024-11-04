@@ -8,6 +8,7 @@ categories:
   - Élections
 tags:
   - Nord
+  - Département
 illustration:
   url: "/public/illustrations/lancement-campagne-departementales.jpg"
   alt: "Photographie du lancement de la campagne dans le douaisis"
