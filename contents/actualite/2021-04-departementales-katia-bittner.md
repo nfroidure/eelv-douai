@@ -24,9 +24,9 @@ illustration:
 ![Photographie de militant·es tractant](/public/illustrations/tractage-departementales-2.jpg)
 ![Photographie de militant·es tractant](/public/illustrations/tractage-departementales-3.jpg)
 
-Au terme d'un vote démocratique interne, les adhérent·es EÉLV ont désigné Katia Bittner candidate aux élections départementales de 2021 sur le canton de Douai.
+Au terme d’un vote démocratique interne, les adhérent·es EÉLV ont désigné Katia Bittner candidate aux élections départementales de 2021 sur le canton de Douai.
 
-Au terme de négociations de notre instance régionale, il a été acté l'union avec le Parti Socialiste, le Parti Communiste Français et Génération·s.
+Au terme de négociations de notre instance régionale, il a été acté l’union avec le Parti Socialiste, le Parti Communiste Français et Génération·s.
 
 Notre groupe est très heureux de soutenir cette candidate et ses partenaires dans ce canton de Douai.
 

@@ -5,7 +5,7 @@ date: "2023-04-20T14:15:47.659Z"
 draft: false
 illustration:
   url: "/public/illustrations/photo-ag-eelv-douaisis-2023.jpg"
-  alt: "Photographie d'une réunion EÉLV Douai"
+  alt: "Photographie d’une réunion EÉLV Douai"
 ---
 
 # Groupe Local EÉLV Douaisis

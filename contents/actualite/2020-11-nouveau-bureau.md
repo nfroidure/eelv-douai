@@ -10,9 +10,9 @@ tags:
   - "bureau"
 illustration:
   url: "/public/illustrations/reunion_groupe_eelv.jpg"
-  alt: 'Photographie du groupe EÉLV Douaisis'
+  alt: "Photographie du groupe EÉLV Douaisis"
 ---
 
-# EÉLV Douaisis se dote d'un nouveau bureau
+# EÉLV Douaisis se dote d’un nouveau bureau
 
 Lucile Wacheux et Philippe Bernard élu·e·s co-secrétaires, Sophie Piquot renouvelée trésorière et Sylvie Joos en soutien.

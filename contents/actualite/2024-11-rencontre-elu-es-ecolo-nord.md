@@ -24,4 +24,4 @@ A l’approche du mi-mandat au Département du Nord (mandat 2021-2028), l’obje
 
 Le groupe écologiste au Département (composé de Simon Jamelin, Céline Scavennec, Stéphanie Bocquet, Laurent Perrin, Maël Guiziou et Anne Mikolajczak) est mobilisé au service des Nordistes, pour encourager la transition écologique dans les territoires, soutenir et porter la voix des acteur·es de terrain face à l’urgence sociale. Notre action vise aussi à rendre le Département du Nord plus transparent et ouvert aux citoyen·nes.
 
-N'hésitez pas à découvrir le [bilan de 2e année de mandat](https://groupe-ecologiste-nord.fr/2024/09/bilan-de-2e-annee-de-mandat/).
+N’hésitez pas à découvrir le [bilan de 2e année de mandat](https://groupe-ecologiste-nord.fr/2024/09/bilan-de-2e-annee-de-mandat/).

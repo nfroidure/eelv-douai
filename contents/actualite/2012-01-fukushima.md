@@ -11,7 +11,7 @@ tags:
   - "Nucléaire"
 illustration:
   url: "/public/illustrations/centrale-nucleaire.jpg"
-  alt: 'Photographie de la centrale nucléaire de Grenoble'
+  alt: "Photographie de la centrale nucléaire de Grenoble"
 ---
 
 # Après Fukushima, quelle transition énergétique ?

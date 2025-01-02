@@ -20,7 +20,7 @@ Le groupe EÉLV Douaisis a tenu son assemblée générale ce samedi 4 mars. Il e
 Un bilan encourageant
 ---------------------
 
-Au terme de ce mandat, notre groupe a vu l'augmentation du nombre d'adhérent·es se poursuivre avec un maillage plus large améliorant notre ancrage territorial. La relation élu·es/adhérent·es a été fructueuse, notamment au travers des contributions d'EÉLV Douaisis aux diverses concertations (Envision, unité de méthanisation, PLU...). Notre groupe a participé activement aux trois séquences électorales de ce mandat et permis à l'écologie de bénéficier de plus de visibilité. Nous avons également soutenu et participé aux luttes en cours sur le territoire, notamment face à la réforme des retraites et en solidarité avec l'Ukraine.
+Au terme de ce mandat, notre groupe a vu l’augmentation du nombre d’adhérent·es se poursuivre avec un maillage plus large améliorant notre ancrage territorial. La relation élu·es/adhérent·es a été fructueuse, notamment au travers des contributions d’EÉLV Douaisis aux diverses concertations (Envision, unité de méthanisation, PLU...). Notre groupe a participé activement aux trois séquences électorales de ce mandat et permis à l’écologie de bénéficier de plus de visibilité. Nous avons également soutenu et participé aux luttes en cours sur le territoire, notamment face à la réforme des retraites et en solidarité avec l’Ukraine.
 
 Un bureau partiellement renouvelé
 ---------------------------------
@@ -30,13 +30,13 @@ Lucile Wacheux et Nicolas Froidure ont été élu·es co-secrétaires du groupe 
 Une orientation pour deux ans
 -----------------------------
 
-L'assemblée a également produit une motion d'orientation votée à l'unanimité pour les deux années à venir fixant des objectifs volontaristes :
+L’assemblée a également produit une motion d’orientation votée à l’unanimité pour les deux années à venir fixant des objectifs volontaristes :
 
 1.  création de nouveaux canaux de communication, mise en place de réunions publiques,
 
 2.  une stratégie globale afin de préparer les prochaines échéances électorales mais déclinée en fonction du contexte de chaque commune et de leurs spécificités,
 
-3.  amplification de nos démarches de rencontre avec les habitant·es du Douaisis qui souhaitent renforcer l'écologie et amélioration de l'accueil des nouvel·les adhérent·es,
+3.  amplification de nos démarches de rencontre avec les habitant·es du Douaisis qui souhaitent renforcer l’écologie et amélioration de l’accueil des nouvel·les adhérent·es,
 
 4.  renforcement de nos liens avec les associations / actions communes pour le territoire.
 
