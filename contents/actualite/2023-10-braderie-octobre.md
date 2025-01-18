@@ -26,3 +26,7 @@ C’était également l’occasion de signer deux pétitions que nous avions dé
 - [la pétition STOP PFAS](https://www.change.org/p/stop-pfas-agissons-contre-notre-empoisement-aux-polluants-%C3%A9ternels?utm_content=cl_sharecopy_37395420_fr-FR%3A5&recruiter=156726745&recruited_by_id=5c166c41-27f0-4f94-98cb-fb7f6f3971a5&utm_source=share_petition&utm_medium=copylink&utm_campaign=psf_combo_share_initial) (au sujet des polluants éternels).
 
 La braderie de ce dimanche a été un moment très agréable fait de belles rencontres ! **Nous remercions toutes celles et ceux qui ont participé** d’une façon ou d’une autre à la réussite de notre stand.
+
+## Note rétrospective du 18 janvier 2024
+
+Notre groupe local a décidé à l’unanimité de quitter le réseau social X à l’occasion de l’initiative « Hello Quitte X » pour un départ coordonné. Nous étions parmi les premiers groupes locaux à rejoindre Mastodon, nous ne pouvions pas être les derniers à quitter X/Twitter !

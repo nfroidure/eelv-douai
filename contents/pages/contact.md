@@ -15,4 +15,4 @@ illustration:
 
 Vous pouvez nous contacter directement par email sur [eelv.douai@gmail.com](mailto:eelv.douai@gmail.com).
 
-Vous pouvez aussi nous retrouver sur les réseaux sociaux ([Facebook](https://www.facebook.com/eelvdouai/) ou [Twitter](https://twitter.com/eelv_douai)).
+Vous pouvez aussi nous retrouver sur les réseaux sociaux [Mastodon](https://mastoot.fr/@eelv_douaisis)) et ([Facebook](https://www.facebook.com/eelvdouai/).

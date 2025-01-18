@@ -1,3 +1,4 @@
+import { BLUESKY_APP } from "../utils/constants";
 import Anchor from "./a";
 import Heading3 from "./h3";
 import Paragraph from "./p";
@@ -8,7 +9,8 @@ export type Member = {
   responsibilities: string[];
   bio: string;
   phone: string;
-  twitter: string;
+  mastodon: string;
+  bluesky: string;
   facebook: string;
   blog: string;
   role: string;
@@ -34,24 +36,46 @@ export default function Member({ member }: { member: Member }) {
             ]
           : null}
         <Strong>Téléphone&nbsp;:</Strong> {member.phone}
-        {member.twitter || member.facebook ? (
+        {member.facebook || member.bluesky || member.mastodon ? (
           <>
             <br />
             <Strong>Réseaux sociaux&nbsp;:</Strong>
             <br />{" "}
-            {member.twitter ? (
-              <Anchor href={`https://twitter.com/${member.twitter}`}>
-                Twitter
-              </Anchor>
-            ) : null}
-            {member.twitter && member.facebook ? " - " : null}
-            {member.facebook ? (
-              <Anchor href={`https://www.facebook.com/${member.facebook}`}>
-                Facebook
-              </Anchor>
-            ) : null}
-            {(member.twitter || member.facebook) && member.blog ? " - " : null}
-            {member.blog ? <Anchor href={`${member.blog}`}>Blog</Anchor> : null}
+            {["facebook", "mastodon", "bluesky", "blog"]
+              .filter((type) => member[type])
+              .map((type, index) => (
+                <>
+                  {index > 0 ? " - " : null}
+                  {type === "facebook" ? (
+                    <Anchor
+                      href={`https://www.facebook.com/${member.facebook}`}
+                    >
+                      Facebook
+                    </Anchor>
+                  ) : null}
+                  {type === "mastodon" ? (
+                    <Anchor
+                      href={`https://${member.mastodon.split("@").pop()}/@${
+                        member.mastodon.split("@")[1]
+                      }`}
+                    >
+                      Mastodon
+                    </Anchor>
+                  ) : null}
+                  {type === "bluesky" ? (
+                    <Anchor
+                      href={`https://${BLUESKY_APP}/profile/${
+                        member.bluesky.split("@")[1]
+                      }.${member.bluesky.split("@").pop()}`}
+                    >
+                      Bluesky
+                    </Anchor>
+                  ) : null}
+                  {type === "blog" ? (
+                    <Anchor href={`${member.blog}`}>Blog</Anchor>
+                  ) : null}
+                </>
+              ))}
           </>
         ) : null}
       </Paragraph>

@@ -28,7 +28,7 @@ async function run() {
         phone: row[5],
         role: row[7],
         responsibilities: (row[8] || "").split(",").map(s => s.trim()),
-        twitter: row[9] || {}.undef,
+        mastodon: row[9] || {}.undef,
         facebook: row[10] || {}.undef,
         status: row[11],
         bio: row[12] || {}.undef

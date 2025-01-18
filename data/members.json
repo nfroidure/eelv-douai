@@ -10,7 +10,8 @@
       "Co-Secrétaire",
       "Référent numérique"
     ],
-    "twitter": "nfroidure",
+    "mastodon": "@nfroidure@mastodon.social",
+    "bluesky": "@nfroidure@bsky.social",
     "facebook": "nfroidure",
     "blog": "https://nicolasfroidure.fr",
     "status": "ok",
@@ -53,7 +54,7 @@
     "responsibilities": [
       "Référente Formation"
     ],
-    "twitter": "sstiernon",
+    "mastodon": "@stephanie_stiernon@piaille.fr ",
     "facebook": "stephanie.stiernon.1",
     "status": "ok",
     "bio": "Intéressée par la pédagogie, les techniques d’apprentissage et les modalités de passage de la connaissance à la compétence et concernée par les questions liées à l’impact de l’environnement sur la santé et par les défis liés aux changements climatiques."
@@ -84,6 +85,7 @@
       "Trésorière",
       "Référente éducation"
     ],
+    "mastodon": "@spiquot@piaille.fr",
     "facebook": "sophie.piquot",
     "status": "ok",
     "bio": "Sophie est mobilisée depuis de nombreuses années en tant qu’enseignante en Sciences de la Vie et de la Terre sur les problématiques de perturbations climatiques, pollution de l’air, d’éducation au développement durable et protection de la biodiversité."
