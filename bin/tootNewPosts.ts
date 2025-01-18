@@ -16,7 +16,7 @@ async function run() {
   }
 
   const result = await execAsync(
-    `git diff --summary HEAD~1 HEAD -- contents/blog`
+    `git diff --summary HEAD~1 HEAD -- contents/actualite`
   );
   const posts = result.stdout
     .trim()
@@ -42,7 +42,7 @@ async function run() {
     );
 
     if (!metadata.draft) {
-      const url = `https://${DOMAIN_NAME}/blog/${
+      const url = `https://${DOMAIN_NAME}/actualite/${
         metadata.leafname || toASCIIString(metadata.title)
       }`;
 
