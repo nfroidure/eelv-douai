@@ -6,7 +6,10 @@
     "sync": "node bin/sync",
     "dev": "next dev",
     "build": "next build && touch out/.nojekyll && echo 'eelv-douaisis.fr' > out/CNAME",
-    "start": "next start"
+    "start": "next start",
+    "types": "tsc --pretty --noEmit",
+    "tootNewPosts": "tsx bin/tootNewPosts.ts",
+    "bskNewPosts": "tsx bin/bskNewPosts.ts"
   },
   "dependencies": {
     "front-matter": "^4.0.2",
@@ -26,6 +29,7 @@
     "@types/react-dom": "^18.2.18",
     "axios": "^1.6.2",
     "googleapis": "^129.0.0",
+    "tsx": "^4.7.0",
     "typescript": "^5.3.3"
   }
 }
