@@ -6,7 +6,18 @@
   <subtitle>Découvrez les dernières actions des écologistes de Douai et du Douaisis.</subtitle>
   <link href="https://eelv-douaisis.fr/actualite.atom" rel="self" type="application/atom+xml" />
   <link href="https://eelv-douaisis.fr/actualite" rel="alternate" type="text/html" />
-  <updated>2024-11-03T07:00:00.000Z</updated>
+  <updated>2025-01-25T07:00:00.000Z</updated>
+  <entry>
+    <id>https://eelv-douaisis.fr/actualite/municipales-2026-de-l-ecologie-pour-le-douaisis</id>
+    <title>Municipales 2026 : de l’écologie pour le Douaisis</title>
+    <link href="https://eelv-douaisis.fr/actualite/municipales-2026-de-l-ecologie-pour-le-douaisis" rel="alternate" type="text/html" />
+    <updated>2025-01-25T07:00:00Z</updated>
+    <published>2025-01-25T07:00:00Z</published>
+    <summary>Les écologistes du Douaisis ont défini leur cadre pour les municipales 2026.</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
   <entry>
     <id>https://eelv-douaisis.fr/actualite/rencontre-avec-les-elu-es-ecologistes-du-nord</id>
     <title>Rencontre avec les élu·es écologistes du Nord</title>
