@@ -1,6 +1,6 @@
 ---
 author: Stéphanie STIERNON
-date: "2025-01-01T12:00:00Z"
+date: "2025-02-01T12:00:00Z"
 role: "Conseillère municipale"
 publication: "Douai Notre Ville"
 ---
