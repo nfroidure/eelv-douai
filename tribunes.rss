@@ -6,20 +6,20 @@
     <description>Découvrez les tribunes des élu⋅es EÉLV du Douaisis.</description>
     <link>https://eelv-douaisis.fr/tribunes</link>
     <atom:link href="https://eelv-douaisis.fr/tribunes.rss" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Wed, 01 Jan 2025 12:00:00 GMT</lastBuildDate>
-    <pubDate>Sun, 09 Feb 2025 13:37:33 GMT</pubDate>
+    <lastBuildDate>Sat, 01 Feb 2025 12:00:00 GMT</lastBuildDate>
+    <pubDate>Sat, 15 Feb 2025 09:56:09 GMT</pubDate>
     <ttl>1800</ttl>
+      <item>
+        <guid isPermaLink="true">https://eelv-douaisis.fr/tribunes/douai-notre-ville-2025-2</guid>
+        <title>Stéphanie STIERNON - février 2025</title>
+        <description>Tribune de Stéphanie STIERNON dans le Douai Notre Ville du samedi 1 février 2025</description>
+        <link>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2025-2</link>
+        <pubDate>Sat, 01 Feb 2025 12:00:00 GMT</pubDate>
+      </item>
       <item>
         <guid isPermaLink="true">https://eelv-douaisis.fr/tribunes/douai-notre-ville-2025-1</guid>
         <title>Katia BITTNER - janvier 2025</title>
         <description>Tribune de Katia BITTNER dans le Douai Notre Ville du mercredi 1 janvier 2025</description>
-        <link>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2025-1</link>
-        <pubDate>Wed, 01 Jan 2025 12:00:00 GMT</pubDate>
-      </item>
-      <item>
-        <guid isPermaLink="true">https://eelv-douaisis.fr/tribunes/douai-notre-ville-2025-1</guid>
-        <title>Stéphanie STIERNON - janvier 2025</title>
-        <description>Tribune de Stéphanie STIERNON dans le Douai Notre Ville du mercredi 1 janvier 2025</description>
         <link>https://eelv-douaisis.fr/tribunes/douai-notre-ville-2025-1</link>
         <pubDate>Wed, 01 Jan 2025 12:00:00 GMT</pubDate>
       </item>
