@@ -9,7 +9,7 @@ export default function Newsletter() {
       <Heading2>💌 Lettre d’information</Heading2>
       <Paragraph>
         Recevez notre lettre d’information{" "}
-        <Anchor href="https://framaforms.org/inscription-lettre-dinformation-eelv-douaisis-1577446140">
+        <Anchor href="https://framaforms.org/inscription-lettre-dinformation-des-ecologistes-du-douaisis-1577446140">
           en complétant ce formulaire&nbsp;!
         </Anchor>
       </Paragraph>
