@@ -6,9 +6,16 @@
     <description>Découvrez les dernières actions des écologistes de Douai et du Douaisis.</description>
     <link>https://eelv-douaisis.fr/actualite</link>
     <atom:link href="https://eelv-douaisis.fr/actualite.rss" rel="self" type="application/rss+xml" />
-    <lastBuildDate>Mon, 23 Jun 2025 22:00:00 GMT</lastBuildDate>
-    <pubDate>Tue, 01 Jul 2025 17:19:51 GMT</pubDate>
+    <lastBuildDate>Wed, 22 Oct 2025 19:30:00 GMT</lastBuildDate>
+    <pubDate>Sun, 26 Oct 2025 10:35:55 GMT</pubDate>
     <ttl>1800</ttl>
+      <item>
+        <guid isPermaLink="true">https://eelv-douaisis.fr/actualite/municipales-2026-une-liste-ecologiste-pour-douai</guid>
+        <title>Municipales 2026 : Une liste écologiste pour Douai</title>
+        <description>Nous avons décidé de tout mettre en œuvre pour constituer une liste aux municipales 2026 à Douai.</description>
+        <link>https://eelv-douaisis.fr/actualite/municipales-2026-une-liste-ecologiste-pour-douai</link>
+        <pubDate>Wed, 22 Oct 2025 19:30:00 GMT</pubDate>
+      </item>
       <item>
         <guid isPermaLink="true">https://eelv-douaisis.fr/actualite/municipales-2026-notre-programme-pour-douai</guid>
         <title>Municipales 2026 : notre programme pour Douai</title>
