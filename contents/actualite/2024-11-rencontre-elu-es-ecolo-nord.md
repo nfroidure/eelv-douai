@@ -8,12 +8,6 @@ categories:
 tags:
   - Nord
   - Département
-illustration:
-  url: "/public/illustrations/rentree-2024.jpg"
-  alt: "Photo de groupe de la rentrée 2024"
-  position:
-    x: center
-    y: 25%
 ---
 
 ## Rencontre avec les élu·es écologistes du Nord

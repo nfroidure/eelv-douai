@@ -50,7 +50,7 @@ export default async function buildMetadata({
           }
       : {
           alt: "Bannière du site",
-          url: ASSET_PREFIX + "/illustrations/photo-ag-eelv-douaisis-2023.jpg",
+          url: ASSET_PREFIX + "/illustrations/ressources.jpg",
         };
 
   return {

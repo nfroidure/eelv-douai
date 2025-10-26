@@ -16,14 +16,6 @@ Découvrez l’historique de nos élu⋅es et candidat⋅es aux diverses électi
 
 - **Depuis 2020 :** 3e adjointe au maire de la Ville de Douai. Délégation : Urbanisme
 
-## Jean-Christophe Leclercq
-
-- **Depuis 2020 :** 8e adjoint au maire de la Ville de Douai. Délégation : Cadre de vie et Condition Animale.
-
-## Marie Delattre
-
-- **Depuis 2020 :** 13e adjointe au maire de la Ville de Douai. Délégation : Quartier
-
 ## Guy Caruyer
 
 - **Depuis 2020 :** Conseiller Municipal à la Ville de Douai. Alimentation et agriculture durables, quartier de Frais-Marais.
@@ -36,6 +28,14 @@ Découvrez l’historique de nos élu⋅es et candidat⋅es aux diverses électi
 ## Yves Piquot
 
 - **Depuis 2020 :** Conseiller Municipal à la Ville de Douai. Délégation : Biodiversité et adaptation au changement climatique.
+
+## Jean-Christophe Leclercq
+
+- **De 2020 à 2023 :** a été élu 8e adjoint au maire de la Ville de Douai avec la délégation «Cadre de vie et Condition Animale» grâce contingent écologiste.
+
+## Marie Delattre
+
+- **De 2020 à 2025 :** a été élue 13e adjointe de quartier de la Ville de Douai grâce au contingent écologiste.
 
 ## Lucile Wacheux
 

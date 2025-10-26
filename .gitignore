@@ -135,3 +135,6 @@ public/tribunes.rss
 quickstart-*.json
 token.json
 credentials.json
+
+# Private files
+private

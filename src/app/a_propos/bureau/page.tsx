@@ -5,7 +5,6 @@ import Member from "../../../components/member";
 import Heading1 from "../../../components/h1";
 import Heading2 from "../../../components/h2";
 import Paragraph from "../../../components/p";
-import Img from "../../../components/img";
 import ContentBlock from "../../../components/contentBlock";
 import MainContent from "../../../components/mainContent";
 import Hero from "../../../components/hero";
@@ -57,11 +56,6 @@ export default async function Page() {
           <Heading2>Équipe d’animation</Heading2>
           <div className="sided">
             <Paragraph>
-              <Img
-                orientation="landscape"
-                src={"/illustrations/groupe_eelv_douaisis.jpg"}
-                alt="Équipe d’animation d’EÉLV Douaisis"
-              />
               Le bureau est soutenu dans sa mission par une équipe d’animation
               paritaire de {animators.length} personnes.
             </Paragraph>
