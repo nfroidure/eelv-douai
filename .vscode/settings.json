@@ -1,11 +1,6 @@
 {
-    "spellright.language": [
-        "fr"
-    ],
-    "spellright.documentTypes": [
-        "markdown",
-        "latex",
-        "plaintext"
-    ],
-    "cSpell.language": "en,fr,fr-FR"
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "cSpell.enabled": true,
+  "cSpell.language": "en,fr",
 }

@@ -3,6 +3,9 @@ export const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH;
 export const ASSET_PREFIX = `${BASE_URL}${BASE_PATH || ""}`;
 export const LANGUAGE = "fr";
 export const LOCALE = "fr-FR";
+export const TIME_ZONE = "Europe/Paris";
+// The `BUILD_YEAR` env var is always set via NextJS config
+export const BUILD_YEAR = parseInt(process.env.BUILD_YEAR as string, 10);
 export const NAME = "EÉLV Douaisis";
 export const DESCRIPTION = "Groupe local Europe Écologie Les Verts du Douaisis";
 export const ORGANISATION_LEGAL_NAME = "EÉLV Douaisis";

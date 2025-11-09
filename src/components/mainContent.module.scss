@@ -1,33 +1,33 @@
-@import "../../styles/variables.scss";
+@use "../../styles/variables.scss";
 
 .content {
   flex: 1;
   display: flex;
   width: 100%;
-  padding: var(--vRythm) var(--gutter);
+  padding: var(--vRhythm) var(--gutter);
 }
-@media screen and (max-width: $CSS_BREAKPOINT_END_S) {
+@media screen and (max-width: variables.$CSS_BREAKPOINT_END_S) {
   .content {
     justify-content: flex-start;
   }
 }
-@media screen and (min-width: $CSS_BREAKPOINT_START_M) and (max-width: $CSS_BREAKPOINT_END_M) {
+@media screen and (min-width: variables.$CSS_BREAKPOINT_START_M) and (max-width: variables.$CSS_BREAKPOINT_END_M) {
   .content {
     padding: 0 var(--gutter);
     justify-content: center;
   }
 }
-@media screen and (min-width: $CSS_BREAKPOINT_START_L) and (max-width: $CSS_BREAKPOINT_END_L) {
+@media screen and (min-width: variables.$CSS_BREAKPOINT_START_L) and (max-width: variables.$CSS_BREAKPOINT_END_L) {
   .content {
-    width: $CSS_BREAKPOINT_START_L;
+    width: variables.$CSS_BREAKPOINT_START_L;
     margin: 0 auto;
-    padding: calc(var(--vRythm) * 2) calc(var(gutter) * 2);
+    padding: calc(var(--vRhythm) * 2) calc(var(--gutter) * 2);
   }
 }
-@media screen and (min-width: $CSS_BREAKPOINT_START_XL) {
+@media screen and (min-width: variables.$CSS_BREAKPOINT_START_XL) {
   .content {
-    width: $CSS_BREAKPOINT_START_XL;
+    width: variables.$CSS_BREAKPOINT_START_XL;
     margin: 0 auto;
-    padding: calc(var(--vRythm) * 2) calc(var(gutter) * 3);
+    padding: calc(var(--vRhythm) * 2) calc(var(--gutter) * 3);
   }
 }

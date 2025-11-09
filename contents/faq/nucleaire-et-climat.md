@@ -13,5 +13,6 @@ Dangereuse car risquée. Ce n’est pas un risque fantasmé, Tchernobyl et Fukus
 Nous sommes donc opposés au développement de cette énergie.
 
 Il existe des alternatives et celles-ci doivent être privilégiées :
+
 - développement des énergies renouvelables,
 - économies d’énergie partout où cela est possible.

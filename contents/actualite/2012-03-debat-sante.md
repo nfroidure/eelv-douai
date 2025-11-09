@@ -18,12 +18,11 @@ illustration:
 
 Vous [trouverez ici (pdf, 188 ko)](https://drive.google.com/open?id=1-jpT8RlJyekSbaYdPE52mQuuCQWK8us8) le programme provisoire de la prochaine conférence -- débat intitulée : « Santé et environnement dans le Nord-Pas-de-Calais ».
 
-Au programme :
---------------
+## Au programme :
 
--   Débat sur la santé au cœur des préoccupations environnementales, incluant un rappel sur la santé dans le Nord-Pas-de-Calais, en particulier dans le bassin minier, avec l’intervention de plusieurs témoins professionnels ou non de la santé dans la région, notamment le Docteur Paul Cordonnier de l’association A.P.R.E.S. (Association Promotion Recherche Environnement Santé publique),
+- Débat sur la santé au cœur des préoccupations environnementales, incluant un rappel sur la santé dans le Nord-Pas-de-Calais, en particulier dans le bassin minier, avec l’intervention de plusieurs témoins professionnels ou non de la santé dans la région, notamment le Docteur Paul Cordonnier de l’association A.P.R.E.S. (Association Promotion Recherche Environnement Santé publique),
 
--   Présentation du programme santé d’Eva JOLY par Aline Archimbaud, sénatrice de Seine Saint-Denis.
+- Présentation du programme santé d’Eva JOLY par Aline Archimbaud, sénatrice de Seine Saint-Denis.
 
 Ce débat sera animé par Herve Mortelette du Groupe EELV Douaisis.
 

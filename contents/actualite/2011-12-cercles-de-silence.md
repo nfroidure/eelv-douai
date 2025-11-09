@@ -35,6 +35,7 @@ Ces problèmes sont mondiaux et complexes. Nous ne prétendons pas avoir la solu
 **Inventons une politique d’hospitalité :** Propositions de mise en oeuvre facile et rapide, et capable d’avoir un effet immédiat sur la vie quotidienne des migrants et des demandeurs d’asile, en mettant fin à des situations absurdes et injustes.
 
 **Demandons aux candidats aux élections à venir leur position par rapport à ces propositions :**
+
 - Mettre fin au chantage sur les pays d’origine, en dénonçant les « accords de gestion concertée des flux migratoires » qui conditionnent la politique de coopération et de développement à des clauses de réadmission ;
 - Mettre en place une procédure d’asile unique avec droit au travail ;
 - Attribuer un visa de plein droit pour l’ensemble des membres de familles de Français ou d’étrangers installés en France ;

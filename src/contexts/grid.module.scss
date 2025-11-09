@@ -1,6 +1,11 @@
-@import "../../styles/variables.scss";
+@use "../../styles/variables.scss";
 
+// Not supported by TurboPack
+// See https://github.com/vercel/next.js/discussions/74093
 :export {
-  vgrid: $CSS_GRID_V;
-  hgrid: $CSS_GRID_H;
+  vGrid: variables.$CSS_GRID_V;
+  vRhythmRatio: variables.$CSS_V_RHYTHM_RATIO;
+  hGrid: variables.$CSS_GRID_H;
+  columnRatio: variables.$CSS_COLUMN_RATIO;
+  gutterRatio: variables.$CSS_GUTTER_RATIO;
 }

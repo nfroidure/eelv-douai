@@ -27,11 +27,10 @@ const PARAMS_DEFINITIONS = {
 
 type Params = BuildQueryParamsType<typeof PARAMS_DEFINITIONS>;
 
-export async function generateMetadata({
-  params,
-}: {
-  params?: { page: string };
+export async function generateMetadata(props: {
+  params: Promise<{ page?: string }>;
 }) {
+  const params = await props.params;
   const page = params?.page || 1;
   const title = `Tribunes des élu⋅es${
     page && page !== 1 ? ` - page ${page}` : ""
@@ -45,13 +44,16 @@ export async function generateMetadata({
   });
 }
 
-export default async function Page({ params }: { params: { page: string } }) {
+export default async function Page(props: {
+  params: Promise<{ page: string }>;
+}) {
+  const params = await props.params;
   const castedParams = readParams(PARAMS_DEFINITIONS, params || {}) as Params;
   const page = castedParams?.page || 1;
   const baseListingMetadata = entriesToBaseListingMetadata(
     await readEntries<TribuneFrontmatterMetadata>(
-      pathJoin(".", "contents", "tribunes")
-    )
+      pathJoin(".", "contents", "tribunes"),
+    ),
   );
   const entries = slicePage(baseListingMetadata.entries, page, POSTS_PER_PAGE);
 

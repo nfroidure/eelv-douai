@@ -19,6 +19,7 @@ illustration:
 Nous organisons le samedi 21 janvier prochain de 15 h à 17 h une conférence – débat intitulée : **Après la catastrophe nucléaire de Fukushima, quelle transition énergétique pour notre région ?** à la chapelle de la Maison des Associations, rue des Potiers, à Douai.
 
 Le programme sera le suivant :
+
 - **Rappel de la situation actuelle à Fukushima** par Daniel BALEMBOIS,
 - **Transition énergétique et scénario NégaWatt** par Victor SION, membre du réseau Sorti du Nucléaire,
 - **Virage Énergie : un scénario pour la région** par Guillaume FLAMENT,

@@ -2,34 +2,41 @@
   "name": "eelv-douai",
   "version": "0.1.0",
   "private": true,
+  "license": "SEE LICENSE.md",
   "scripts": {
-    "sync": "node bin/sync",
-    "dev": "next dev",
+    "dev": "next",
     "build": "next build && touch out/.nojekyll && echo 'eelv-douaisis.fr' > out/CNAME",
     "start": "next start",
     "types": "tsc --pretty --noEmit",
+    "format": "prettier --write contents src",
+    "lint": "next lint",
+    "sync": "tsx bin/sync",
     "tootNewPosts": "tsx bin/tootNewPosts.ts",
     "bskNewPosts": "tsx bin/bskNewPosts.ts"
   },
   "dependencies": {
     "front-matter": "^4.0.2",
-    "glob": "^10.3.10",
-    "next": "^14.0.4",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
+    "glob": "^11.0.3",
+    "next": "^16.0.1",
+    "node-html-markdown": "^1.3.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
     "remark-parse": "^11.0.0",
-    "sass": "^1.69.5",
-    "unified": "^11.0.4",
-    "yaml": "^2.7.0",
-    "yerror": "^6.2.1"
+    "sass": "^1.93.3",
+    "unified": "11.0.5",
+    "yaml": "2.8.1",
+    "yerror": "^8.0.0"
   },
   "devDependencies": {
-    "@types/node": "^20.10.4",
-    "@types/react": "^18.2.45",
-    "@types/react-dom": "^18.2.18",
-    "axios": "^1.6.2",
-    "googleapis": "^129.0.0",
-    "tsx": "^4.7.0",
-    "typescript": "^5.3.3"
+    "@eslint/eslintrc": "^3",
+    "@types/inline-style-prefixer": "^5.0.3",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.0.1",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5"
   }
 }

@@ -3,7 +3,7 @@
 import styles from "./header.module.scss";
 import { NAME } from "../utils/constants";
 import { useScrollPosition } from "../hooks/useScrollPosition";
-import Link from "./link";
+import Link from "next/link";
 
 export default function Header() {
   const scrollPosition = useScrollPosition();
@@ -12,7 +12,7 @@ export default function Header() {
   return (
     <header
       className={[styles.header, ...(visible ? [styles.visible] : [])].join(
-        " "
+        " ",
       )}
     >
       <h1 className={styles.logo}>

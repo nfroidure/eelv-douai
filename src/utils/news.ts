@@ -38,7 +38,7 @@ export type News = {
 export const POSTS_PER_PAGE = 10;
 
 export const entriesToBaseListingMetadata = (
-  baseEntries: FrontMatterResult<NewsFrontmatterMetadata>[]
+  baseEntries: FrontMatterResult<NewsFrontmatterMetadata>[],
 ): BaseListingPageMetadata<News> => {
   const entries = baseEntries
     .map<News>((entry) => ({

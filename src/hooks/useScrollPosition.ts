@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 export const useScrollPosition = (
-  deps: Parameters<typeof useEffect>[1] = []
+  deps: Parameters<typeof useEffect>[1] = [],
 ) => {
   const [scrollPosition, setScrollPosition] = useState({
     x: 0,

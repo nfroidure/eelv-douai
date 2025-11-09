@@ -15,18 +15,17 @@ import {
   type NewsFrontmatterMetadata,
 } from "../../../utils/news";
 
-export async function generateMetadata({
-  params,
-}: {
-  params?: { id: string };
+export async function generateMetadata(props: {
+  params: Promise<{ id: string }>;
 }) {
+  const params = await props.params;
   const baseListingMetadata = entriesToBaseListingMetadata(
     await readEntries<NewsFrontmatterMetadata>(
-      pathJoin(".", "contents", "actualite")
-    )
+      pathJoin(".", "contents", "actualite"),
+    ),
   );
   const entry = baseListingMetadata.entries.find(
-    ({ id }) => id === (params || {}).id
+    ({ id }) => id === (params || {}).id,
   ) as News;
 
   return buildMetadata({
@@ -53,14 +52,15 @@ export async function generateMetadata({
   });
 }
 
-export default async function Page({ params }: { params: { id: string } }) {
+export default async function Page(props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
   const baseListingMetadata = entriesToBaseListingMetadata(
     await readEntries<NewsFrontmatterMetadata>(
-      pathJoin(".", "contents", "actualite")
-    )
+      pathJoin(".", "contents", "actualite"),
+    ),
   );
   const entry = baseListingMetadata.entries.find(
-    ({ id }) => id === (params || {}).id
+    ({ id }) => id === (params || {}).id,
   ) as News;
   const baseLinkedEntries = baseListingMetadata.entries
     .filter(
@@ -69,16 +69,16 @@ export default async function Page({ params }: { params: { id: string } }) {
         !anEntry.draft &&
         entry.categories.some((category) =>
           anEntry.categories.some(
-            (actualCategory) => category === actualCategory
-          )
-        )
+            (actualCategory) => category === actualCategory,
+          ),
+        ),
     )
     .sort(datedPagesSorter);
   const pastEntries = baseLinkedEntries.filter(
-    (anEntry) => Date.parse(anEntry.date) < Date.parse(entry.date)
+    (anEntry) => Date.parse(anEntry.date) < Date.parse(entry.date),
   );
   const recenterEntries = baseLinkedEntries.filter(
-    (anEntry) => Date.parse(anEntry.date) > Date.parse(entry.date)
+    (anEntry) => Date.parse(anEntry.date) > Date.parse(entry.date),
   );
   const linkedEntries = pastEntries.concat(recenterEntries).slice(0, 3);
 
@@ -104,8 +104,8 @@ export default async function Page({ params }: { params: { id: string } }) {
 export async function generateStaticParams() {
   const baseListingMetadata = entriesToBaseListingMetadata(
     await readEntries<NewsFrontmatterMetadata>(
-      pathJoin(".", "contents", "actualite")
-    )
+      pathJoin(".", "contents", "actualite"),
+    ),
   );
   const paths = baseListingMetadata.entries.map((entry) => ({
     id: entry.id,

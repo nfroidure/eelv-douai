@@ -4,9 +4,11 @@
     "foxundermoon.next-js",
     "viktorzetterstrom.non-breaking-space-highlighter",
     "esbenp.prettier-vscode",
-    "ban.spellright",
-    "Divlo.vscode-styled-jsx-syntax",
-    "Divlo.vscode-styled-jsx-languageserver",
-    "yzane.markdown-pdf"
+    "eliostruyf.vscode-front-matter",
+    "christian-kohler.path-intellisense",
+    "yzane.markdown-pdf",
+    "clinyong.vscode-css-modules",
+    "streetsidesoftware.code-spell-checker",
+    "streetsidesoftware.code-spell-checker-french-reforme"
   ]
 }

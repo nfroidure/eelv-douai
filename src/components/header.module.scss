@@ -1,7 +1,7 @@
-@import "../../styles/variables.scss";
+@use "../../styles/variables.scss";
 
 .header {
-  height: calc(var(--vRythm) * 5);
+  height: calc(var(--vRhythm) * 5);
   background: var(--light);
   color: var(--dark);
   padding: 0 var(--gutter);
@@ -13,20 +13,20 @@
 .header h1.logo {
   display: inline-block;
   font-size: var(--mediumFontSize);
-  line-height: var(--vRythm);
+  line-height: var(--vRhythm);
   background: var(--light);
 }
 .header h1.logo a {
   text-decoration: none;
 }
 .header h1.logo img {
-  height: calc(var(--vRythm) * 5);
+  height: calc(var(--vRhythm) * 5);
 }
-@media screen and (min-width: $CSS_BREAKPOINT_START_L) {
+@media screen and (min-width: variables.$CSS_BREAKPOINT_START_L) {
   .header {
     height: 0;
   }
   .header.visible {
-    height: calc(var(--vRythm) * 5);
+    height: calc(var(--vRhythm) * 5);
   }
 }

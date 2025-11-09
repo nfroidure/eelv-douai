@@ -28,6 +28,7 @@ Penser global, agir local, tel est notre mantra. Fort de nouvelles adhésions, n
 Ne nous regardez pas, [rejoignez-nous](https://lesecologistes.fr/) !
 
 **Les moments forts à venir :**
+
 - présence à la braderie d’octobre à Douai (le 6 octobre),
 - apéro de rentrée avec les élu·es écologistes du département du Nord (date en cours de validation),
 - conseil municipal de Douai le 20 septembre.

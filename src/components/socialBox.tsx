@@ -11,7 +11,10 @@ export default function Newsletter() {
       <Paragraph>
         🐘 <Anchor href="https://mastoot.fr/@eelv_douaisis">Mastodon</Anchor>
         <br />
-        🦋 <Anchor href="https://bsky.app/profile/ecolos-douaisis.bsky.social">Bluesky</Anchor>
+        🦋{" "}
+        <Anchor href="https://bsky.app/profile/ecolos-douaisis.bsky.social">
+          Bluesky
+        </Anchor>
         <br />
         🌍 <Anchor href="https://facebook.com/eelv.douai">Facebook</Anchor>
         <br />

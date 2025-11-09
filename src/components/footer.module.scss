@@ -1,4 +1,4 @@
-@import "../../styles/variables.scss";
+@use "../../styles/variables.scss";
 
 .footer {
   background: var(--secondary);
@@ -27,16 +27,16 @@
 .footer nav ul li:not(:last-child) a:after {
   content: " - ";
 }
-@media screen and (min-width: $CSS_BREAKPOINT_START_L) and (max-width: $CSS_BREAKPOINT_END_L) {
+@media screen and (min-width: variables.$CSS_BREAKPOINT_START_L) and (max-width: variables.$CSS_BREAKPOINT_END_L) {
   .footer nav {
-    width: calc($CSS_BREAKPOINT_START_L - (var(--gutter) * 2));
+    width: calc(variables.$CSS_BREAKPOINT_START_L - (var(--gutter) * 2));
     margin: 0 auto;
     justify-content: center;
   }
 }
-@media screen and (min-width: $CSS_BREAKPOINT_START_XL) {
+@media screen and (min-width: variables.$CSS_BREAKPOINT_START_XL) {
   .footer nav {
-    width: calc($CSS_BREAKPOINT_START_XL - (var(--gutter) * 2));
+    width: calc(variables.$CSS_BREAKPOINT_START_XL - (var(--gutter) * 2));
     margin: 0 auto;
     justify-content: center;
   }

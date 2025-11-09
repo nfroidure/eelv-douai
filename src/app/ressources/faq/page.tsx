@@ -41,7 +41,7 @@ type Props = {
 export default async function Page() {
   const entries = (
     await readEntries<FAQItemFrontmatterMetadata>(
-      pathJoin(".", "contents", "faq")
+      pathJoin(".", "contents", "faq"),
     )
   )
     .map((entry) => ({
