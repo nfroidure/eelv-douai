@@ -1,4 +1,4 @@
-@import "../../styles/variables.scss";
+@use "../../styles/variables.scss";
 
 .nav {
   background: var(--secondary);
@@ -36,7 +36,8 @@
   color: var(--light);
   cursor: pointer;
   outline: none;
-  transition: background-color var(--baseAnimationRate),
+  transition:
+    background-color var(--baseAnimationRate),
     color var(--baseAnimationRate);
   line-height: calc(var(--mediumLineHeight) * 2);
 }
@@ -51,7 +52,7 @@
   color: var(--lighterTextColor);
   outline: none;
 }
-@media screen and (max-width: $CSS_BREAKPOINT_END_M) {
+@media screen and (max-width: variables.$CSS_BREAKPOINT_END_M) {
   .nav ul {
     display: flex;
   }
@@ -68,7 +69,8 @@
     color: var(--light);
     cursor: pointer;
     outline: none;
-    transition: background-color var(--baseAnimationRate),
+    transition:
+      background-color var(--baseAnimationRate),
       color var(--baseAnimationRate);
     line-height: calc(var(--mediumLineHeight) * 2);
     border-bottom: var(--border) dotted var(--darkBorderColor);
@@ -77,18 +79,18 @@
     border-bottom: none;
   }
 }
-@media screen and (min-width: $CSS_BREAKPOINT_START_L) and (max-width: $CSS_BREAKPOINT_END_L) {
+@media screen and (min-width: variables.$CSS_BREAKPOINT_START_L) and (max-width: variables.$CSS_BREAKPOINT_END_L) {
   .nav ul {
     display: "flex";
-    width: $CSS_BREAKPOINT_START_L;
+    width: variables.$CSS_BREAKPOINT_START_L;
   }
 }
-@media screen and (min-width: $CSS_BREAKPOINT_START_XL) {
+@media screen and (min-width: variables.$CSS_BREAKPOINT_START_XL) {
   .nav ul {
-    width: $CSS_BREAKPOINT_START_XL;
+    width: variables.$CSS_BREAKPOINT_START_XL;
   }
 }
-@media screen and (min-width: $CSS_BREAKPOINT_START_L) {
+@media screen and (min-width: variables.$CSS_BREAKPOINT_START_L) {
   .nav {
     justify-content: center;
   }
@@ -116,13 +118,14 @@
     background: var(--secondary);
     display: block;
     padding: 0 var(--gutter);
-    height: calc(var(--vRythm) * 2);
-    line-height: calc(var(--vRythm) * 2);
+    height: calc(var(--vRhythm) * 2);
+    line-height: calc(var(--vRhythm) * 2);
     text-decoration: none;
     color: var(--light);
     cursor: pointer;
     outline: none;
-    transition: background-color var(--baseAnimationRate),
+    transition:
+      background-color var(--baseAnimationRate),
       color var(--baseAnimationRate);
   }
   .nav ul li a:hover,

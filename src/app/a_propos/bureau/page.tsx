@@ -22,7 +22,7 @@ export default async function Page() {
   const members = await readJSON<AMember[]>("./data/members.json");
   const executives = members.filter((member) => member.role === "Bureau");
   const animators = members.filter(
-    (member) => member.role === "Équipe d'animation"
+    (member) => member.role === "Équipe d'animation",
   );
 
   return (
@@ -50,7 +50,7 @@ export default async function Page() {
           </div>
 
           {executives.map((executive) => (
-            <Member member={executive} />
+            <Member key={executive.name} member={executive} />
           ))}
 
           <Heading2>Équipe d’animation</Heading2>
@@ -67,7 +67,7 @@ export default async function Page() {
           </div>
 
           {animators.map((animator) => (
-            <Member member={animator} />
+            <Member key={animator.name} member={animator} />
           ))}
         </ContentBlock>
       </MainContent>

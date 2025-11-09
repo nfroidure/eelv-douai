@@ -1,6 +1,11 @@
+"use client";
+
+import { useGridScroll } from "../hooks/useGridScroll";
 import styles from "./_gridSystem.module.scss";
 
-export default function GridSystem(): JSX.Element {
+export default function GridSystem() {
+  useGridScroll("rhythm");
+
   return (
     <div className={styles.grid} id="gridSystem">
       <div className={styles.vGrid} id="vGridSystem">

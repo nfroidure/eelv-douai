@@ -1,6 +1,7 @@
+@use "./variables.scss";
+
 /* Google Fonts: Here to be included in both Storybook and the app */
 @import url("https://fonts.googleapis.com/css2?family=Roboto");
-@import "./variables.scss";
 
 :root {
   /* Colors */
@@ -27,12 +28,15 @@
   --darkActionHoverColor: #78ae11;
   --lighterTextColor: #ffffff;
   /* Atomic values */
-  --hGrid: #{$CSS_GRID_H};
-  --gutter: calc(var(--hGrid) * 3);
-  --column: calc(var(--hGrid) * 8);
+  --hGrid: #{variables.$CSS_GRID_H};
+  --gutterRatio: #{variables.$CSS_GUTTER_RATIO};
+  --gutter: calc(var(--hGrid) * var(--gutterRatio));
+  --columnRatio: #{variables.$CSS_COLUMN_RATIO};
+  --column: calc(var(--hGrid) * var(--columnRatio));
   --block: calc(var(--column) * 3 + var(--gutter) * 2);
-  --vGrid: #{$CSS_GRID_V};
-  --vRythm: calc(8 * var(--vGrid));
+  --vGrid: #{variables.$CSS_GRID_V};
+  --vRhythmRatio: #{variables.$CSS_V_RHYTHM_RATIO};
+  --vRhythm: calc(var(--vGrid) * var(--vRhythmRatio));
   --border: calc(var(--vGrid) / 2);
   --borderRadius: calc(var(--hGrid) / 2);
   --shadowX: calc(var(--vGrid) * 2);

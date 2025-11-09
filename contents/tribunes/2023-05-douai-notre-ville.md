@@ -9,6 +9,6 @@ Les enjeux tels la réforme des retraites, la ressource en eau, montrent les dif
 
 Face à cette crise citoyenne et démocratique, il faut renouer le lien entre les citoyen·nes, nourrir le **dialogue social** et travailler le **vivre ensemble** pour relever les défis du partage des ressources et de construction du débat démocratique.
 
-Affirmons notre attachement aux **libertés publiques** et à la *démocratie locale*.
+Affirmons notre attachement aux **libertés publiques** et à la _démocratie locale_.
 
 Les Conseils de quartier, des aînés, d’école, conseil municipal des enfants mais aussi des actions telles les **états généraux de l’écologie** y contribuent.

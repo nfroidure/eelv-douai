@@ -11,6 +11,7 @@ import {
 } from "./markdown";
 import { summarize } from "./summarize";
 import { toASCIIString } from "./ascii";
+import { LOCALE } from "./constants";
 
 export type TribuneFrontmatterMetadata = {
   author: string;
@@ -29,10 +30,10 @@ export const POSTS_PER_PAGE = 10;
 
 export const PUBLICATIONS = {
   "douai-notre-ville": "Douai Notre Ville",
-};
+} as Record<string, string>;
 
 export const entriesToBaseListingMetadata = (
-  baseEntries: FrontMatterResult<TribuneFrontmatterMetadata>[]
+  baseEntries: FrontMatterResult<TribuneFrontmatterMetadata>[],
 ): BaseListingPageMetadata<Tribune> => {
   const entries = baseEntries
     .map<Tribune>((entry) => {
@@ -42,21 +43,18 @@ export const entriesToBaseListingMetadata = (
         ...entry.attributes,
         id: toASCIIString(
           `${entry.attributes.publication}-${new Date(
-            entry.attributes.date
-          ).getFullYear()}-${new Date(entry.attributes.date).getMonth() + 1}`
+            entry.attributes.date,
+          ).getFullYear()}-${new Date(entry.attributes.date).getMonth() + 1}`,
         ),
-        title: `${entry.attributes.author} - ${new Intl.DateTimeFormat(
-          "fr-FR",
-          {
-            year: "numeric",
-            month: "long",
-          }
-        ).format(new Date(entry.attributes.date))}`,
+        title: `${entry.attributes.author} - ${new Intl.DateTimeFormat(LOCALE, {
+          year: "numeric",
+          month: "long",
+        }).format(new Date(entry.attributes.date))}`,
         description: `Tribune de ${entry.attributes.author} dans le ${
           PUBLICATIONS[
             entry.attributes.publication.toLowerCase().replace(/\s+/g, "-")
           ]
-        } du ${new Intl.DateTimeFormat("fr-FR", {
+        } du ${new Intl.DateTimeFormat(LOCALE, {
           dateStyle: "full",
         }).format(new Date(entry.attributes.date))}`,
         summary: summarize(collectMarkdownText(content), 155),

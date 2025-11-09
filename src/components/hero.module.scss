@@ -1,4 +1,4 @@
-@import "../../styles/variables.scss";
+@use "../../styles/variables.scss";
 
 .hero {
   width: 100%;
@@ -10,13 +10,13 @@
   transition-duration: var(--baseAnimationRate);
 }
 .hero.visible {
-  height: calc(var(--vRythm) * 8);
+  height: calc(var(--vRhythm) * 8);
 }
-@media screen and (min-width: $CSS_BREAKPOINT_START_L) {
+@media screen and (min-width: variables.$CSS_BREAKPOINT_START_L) {
   .hero {
     height: 0;
   }
   .hero.visible {
-    height: calc(var(--vRythm) * 14);
+    height: calc(var(--vRhythm) * 14);
   }
 }

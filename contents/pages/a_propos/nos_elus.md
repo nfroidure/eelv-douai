@@ -31,7 +31,7 @@ Découvrez l’historique de nos élu⋅es et candidat⋅es aux diverses électi
 
 ## Jean-Christophe Leclercq
 
-- **De 2020 à 2023 :** a été élu 8e adjoint au maire de la Ville de Douai avec la délégation «Cadre de vie et Condition Animale» grâce contingent écologiste.
+- **De 2020 à 2023 :** a été élu 8e adjoint au maire de la Ville de Douai avec la délégation «Cadre de vie et Condition Animale» grâce au contingent écologiste.
 
 ## Marie Delattre
 

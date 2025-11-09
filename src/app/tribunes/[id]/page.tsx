@@ -13,18 +13,17 @@ import {
 } from "../../../utils/tribunes";
 import Tribunes from "../../../components/tribunes";
 
-export async function generateMetadata({
-  params,
-}: {
-  params?: { id: string };
+export async function generateMetadata(props: {
+  params: Promise<{ id: string }>;
 }) {
+  const params = await props.params;
   const baseListingMetadata = entriesToBaseListingMetadata(
     await readEntries<TribuneFrontmatterMetadata>(
-      pathJoin(".", "contents", "tribunes")
-    )
+      pathJoin(".", "contents", "tribunes"),
+    ),
   );
   const entry = baseListingMetadata.entries.find(
-    ({ id }) => id === (params || {}).id
+    ({ id }) => id === (params || {}).id,
   ) as Tribune;
 
   return buildMetadata({
@@ -34,14 +33,15 @@ export async function generateMetadata({
   });
 }
 
-export default async function Page({ params }: { params: { id: string } }) {
+export default async function Page(props: { params: Promise<{ id: string }> }) {
+  const params = await props.params;
   const baseListingMetadata = entriesToBaseListingMetadata(
     await readEntries<TribuneFrontmatterMetadata>(
-      pathJoin(".", "contents", "tribunes")
-    )
+      pathJoin(".", "contents", "tribunes"),
+    ),
   );
   const entry = baseListingMetadata.entries.find(
-    ({ id }) => id === (params || {}).id
+    ({ id }) => id === (params || {}).id,
   ) as Tribune;
 
   return (
@@ -59,8 +59,8 @@ export default async function Page({ params }: { params: { id: string } }) {
 export async function generateStaticParams() {
   const baseListingMetadata = entriesToBaseListingMetadata(
     await readEntries<TribuneFrontmatterMetadata>(
-      pathJoin(".", "contents", "tribunes")
-    )
+      pathJoin(".", "contents", "tribunes"),
+    ),
   );
   const paths = baseListingMetadata.entries.map((entry) => ({
     id: entry.id,

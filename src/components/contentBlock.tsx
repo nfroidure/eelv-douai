@@ -1,5 +1,5 @@
 import styles from "./contentBlock.module.scss";
-import { ReactNode } from "react";
+import { type ReactNode } from "react";
 
 export default function ContentBlock({
   children,
@@ -7,7 +7,7 @@ export default function ContentBlock({
 }: {
   children: ReactNode;
   className?: string;
-}): JSX.Element {
+}): ReactNode {
   return (
     <section className={styles.root + (className ? " " + className : "")}>
       {children}

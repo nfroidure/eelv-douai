@@ -13,10 +13,12 @@ export default Page;
 export async function generateStaticParams() {
   const baseListingMetadata = entriesToBaseListingMetadata(
     await readEntries<NewsFrontmatterMetadata>(
-      pathJoin(".", "contents", "actualite")
-    )
+      pathJoin(".", "contents", "actualite"),
+    ),
   );
-  const { title, description } = await generateMetadata({});
+  const { title, description } = await generateMetadata({
+    params: Promise.resolve({}),
+  });
 
   // WARNING: This is not a nice way to generate the feeds
   // but having scripts run in the NextJS build context is a real
@@ -27,7 +29,7 @@ export async function generateStaticParams() {
       title: title as string,
       description: description as string,
     },
-    "/actualite"
+    "/actualite",
   );
 
   const paths = new Array(baseListingMetadata.pagesCount)

@@ -23,7 +23,6 @@ import Img from "../components/img";
 import Gallery from "../components/gallery";
 import { fixText } from "./text";
 import { YError } from "yerror";
-import { publicRuntimeConfig } from "./config";
 import { toASCIIString } from "./ascii";
 import { parseYouTubeURL } from "./youtube";
 import { Fragment, type ReactNode } from "react";
@@ -119,19 +118,19 @@ export type MarkdownNodeType = MarkdownNode["type"];
 export type MappingContext = { index: number };
 export type NodeToElementMapper<T extends MarkdownNode> = (
   context: MappingContext,
-  node: T
+  node: T,
 ) => ReactNode;
 
 const rootMap: NodeToElementMapper<MarkdownRootNode> = (
   context: MappingContext,
-  node
+  node,
 ) =>
   node.children.map((node, index) =>
-    renderMarkdown({ ...context, index }, node)
+    renderMarkdown({ ...context, index }, node),
   );
 const paragraphMap: NodeToElementMapper<MarkdownParagraphNode> = (
   context: MappingContext,
-  node
+  node,
 ) => {
   const { onlyImages, images } = node.children.reduce(
     (summary, childNode) => {
@@ -155,7 +154,7 @@ const paragraphMap: NodeToElementMapper<MarkdownParagraphNode> = (
     {
       images: [] as MarkdownImageNode[],
       onlyImages: node.children.length > 0,
-    }
+    },
   );
 
   if (onlyImages === true) {
@@ -171,39 +170,39 @@ const paragraphMap: NodeToElementMapper<MarkdownParagraphNode> = (
   return (
     <Paragraph key={context.index}>
       {node.children.map((node, index) =>
-        renderMarkdown({ ...context, index }, node)
+        renderMarkdown({ ...context, index }, node),
       )}
     </Paragraph>
   );
 };
 const headingMap: NodeToElementMapper<MarkdownHeadingNode> = (
   context: MappingContext,
-  node
+  node,
 ) => {
   const HeadingComponent =
     node.depth === 1
       ? Heading1
       : node.depth === 2
-      ? Heading2
-      : node.depth === 3
-      ? Heading3
-      : node.depth === 4
-      ? Heading4
-      : node.depth === 5
-      ? Heading5
-      : Heading6;
+        ? Heading2
+        : node.depth === 3
+          ? Heading3
+          : node.depth === 4
+            ? Heading4
+            : node.depth === 5
+              ? Heading5
+              : Heading6;
 
   return node.depth === 1 ? (
     <HeadingComponent key={context.index}>
       {node.children.map((node, index) =>
-        renderMarkdown({ ...context, index }, node)
+        renderMarkdown({ ...context, index }, node),
       )}
     </HeadingComponent>
   ) : (
     <HeadingComponent key={context.index}>
       <Anchored id={toASCIIString(collectMarkdownText(node))}>
         {node.children.map((node, index) =>
-          renderMarkdown({ ...context, index }, node)
+          renderMarkdown({ ...context, index }, node),
         )}
       </Anchored>
     </HeadingComponent>
@@ -214,7 +213,7 @@ const textMap: NodeToElementMapper<MarkdownTextNode> = (context, node) => (
     {fixText(node.value)
       .split(/\r?\n/gm)
       .map((text, i) => (
-        <Fragment key={1}>
+        <Fragment key={i}>
           {i > 0 ? <br /> : null}
           {text}
         </Fragment>
@@ -224,17 +223,17 @@ const textMap: NodeToElementMapper<MarkdownTextNode> = (context, node) => (
 const boldMap: NodeToElementMapper<MarkdownEmphasisNode> = (context, node) => (
   <Strong key={context.index}>
     {node.children.map((node, index) =>
-      renderMarkdown({ ...context, index }, node)
+      renderMarkdown({ ...context, index }, node),
     )}
   </Strong>
 );
 const emphasisMap: NodeToElementMapper<MarkdownEmphasisNode> = (
   context,
-  node
+  node,
 ) => (
   <Emphasis key={context.index}>
     {node.children.map((node, index) =>
-      renderMarkdown({ ...context, index }, node)
+      renderMarkdown({ ...context, index }, node),
     )}
   </Emphasis>
 );
@@ -243,28 +242,28 @@ const codeMap: NodeToElementMapper<MarkdownCodeNode> = (context, node) => (
 );
 const listMap: NodeToElementMapper<MarkdownListNode> = (
   context: MappingContext,
-  node
+  node,
 ) =>
   node.ordered ? (
     <OrderedList key={context.index}>
       {node.children.map((node, index) =>
-        renderMarkdown({ ...context, index }, node)
+        renderMarkdown({ ...context, index }, node),
       )}
     </OrderedList>
   ) : (
     <UnorderedList key={context.index}>
       {node.children.map((node, index) =>
-        renderMarkdown({ ...context, index }, node)
+        renderMarkdown({ ...context, index }, node),
       )}
     </UnorderedList>
   );
 const listItemMap: NodeToElementMapper<MarkdownListItemNode> = (
   context: MappingContext,
-  node
+  node,
 ) => (
   <ListItem key={context.index}>
     {node.children.map((node, index) =>
-      renderMarkdown({ ...context, index }, node)
+      renderMarkdown({ ...context, index }, node),
     )}
   </ListItem>
 );
@@ -276,22 +275,22 @@ const breakMap: NodeToElementMapper<MarkdownBreakNode> = (context) => (
 );
 const htmlMap: NodeToElementMapper<MarkdownHTMLNode> = (
   context: MappingContext,
-  node
+  node,
 ) =>
   node.value === "cite" ? (
     <Cite key={context.index}>
       {(node.children || []).map((node, index) =>
-        renderMarkdown({ ...context, index }, node)
+        renderMarkdown({ ...context, index }, node),
       )}
     </Cite>
   ) : null;
 const blockquoteMap: NodeToElementMapper<MarkdownBlockquoteNode> = (
   context,
-  node
+  node,
 ) => (
   <Blockquote key={context.index}>
     {node.children.map((node, index) =>
-      renderMarkdown({ ...context, index }, node)
+      renderMarkdown({ ...context, index }, node),
     )}
   </Blockquote>
 );
@@ -327,7 +326,7 @@ const hyperlinkMap: NodeToElementMapper<MarkdownLinkNode> = (context, node) => {
   ) : (
     <Anchor href={node.url} title={node.title} key={context.index}>
       {node.children.map((node, index) =>
-        renderMarkdown({ ...context, index }, node)
+        renderMarkdown({ ...context, index }, node),
       )}
     </Anchor>
   );
@@ -358,7 +357,7 @@ export function parseMarkdown(input: string): MarkdownNode {
 
 export function renderMarkdown<T extends MappingContext>(
   context: T,
-  node: MarkdownNode
+  node: MarkdownNode,
 ): ReactNode {
   if ("children" in node) {
     node = eventuallyConvertHTMLNodes(node as MarkdownRootNode);
@@ -375,7 +374,7 @@ export function renderMarkdown<T extends MappingContext>(
 
 export function collectMarkdownText(
   node: MarkdownNode,
-  str: string = ""
+  str: string = "",
 ): string {
   if ("children" in node) {
     str += (node.children || [])
@@ -394,7 +393,7 @@ function eventuallyConvertHTMLNodes(rootNode: MarkdownRootNode): MarkdownNode {
   let firstHTMLNode: MarkdownHTMLNode | undefined;
   do {
     firstHTMLNode = rootNode.children.find(
-      (node) => node.type === "html" && node.value.startsWith("<")
+      (node) => node.type === "html" && node.value.startsWith("<"),
     ) as MarkdownHTMLNode;
 
     if (typeof firstHTMLNode !== "undefined") {
@@ -436,7 +435,7 @@ function eventuallyConvertHTMLNodes(rootNode: MarkdownRootNode): MarkdownNode {
       }
 
       const correspondingHTMLNodeIndex = rootNode.children.indexOf(
-        correspondingHTMLNode
+        correspondingHTMLNode,
       );
 
       rootNode = {
@@ -452,14 +451,14 @@ function eventuallyConvertHTMLNodes(rootNode: MarkdownRootNode): MarkdownNode {
               firstHTMLNodeIndex < correspondingHTMLNodeIndex - 1
                 ? rootNode.children.slice(
                     firstHTMLNodeIndex + 1,
-                    correspondingHTMLNodeIndex
+                    correspondingHTMLNodeIndex,
                   )
                 : [],
           },
           ...(correspondingHTMLNodeIndex < rootNode.children.length - 1
             ? rootNode.children.slice(
                 correspondingHTMLNodeIndex + 1,
-                rootNode.children.length
+                rootNode.children.length,
               )
             : []),
         ],
@@ -480,13 +479,13 @@ function parseImageProps(node: MarkdownImageNode): {
   const float = node.title?.includes("➡️")
     ? "right"
     : node.title?.includes("⬅️")
-    ? "left"
-    : undefined;
+      ? "left"
+      : undefined;
   const orientation = node.title?.includes("◼")
     ? "square"
     : node.title?.includes("▮")
-    ? "portrait"
-    : "landscape";
+      ? "portrait"
+      : "landscape";
   const src = qualifyPath(node.url);
 
   return {

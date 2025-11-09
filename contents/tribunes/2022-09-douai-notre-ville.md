@@ -6,6 +6,7 @@ publication: "Douai Notre Ville"
 ---
 
 L’été 2022 a encore montré les effets locaux du réchauffement climatique :
+
 - L’arrêté de la Préfecture du Nord, mi-juillet, place le bassin Scarpe Aval dont dépend Douai en "Alerte Sécheresse" et restreint les usages de l’eau pour les entreprises, les collectivités et les particuliers ;
 - Le terril de Montigny en Ostrevent brûle en août.
 

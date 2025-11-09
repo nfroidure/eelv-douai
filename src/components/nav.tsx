@@ -4,7 +4,7 @@ import styles from "./nav.module.scss";
 import { useState } from "react";
 import { usePathname } from "next/navigation";
 import { useScrollPosition } from "../hooks/useScrollPosition";
-import Link from "./link";
+import Link from "next/link";
 
 export default function Nav() {
   const scrollPosition = useScrollPosition();

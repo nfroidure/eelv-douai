@@ -35,7 +35,7 @@ const Items = <T extends Entry>({
                 float="left"
                 orientation="portrait"
                 src={`/images/elu-es/${toASCIIString(
-                  entry.author.toLowerCase()
+                  entry.author.toLowerCase(),
                 ).replace(/[^\w]/gim, "-")}.jpg`}
                 alt={`Photographie de ${entry.author}`}
               />

@@ -1,3 +1,4 @@
+import { Fragment } from "react/jsx-runtime";
 import { BLUESKY_APP } from "../utils/constants";
 import Anchor from "./a";
 import Heading3 from "./h3";
@@ -26,25 +27,28 @@ export default function Member({ member }: { member: Member }) {
       <Paragraph>
         {member.emails.length
           ? [
-              <Strong>
-                Email&nbsp;:{" "}
-                <Anchor href={`mailto:${member.emails[0]}`}>
-                  {member.emails[0]}
-                </Anchor>
-              </Strong>,
-              <br />,
+              <Fragment key={member.emails[0]}>
+                <Strong>
+                  Email&nbsp;:{" "}
+                  <Anchor href={`mailto:${member.emails[0]}`}>
+                    {member.emails[0]}
+                  </Anchor>
+                </Strong>
+                ,
+                <br />
+              </Fragment>,
             ]
           : null}
         <Strong>Téléphone&nbsp;:</Strong> {member.phone}
         {member.facebook || member.bluesky || member.mastodon ? (
-          <>
+          <Fragment>
             <br />
             <Strong>Réseaux sociaux&nbsp;:</Strong>
             <br />{" "}
             {["facebook", "mastodon", "bluesky", "blog"]
-              .filter((type) => member[type])
+              .filter((type) => member[type as "blog"])
               .map((type, index) => (
-                <>
+                <Fragment key={index}>
                   {index > 0 ? " - " : null}
                   {type === "facebook" ? (
                     <Anchor
@@ -74,9 +78,9 @@ export default function Member({ member }: { member: Member }) {
                   {type === "blog" ? (
                     <Anchor href={`${member.blog}`}>Blog</Anchor>
                   ) : null}
-                </>
+                </Fragment>
               ))}
-          </>
+          </Fragment>
         ) : null}
       </Paragraph>
     </div>
