@@ -13,8 +13,9 @@ import {
   type NewsFrontmatterMetadata,
 } from "../../utils/news";
 import { slicePage } from "../../utils/pagination";
-import type { BasePagingPageMetadata } from "../../utils/contents";
-import type { BuildQueryParamsType } from "../../utils/params";
+import { type BasePagingPageMetadata } from "../../utils/contents";
+import { type BuildQueryParamsType } from "../../utils/params";
+import { type Metadata } from "next";
 
 export type Props = BasePagingPageMetadata<News>;
 
@@ -29,7 +30,7 @@ type Params = BuildQueryParamsType<typeof PARAMS_DEFINITIONS>;
 
 export async function generateMetadata(props: {
   params: Promise<{ page?: string }>;
-}) {
+}): Promise<Metadata> {
   const params = await props.params;
   const page = params?.page || 1;
   const title = `Notre actualité${page && page !== 1 ? ` - page ${page}` : ""}`;

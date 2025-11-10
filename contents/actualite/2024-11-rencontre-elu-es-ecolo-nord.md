@@ -8,9 +8,18 @@ categories:
 tags:
   - Nord
   - Département
+illustration:
+  url: "/public/illustrations/reunion-departement-elu-es.jpg"
+  alt: "Photo des élu·es écologistes du département du Nord"
+  position:
+    x: center
+    y: 32%
 ---
 
 ## Rencontre avec les élu·es écologistes du Nord
+
+![Photo des élu·es écologistes du département du Nord](/public/illustrations/reunion-departement-elu-es.jpg)
+![Photo du public de cette rencontre](/public/illustrations/reunion-departement-public.jpg)
 
 **Rendez-vous le 20 novembre, à 19h** salle Robert de Douai des salles d’Anchin (rue Wallerand Hangouard à Douai) pour une rencontre avec nos élu·es au conseil départemental du Nord.
 

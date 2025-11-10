@@ -10,6 +10,13 @@ import SocialBox from "../components/socialBox";
 import Newsletter from "../components/newsletter";
 import GridSystem from "../components/_gridSystem";
 import type { Viewport } from "next";
+import LastNews from "@/components/lastNews";
+import {
+  entriesToBaseListingMetadata,
+  type NewsFrontmatterMetadata,
+} from "@/utils/news";
+import { pathJoin } from "@/utils/files";
+import { readEntries } from "@/utils/frontmatter";
 
 export const viewport: Viewport = {
   themeColor: ORGANISATION_PRIMARY_COLOR,
@@ -17,11 +24,17 @@ export const viewport: Viewport = {
   initialScale: 1,
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: {
   children: React.ReactNode;
 }) {
+  const baseListingMetadata = entriesToBaseListingMetadata(
+    await readEntries<NewsFrontmatterMetadata>(
+      pathJoin(".", "contents", "actualite"),
+    ),
+  );
+
   return (
     <html lang="fr">
       <body>
@@ -32,6 +45,7 @@ export default function RootLayout({
           {children}
           <div className={styles.asides}>
             <Newsletter />
+            <LastNews definition={baseListingMetadata.entries[0]} />
             <JoinUs />
             <SocialBox />
           </div>
