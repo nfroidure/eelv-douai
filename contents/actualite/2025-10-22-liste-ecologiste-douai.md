@@ -22,9 +22,9 @@ Lors de notre assemblée générale du 19 octobre 2025, nous avons pris la déci
 
 Vous pouvez retrouver notre [communiqué de presse](https://drive.google.com/file/d/1IO_W2iKh482Nzy6ieQaLZITIJVqDtl3R/view?usp=sharing) annonçant notre démarche.
 
-Pour nous rejoindre ou recevoir nos informations durant la campagne, [inscrivez-vous](https://framaforms.org/inscription-lettre-dinformation-des-ecologistes-du-douaisis-1577446140) !
+Pour nous rejoindre ou recevoir nos informations durant la campagne, [inscrivez-vous](https://framaforms.org/participer-avec-douai-collectif-1764425164) !
 
-N’hésitez pas à consulter notre programme [en suivant ce lien](https://drive.google.com/file/d/1k7kcU7axwzPrBpL2jeRF3PPtuga5FeNM/view?usp=sharing).
+N’hésitez pas à consulter notre [site Internet conçu pour les municipales 2026 à Douai](https://douai-collectif.fr/).
 
 Plus d’informations :
 
