@@ -1,5 +1,5 @@
 1:"$Sreact.fragment"
-2:I[97367,["https://eelv-douaisis.fr/_next/static/chunks/e8af8fe41acfee41.js","https://eelv-douaisis.fr/_next/static/chunks/2716814e0d45e5d0.js","https://eelv-douaisis.fr/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
+2:I[97367,["https://eelv-douaisis.fr/_next/static/chunks/e8af8fe41acfee41.js","https://eelv-douaisis.fr/_next/static/chunks/6a96ed1090d3204d.js","https://eelv-douaisis.fr/_next/static/chunks/247eb132b7f7b574.js"],"OutletBoundary"]
 3:"$Sreact.suspense"
-0:{"buildId":"9Gsxk7_h_tMpgzTRv1FO4","rsc":["$","$1","c",{"children":[["$","section",null,{"className":"contentBlock-module-scss-module__-WWP9G__root","children":[["$","h1",null,{"className":"h1-module-scss-module__nzexkW__root","children":"Ooops!"}],["$","p",null,{"className":"p-module-scss-module__nB0DVq__root","children":"La page que vous recherchez n’existe pas ou plus."}]," "]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
+0:{"buildId":"B-qjXh7UNq_LZINUvJX0M","rsc":["$","$1","c",{"children":[["$","section",null,{"className":"contentBlock-module-scss-module__-WWP9G__root","children":[["$","h1",null,{"className":"h1-module-scss-module__nzexkW__root","children":"Ooops!"}],["$","p",null,{"className":"p-module-scss-module__nB0DVq__root","children":"La page que vous recherchez n’existe pas ou plus."}]," "]}],null,["$","$L2",null,{"children":["$","$3",null,{"name":"Next.MetadataOutlet","children":"$@4"}]}]]}],"loading":null,"isPartial":false}
 4:null

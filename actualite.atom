@@ -6,7 +6,18 @@
   <subtitle>Découvrez les dernières actions des écologistes de Douai et du Douaisis.</subtitle>
   <link href="https://eelv-douaisis.fr/actualite.atom" rel="self" type="application/atom+xml" />
   <link href="https://eelv-douaisis.fr/actualite" rel="alternate" type="text/html" />
-  <updated>2025-10-22T19:30:00.000Z</updated>
+  <updated>2026-06-06T13:30:00.000Z</updated>
+  <entry>
+    <id>https://eelv-douaisis.fr/actualite/marche-des-fiertes-de-douai</id>
+    <title>Marche des Fiertés de Douai</title>
+    <link href="https://eelv-douaisis.fr/actualite/marche-des-fiertes-de-douai" rel="alternate" type="text/html" />
+    <updated>2026-06-06T13:30:00Z</updated>
+    <published>2026-06-06T13:30:00Z</published>
+    <summary>Nous avons participé à la marche des fiertés de Douai le 6 juin 2026.</summary>
+    <author>
+      <name>EÉLV Douaisis</name>
+    </author>
+  </entry>
   <entry>
     <id>https://eelv-douaisis.fr/actualite/municipales-2026-une-liste-ecologiste-pour-douai</id>
     <title>Municipales 2026 : Une liste écologiste pour Douai</title>
